@@ -1,0 +1,342 @@
+# Social|Social|Social
+Hello|Hola|Bonjour
+Goodbye|Adiós|Au revoir
+Good morning|Buenos días|Bonjour
+Good night|Buenas noches|Bonne nuit
+Sorry|Lo siento|Désolé
+Excuse me|Perdón|Excusez-moi
+Welcome|Bienvenido|Bienvenue
+Congratulations|Felicidades|Félicitations
+Happy birthday|Feliz cumpleaños|Joyeux anniversaire
+Good luck|Buena suerte|Bonne chance
+I love you|Te quiero|Je t'aime
+Wait|Espera|Attends
+More|Más|Encore
+Again|Otra vez|Encore une fois
+Finished|Terminado|Fini
+Maybe|Quizás|Peut-être
+Repeat|Repetir|Répéter
+Slowly|Despacio|Lentement
+Quiet|Silencio|Silence
+Come here|Ven aquí|Viens ici
+Hurry|Rápido|Vite
+Share|Compartir|Partager
+Together|Juntos|Ensemble
+Alone|Solo|Seul
+Hug|Abrazo|Câlin
+Kiss|Beso|Bisou
+Gift|Regalo|Cadeau
+Party|Fiesta|Fête
+Birthday|Cumpleaños|Anniversaire
+Secret|Secreto|Secret
+Promise|Promesa|Promesse
+Joke|Chiste|Blague
+Story|Cuento|Histoire
+Song|Canción|Chanson
+Friendship|Amistad|Amitié
+Kind|Amable|Gentil
+
+# People|Personas|Personnes
+Mother|Madre|Mère
+Father|Padre|Père
+Sister|Hermana|Sœur
+Brother|Hermano|Frère
+Grandmother|Abuela|Grand-mère
+Grandfather|Abuelo|Grand-père
+Aunt|Tía|Tante
+Uncle|Tío|Oncle
+Cousin|Primo|Cousin
+Son|Hijo|Fils
+Daughter|Hija|Fille
+Husband|Esposo|Mari
+Wife|Esposa|Femme
+Baby|Bebé|Bébé
+Boy|Niño|Garçon
+Girl|Niña|Fille
+Man|Hombre|Homme
+Woman|Mujer|Femme
+Child|Niño|Enfant
+Family|Familia|Famille
+Neighbor|Vecino|Voisin
+Boss|Jefe|Patron
+Police officer|Policía|Policier
+Firefighter|Bombero|Pompier
+Soldier|Soldado|Soldat
+Farmer|Agricultor|Agriculteur
+Driver|Conductor|Chauffeur
+Cook|Cocinero|Cuisinier
+Chief|Jefe|Chef
+King|Rey|Roi
+Queen|Reina|Reine
+Dentist|Dentista|Dentiste
+Pharmacist|Farmacéutico|Pharmacien
+Tailor|Sastre|Tailleur
+Fisherman|Pescador|Pêcheur
+Trader|Comerciante|Commerçant
+Student|Estudiante|Élève
+Pilot|Piloto|Pilote
+Person|Persona|Personne
+Everyone|Todos|Tout le monde
+Someone|Alguien|Quelqu'un
+Stranger|Desconocido|Inconnu
+Guest|Invitado|Invité
+Team|Equipo|Équipe
+Twins|Gemelos|Jumeaux
+Teenager|Adolescente|Adolescent
+Old man|Anciano|Vieil homme
+Old woman|Anciana|Vieille femme
+
+# Body & Health|Cuerpo y salud|Corps et santé
+Head|Cabeza|Tête
+Hair|Cabello|Cheveux
+Face|Cara|Visage
+Eye|Ojo|Œil
+Ear|Oreja|Oreille
+Nose|Nariz|Nez
+Mouth|Boca|Bouche
+Tooth|Diente|Dent
+Tongue|Lengua|Langue
+Lip|Labio|Lèvre
+Neck|Cuello|Cou
+Shoulder|Hombro|Épaule
+Arm|Brazo|Bras
+Elbow|Codo|Coude
+Hand|Mano|Main
+Finger|Dedo|Doigt
+Thumb|Pulgar|Pouce
+Chest|Pecho|Poitrine
+Back|Espalda|Dos
+Stomach|Estómago|Ventre
+Hip|Cadera|Hanche
+Leg|Pierna|Jambe
+Knee|Rodilla|Genou
+Foot|Pie|Pied
+Toe|Dedo del pie|Orteil
+Skin|Piel|Peau
+Bone|Hueso|Os
+Heart|Corazón|Cœur
+Brain|Cerebro|Cerveau
+Blood|Sangre|Sang
+Throat|Garganta|Gorge
+Beard|Barba|Barbe
+Eyebrow|Ceja|Sourcil
+Fingernail|Uña|Ongle
+Lungs|Pulmones|Poumons
+Muscle|Músculo|Muscle
+Voice|Voz|Voix
+Body|Cuerpo|Corps
+Wheelchair|Silla de ruedas|Fauteuil roulant
+Crutches|Muletas|Béquilles
+Glasses|Gafas|Lunettes
+Hearing aid|Audífono|Appareil auditif
+Bandage|Vendaje|Pansement
+Injection|Inyección|Piqûre
+Pill|Pastilla|Comprimé
+Thermometer|Termómetro|Thermomètre
+Fever|Fiebre|Fièvre
+Cough|Tos|Toux
+Headache|Dolor de cabeza|Mal de tête
+Toothache|Dolor de muelas|Mal de dents
+Stomachache|Dolor de estómago|Mal de ventre
+Flu|Gripe|Grippe
+Allergy|Alergia|Allergie
+Wound|Herida|Blessure
+Ambulance|Ambulancia|Ambulance
+Clinic|Clínica|Clinique
+Pharmacy|Farmacia|Pharmacie
+X-ray|Radiografía|Radiographie
+Surgery|Cirugía|Chirurgie
+Sneeze|Estornudar|Éternuer
+Vomit|Vomitar|Vomir
+Bleed|Sangrar|Saigner
+Hurt|Doler|Faire mal
+Itch|Picar|Démanger
+Dizzy|Mareado|Étourdi
+Sleepy|Con sueño|Somnolent
+Healthy|Sano|En bonne santé
+Diabetes|Diabetes|Diabète
+Blind|Ciego|Aveugle
+Deaf|Sordo|Sourd
+Breathe|Respirar|Respirer
+Exercise|Ejercicio|Exercice
+Vitamins|Vitaminas|Vitamines
+Mask|Mascarilla|Masque
+Vaccine|Vacuna|Vaccin
+
+# Feelings|Emociones|Émotions
+Worried|Preocupado|Inquiet
+Nervous|Nervioso|Nerveux
+Proud|Orgulloso|Fier
+Shy|Tímido|Timide
+Lonely|Solitario|Isolé
+Bored|Aburrido|Ennuyé
+Jealous|Celoso|Jaloux
+Surprised|Sorprendido|Surpris
+Calm|Tranquilo|Calme
+Frustrated|Frustrado|Frustré
+Hungry|Hambriento|Affamé
+Thirsty|Sediento|Assoiffé
+Loved|Amado|Aimé
+Embarrassed|Avergonzado|Gêné
+Grateful|Agradecido|Reconnaissant
+Silly|Tonto|Bête
+Cheerful|Alegre|Joyeux
+Upset|Molesto|Contrarié
+Comfortable|Cómodo|À l'aise
+Cry|Llorar|Pleurer
+Laugh|Reír|Rire
+Smile|Sonreír|Sourire
+Brave|Valiente|Courageux
+Safe|Seguro|En sécurité
+Peaceful|Pacífico|Paisible
+
+# Actions|Acciones|Actions
+Eat|Comer|Manger
+Drink|Beber|Boire
+Sleep|Dormir|Dormir
+Wake up|Despertar|Se réveiller
+Walk|Caminar|Marcher
+Run|Correr|Courir
+Jump|Saltar|Sauter
+Sit|Sentarse|S'asseoir
+Stand|Pararse|Se lever
+Lie down|Acostarse|S'allonger
+Climb|Trepar|Grimper
+Swim|Nadar|Nager
+Fall|Caer|Tomber
+Push|Empujar|Pousser
+Pull|Jalar|Tirer
+Carry|Cargar|Porter
+Lift|Levantar|Soulever
+Throw|Lanzar|Lancer
+Catch|Atrapar|Attraper
+Kick|Patear|Donner un coup de pied
+Hold|Sostener|Tenir
+Give|Dar|Donner
+Take|Tomar|Prendre
+Put|Poner|Mettre
+Open|Abrir|Ouvrir
+Close|Cerrar|Fermer
+Turn on|Encender|Allumer
+Turn off|Apagar|Éteindre
+Start|Empezar|Commencer
+Wash|Lavar|Laver
+Brush|Cepillar|Brosser
+Comb|Peinar|Peigner
+Get dressed|Vestirse|S'habiller
+Undress|Desvestirse|Se déshabiller
+Shower|Ducharse|Se doucher
+Bathe|Bañarse|Se baigner
+Dry|Secar|Sécher
+Clean|Limpiar|Nettoyer
+Sweep|Barrer|Balayer
+Cook a meal|Cocinar|Cuisiner
+Bake|Hornear|Cuire
+Cut|Cortar|Couper
+Pour|Verter|Verser
+Mix|Mezclar|Mélanger
+Boil|Hervir|Bouillir
+Fry|Freír|Frire
+Serve|Servir|Servir
+Read|Leer|Lire
+Write|Escribir|Écrire
+Draw|Dibujar|Dessiner
+Paint|Pintar|Peindre
+Count|Contar|Compter
+Learn|Aprender|Apprendre
+Teach|Enseñar|Enseigner
+Study|Estudiar|Étudier
+Think|Pensar|Penser
+Remember|Recordar|Se souvenir
+Forget|Olvidar|Oublier
+Know|Saber|Savoir
+Understand|Entender|Comprendre
+Believe|Creer|Croire
+Decide|Decidir|Décider
+Choose|Elegir|Choisir
+Ask|Preguntar|Demander
+Answer|Responder|Répondre
+Say|Decir|Dire
+Tell|Contar|Raconter
+Call|Llamar|Appeler
+Shout|Gritar|Crier
+Whisper|Susurrar|Chuchoter
+Whistle|Silbar|Siffler
+See|Ver|Voir
+Watch|Mirar|Regarder
+Hear|Oír|Entendre
+Smell|Oler|Sentir
+Taste|Probar|Goûter
+Touch|Tocar|Toucher
+Like|Gustar|Aimer
+Love|Amar|Aimer
+Hate|Odiar|Détester
+Miss|Extrañar|Manquer
+Hope|Esperar|Espérer
+Wish|Desear|Souhaiter
+Have|Tener|Avoir
+Make|Hacer|Faire
+Build|Construir|Construire
+Fix|Arreglar|Réparer
+Break|Romper|Casser
+Tie|Atar|Attacher
+Fold|Doblar|Plier
+Hang|Colgar|Suspendre
+Charge|Cargar la batería|Recharger
+Ring|Sonar|Sonner
+Send|Enviar|Envoyer
+Receive|Recibir|Recevoir
+Come|Venir|Venir
+Leave|Salir|Partir
+Arrive|Llegar|Arriver
+Return|Volver|Revenir
+Follow|Seguir|Suivre
+Lead|Guiar|Guider
+Drive|Conducir|Conduire
+Ride|Montar|Monter
+Fly|Volar|Voler
+Travel|Viajar|Voyager
+Visit|Visitar|Visiter
+Meet|Conocer|Rencontrer
+Invite|Invitar|Inviter
+Thank|Agradecer|Remercier
+Work|Trabajar|Travailler
+Relax|Relajarse|Se détendre
+Go fishing|Pescar|Pêcher
+Plant|Sembrar|Planter
+Harvest|Cosechar|Récolter
+Pay|Pagar|Payer
+Save|Ahorrar|Économiser
+Spend|Gastar|Dépenser
+Borrow|Pedir prestado|Emprunter
+Lend|Prestar|Prêter
+Wear|Llevar puesto|Porter
+Try|Intentar|Essayer
+Use|Usar|Utiliser
+Keep|Guardar|Garder
+Lose|Perder|Perdre
+Find|Encontrar|Trouver
+Search|Buscar|Chercher
+Hide|Esconder|Cacher
+Show|Mostrar|Montrer
+Point|Señalar|Montrer du doigt
+Wave|Saludar con la mano|Faire signe
+Nod|Asentir|Hocher la tête
+Shake|Sacudir|Secouer
+Bow|Inclinarse|S'incliner
+Kneel|Arrodillarse|S'agenouiller
+Knock|Tocar la puerta|Frapper
+Stretch|Estirarse|S'étirer
+Yawn|Bostezar|Bâiller
+Blow|Soplar|Souffler
+Spit|Escupir|Cracher
+Wipe|Limpiar con un paño|Essuyer
+Dig|Cavar|Creuser
+Pick up|Recoger|Ramasser
+Bring|Traer|Apporter
+Move|Mover|Bouger
+Turn|Girar|Tourner
+Enter|Entrar|Entrer
+Wait in line|Hacer fila|Faire la queue
+Celebrate|Celebrar|Célébrer
+Take a photo|Tomar una foto|Prendre une photo

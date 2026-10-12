@@ -1,0 +1,354 @@
+# Clothes|Ropa|Vêtements
+Shirt|Camisa|Chemise
+T-shirt|Camiseta|T-shirt
+Trousers|Pantalones|Pantalon
+Shorts|Pantalones cortos|Short
+Dress|Vestido|Robe
+Skirt|Falda|Jupe
+Jacket|Chaqueta|Veste
+Coat|Abrigo|Manteau
+Sweater|Suéter|Pull
+Socks|Calcetines|Chaussettes
+Shoes|Zapatos|Chaussures
+Sandals|Sandalias|Sandales
+Slippers|Pantuflas|Pantoufles
+Boots|Botas|Bottes
+Hat|Sombrero|Chapeau
+Cap|Gorra|Casquette
+Scarf|Bufanda|Écharpe
+Gloves|Guantes|Gants
+Belt|Cinturón|Ceinture
+Underwear|Ropa interior|Sous-vêtements
+Pajamas|Pijama|Pyjama
+Uniform|Uniforme|Uniforme
+Swimsuit|Traje de baño|Maillot de bain
+Raincoat|Impermeable|Imperméable
+Ring on finger|Anillo|Bague
+Necklace|Collar|Collier
+Earring|Arete|Boucle d'oreille
+Bracelet|Pulsera|Bracelet
+Handbag|Bolso|Sac à main
+Tie|Corbata|Cravate
+Suit|Traje|Costume
+Headscarf|Pañuelo|Foulard
+Apron|Delantal|Tablier
+Zip|Cremallera|Fermeture éclair
+Button|Botón|Bouton
+Pocket|Bolsillo|Poche
+
+# Animals|Animales|Animaux
+Dog|Perro|Chien
+Cat|Gato|Chat
+Cow|Vaca|Vache
+Goat|Cabra|Chèvre
+Sheep|Oveja|Mouton
+Pig|Cerdo|Cochon
+Hen|Gallina|Poule
+Rooster|Gallo|Coq
+Duck|Pato|Canard
+Horse|Caballo|Cheval
+Donkey|Burro|Âne
+Rabbit|Conejo|Lapin
+Mouse|Ratón|Souris
+Rat|Rata|Rat
+Monkey|Mono|Singe
+Elephant|Elefante|Éléphant
+Lion|León|Lion
+Tiger|Tigre|Tigre
+Giraffe|Jirafa|Girafe
+Zebra|Cebra|Zèbre
+Hippo|Hipopótamo|Hippopotame
+Crocodile|Cocodrilo|Crocodile
+Snake|Serpiente|Serpent
+Frog|Rana|Grenouille
+Turtle|Tortuga|Tortue
+Bird|Pájaro|Oiseau
+Eagle|Águila|Aigle
+Owl|Búho|Hibou
+Parrot|Loro|Perroquet
+Butterfly|Mariposa|Papillon
+Bee|Abeja|Abeille
+Ant|Hormiga|Fourmi
+Fly insect|Mosca|Mouche
+Mosquito|Mosquito|Moustique
+Spider|Araña|Araignée
+Worm|Gusano|Ver
+Snail|Caracol|Escargot
+Bear|Oso|Ours
+Wolf|Lobo|Loup
+Fox|Zorro|Renard
+Deer|Ciervo|Cerf
+Camel|Camello|Chameau
+Gorilla|Gorila|Gorille
+Whale|Ballena|Baleine
+Dolphin|Delfín|Dauphin
+Shark|Tiburón|Requin
+Crab|Cangrejo de mar|Crabe de mer
+Lizard|Lagartija|Lézard
+Pigeon|Paloma|Pigeon
+Cockroach|Cucaracha|Cafard
+Squirrel|Ardilla|Écureuil
+Chick|Pollito|Poussin
+Puppy|Cachorro|Chiot
+Kitten|Gatito|Chaton
+Calf|Ternero|Veau
+Bull|Toro|Taureau
+
+# Nature & Weather|Naturaleza y clima|Nature et météo
+Sun|Sol|Soleil
+Moon|Luna|Lune
+Star|Estrella|Étoile
+Sky|Cielo|Ciel
+Cloud|Nube|Nuage
+Rain|Lluvia|Pluie
+Wind|Viento|Vent
+Storm|Tormenta|Tempête
+Thunder|Trueno|Tonnerre
+Lightning|Rayo|Éclair
+Snow|Nieve|Neige
+Ice|Hielo|Glace
+Fire|Fuego|Feu
+Smoke|Humo|Fumée
+Tree|Árbol|Arbre
+Flower|Flor|Fleur
+Grass|Hierba|Herbe
+Leaf|Hoja|Feuille
+Seed|Semilla|Graine
+Rock|Roca|Roche
+Sand|Arena|Sable
+Soil|Tierra|Terre
+Mud|Barro|Boue
+Wave|Ola|Vague
+Rainbow|Arcoíris|Arc-en-ciel
+Weather|Clima|Météo
+Season|Estación|Saison
+Summer|Verano|Été
+Winter|Invierno|Hiver
+Sunny|Soleado|Ensoleillé
+Cloudy|Nublado|Nuageux
+Rainy|Lluvioso|Pluvieux
+Windy|Ventoso|Venteux
+Flood|Inundación|Inondation
+Puddle|Charco|Flaque
+Dust|Polvo|Poussière
+Air|Aire|Air
+Earth|Tierra|Terre
+Planet|Planeta|Planète
+Shadow|Sombra|Ombre
+
+# Time & Numbers|Tiempo y números|Temps et nombres
+Today|Hoy|Aujourd'hui
+Tomorrow|Mañana|Demain
+Yesterday|Ayer|Hier
+Morning|Mañana temprano|Matin
+Afternoon|Tarde|Après-midi
+Evening|Atardecer|Soir
+Night|Noche|Nuit
+Day|Día|Jour
+Week|Semana|Semaine
+Month|Mes|Mois
+Year|Año|Année
+Hour|Hora|Heure
+Minute|Minuto|Minute
+Now|Ahora|Maintenant
+Later|Después|Plus tard
+Soon|Pronto|Bientôt
+Always|Siempre|Toujours
+Never|Nunca|Jamais
+Sometimes|A veces|Parfois
+Monday|Lunes|Lundi
+Tuesday|Martes|Mardi
+Wednesday|Miércoles|Mercredi
+Thursday|Jueves|Jeudi
+Friday|Viernes|Vendredi
+Saturday|Sábado|Samedi
+Sunday|Domingo|Dimanche
+January|Enero|Janvier
+February|Febrero|Février
+March|Marzo|Mars
+April|Abril|Avril
+May|Mayo|Mai
+June|Junio|Juin
+July|Julio|Juillet
+August|Agosto|Août
+September|Septiembre|Septembre
+October|Octubre|Octobre
+November|Noviembre|Novembre
+December|Diciembre|Décembre
+Zero|Cero|Zéro
+One|Uno|Un
+Two|Dos|Deux
+Three|Tres|Trois
+Four|Cuatro|Quatre
+Five|Cinco|Cinq
+Six|Seis|Six
+Seven|Siete|Sept
+Eight|Ocho|Huit
+Nine|Nueve|Neuf
+Ten|Diez|Dix
+Twenty|Veinte|Vingt
+Fifty|Cincuenta|Cinquante
+Hundred|Cien|Cent
+Thousand|Mil|Mille
+Half|Mitad|Moitié
+Double|Doble|Double
+
+# Colors & Shapes|Colores y formas|Couleurs et formes
+Red|Rojo|Rouge
+Blue|Azul|Bleu
+Green|Verde|Vert
+Yellow|Amarillo|Jaune
+Pink|Rosa|Rose
+Purple|Morado|Violet
+Brown|Marrón|Marron
+Black|Negro|Noir
+White|Blanco|Blanc
+Gray|Gris|Gris
+Gold|Dorado|Doré
+Silver|Plateado|Argenté
+Circle|Círculo|Cercle
+Square|Cuadrado|Carré
+Triangle|Triángulo|Triangle
+Rectangle|Rectángulo|Rectangle
+Color|Color|Couleur
+Shape|Forma|Forme
+
+# School & Fun|Escuela y juegos|École et jeux
+Class|Clase|Classe
+Lesson|Lección|Leçon
+Homework|Tarea|Devoirs
+Exam|Examen|Examen
+Headmaster|Director|Directeur
+Alphabet|Alfabeto|Alphabet
+Word|Palabra|Mot
+Sentence|Oración|Phrase
+Math|Matemáticas|Mathématiques
+Science|Ciencias|Sciences
+Reading|Lectura|Lecture
+Writing|Escritura|Écriture
+Break time|Recreo|Récréation
+Bell|Campana|Cloche
+Chalk|Tiza|Craie
+University|Universidad|Université
+Game|Juego|Jeu
+Music|Música|Musique
+Basketball|Baloncesto|Basket-ball
+Volleyball|Voleibol|Volley-ball
+Swimming|Natación|Natation
+Running|Carrera|Course
+Sport|Deporte|Sport
+Team game|Juego en equipo|Jeu d'équipe
+Win|Ganar|Gagner
+Lose game|Perder un juego|Perdre
+Draw picture|Dibujo|Dessin
+Painting|Pintura|Peinture
+Video|Video|Vidéo
+Photo|Foto|Photo
+Movie|Película|Film
+Cartoon|Dibujos animados|Dessin animé
+Dancing|Baile|Danse
+Singing|Canto|Chant
+Picture book|Libro ilustrado|Livre d'images
+Swing|Columpio|Balançoire
+Slide|Tobogán|Toboggan
+Sandcastle|Castillo de arena|Château de sable
+Balloon|Globo|Ballon gonflable
+Clown|Payaso|Clown
+
+# Faith & Culture|Fe y cultura|Foi et culture
+God|Dios|Dieu
+Prayer|Oración|Prière
+Quran|Corán|Coran
+Imam|Imán|Imam
+Cross|Cruz|Croix
+Funeral|Funeral|Funérailles
+Wedding|Boda|Mariage
+Festival|Festival|Festival
+Blessing|Bendición|Bénédiction
+Angel|Ángel|Ange
+Choir|Coro|Chorale
+Sermon|Sermón|Sermon
+Hymn|Himno|Hymne
+Celebration|Celebración|Fête
+Christmas|Navidad|Noël
+Easter|Pascua|Pâques
+Ramadan|Ramadán|Ramadan
+Tradition|Tradición|Tradition
+Village chief|Jefe del pueblo|Chef du village
+Drum beat|Toque de tambor|Battement de tambour
+Cloth|Tela|Tissu
+Beads|Cuentas|Perles
+Traditional dance|Baile tradicional|Danse traditionnelle
+Grandparents|Abuelos|Grands-parents
+Elder|Anciano respetado|Ancien
+
+# Money & Market|Dinero y mercado|Argent et marché
+Change|Cambio|Monnaie
+Cheap|Barato|Bon marché
+Expensive|Caro|Cher
+Discount|Descuento|Réduction
+Receipt|Recibo|Reçu
+Banknote|Billete|Billet de banque
+Customer|Cliente|Client
+Scale for weighing|Balanza|Balance
+Cash|Efectivo|Espèces
+Debt|Deuda|Dette
+Profit|Ganancia|Bénéfice
+Bargain|Regatear|Marchander
+Stall|Puesto|Étal
+Sack|Saco|Sac de jute
+Load|Carga|Charge
+Sell out|Agotado|Épuisé
+Full price|Precio completo|Prix plein
+Free of charge|Gratis|Gratuit
+Shopping|Compras|Courses
+Bill|Factura|Facture
+
+# Getting Around|Transporte|Se déplacer
+Taxi|Taxi|Taxi
+Train|Tren|Train
+Plane|Avión|Avion
+Ship|Barco|Navire
+Boat|Bote|Bateau
+Canoe|Canoa|Pirogue
+Motorbike|Motocicleta|Moto
+Truck|Camión|Camion
+Tricycle|Triciclo|Tricycle
+Helicopter|Helicóptero|Hélicoptère
+Tractor|Tractor|Tracteur
+Traffic light|Semáforo|Feu tricolore
+Petrol|Gasolina|Essence
+Tyre|Neumático|Pneu
+Passenger|Pasajero|Passager
+Seat belt|Cinturón de seguridad|Ceinture de sécurité
+Helmet|Casco|Casque
+Road sign|Señal de tránsito|Panneau routier
+Parking|Estacionamiento|Parking
+Journey|Viaje largo|Trajet
+Luggage cart|Carrito de equipaje|Chariot à bagages
+Crossing|Paso peatonal|Passage piéton
+Highway|Autopista|Autoroute
+Tunnel|Túnel|Tunnel
+Ticket office|Taquilla|Guichet
+
+# Technology|Tecnología|Technologie
+Internet|Internet|Internet
+WiFi|WiFi|WiFi
+Email|Correo electrónico|Courriel
+Message|Mensaje|Message
+Password|Contraseña|Mot de passe
+Screen|Pantalla|Écran
+Keyboard|Teclado|Clavier
+Computer mouse|Ratón de computadora|Souris d'ordinateur
+Printer|Impresora|Imprimante
+App|Aplicación|Application
+Website|Sitio web|Site web
+Download|Descargar|Télécharger
+Video call|Videollamada|Appel vidéo
+Speaker|Altavoz|Haut-parleur
+Microphone|Micrófono|Microphone
+Plug|Enchufe|Prise
+Cable|Cable|Câble
+Solar panel|Panel solar|Panneau solaire
+Generator|Generador|Générateur
+Light bulb|Bombilla|Ampoule

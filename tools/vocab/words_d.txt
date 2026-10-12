@@ -1,0 +1,198 @@
+# Animals|Animales|Animaux
+Ox|Buey|Bœuf
+Lamb|Cordero|Agneau
+Turkey|Pavo|Dinde
+Goose|Ganso|Oie
+Swan|Cisne|Cygne
+Penguin|Pingüino|Pingouin
+Kangaroo|Canguro|Kangourou
+Panda|Panda|Panda
+Koala|Koala|Koala
+Leopard|Leopardo|Léopard
+Rhinoceros|Rinoceronte|Rhinocéros
+Hedgehog|Erizo|Hérisson
+Bat|Murciélago|Chauve-souris
+Seal|Foca|Phoque
+Octopus|Pulpo|Pieuvre
+Jellyfish|Medusa|Méduse
+Starfish|Estrella de mar|Étoile de mer
+Ladybug|Mariquita|Coccinelle
+Grasshopper|Saltamontes|Sauterelle
+Scorpion|Escorpión|Scorpion
+Peacock|Pavo real|Paon
+Flamingo|Flamenco|Flamant rose
+Pony|Poni|Poney
+Hamster|Hámster|Hamster
+Goldfish|Pez dorado|Poisson rouge
+
+# Food & Drink|Comida y bebida|Nourriture et boissons
+Cherry|Cereza|Cerise
+Peach|Durazno|Pêche
+Plum|Ciruela|Prune
+Pumpkin|Calabaza|Citrouille
+Broccoli|Brócoli|Brocoli
+Cauliflower|Coliflor|Chou-fleur
+Radish|Rábano|Radis
+Beetroot|Remolacha|Betterave
+Celery|Apio|Céleri
+Eggplant|Berenjena|Aubergine
+Olive|Aceituna|Olive
+Almond|Almendra|Amande
+Walnut|Nuez|Noix
+Date fruit|Dátil|Datte
+Fig|Higo|Figue
+Pomegranate|Granada|Grenade
+Kiwi|Kiwi|Kiwi
+Melon|Melón|Melon
+Tangerine|Mandarina|Mandarine
+Grapefruit|Toronja|Pamplemousse
+Sweet potato|Camote|Patate douce
+Bacon|Tocino|Lard
+Ham|Jamón|Jambon
+Hot dog|Perro caliente|Hot-dog
+Donut|Dona|Beignet
+Cookie|Galleta dulce|Cookie
+Muffin|Magdalena|Muffin
+Croissant|Croissant|Croissant
+Waffle|Waffle|Gaufre
+Lollipop|Paleta|Sucette
+Chewing gum|Chicle|Chewing-gum
+Ketchup|Ketchup|Ketchup
+Mustard|Mostaza|Moutarde
+Vinegar|Vinagre|Vinaigre
+Black pepper|Pimienta|Poivre
+Lemonade|Limonada|Limonade
+Milkshake|Batido|Milk-shake
+Water jug|Jarra de agua|Carafe d'eau
+
+# Home & Things|Hogar y cosas|Maison et objets
+Bathtub|Bañera|Baignoire
+Washing machine|Lavadora|Machine à laver
+Vacuum cleaner|Aspiradora|Aspirateur
+Toaster|Tostadora|Grille-pain
+Blender|Licuadora|Mixeur
+Cutting board|Tabla de cortar|Planche à découper
+Ladle|Cucharón|Louche
+Teapot|Tetera|Théière
+Fireplace|Chimenea|Cheminée
+Doorbell|Timbre|Sonnette
+Mailbox|Buzón|Boîte aux lettres
+Fence|Cerca|Clôture
+Gate|Portón|Portail
+Garage|Garaje|Garage
+Swimming pool|Piscina|Piscine
+Tent|Tienda de campaña|Tente
+Bed sheet|Sábana|Drap
+Hanger|Percha|Cintre
+Clothesline|Tendedero|Corde à linge
+Matches|Fósforos|Allumettes
+Sponge|Esponja|Éponge
+Razor|Navaja de afeitar|Rasoir
+Perfume|Perfume|Parfum
+Lipstick|Lápiz labial|Rouge à lèvres
+Hair dryer|Secador de pelo|Sèche-cheveux
+Nail clippers|Cortaúñas|Coupe-ongles
+Suitcase|Maleta|Valise
+Envelope|Sobre|Enveloppe
+Stamp|Sello|Timbre-poste
+Stapler|Grapadora|Agrafeuse
+Calculator|Calculadora|Calculatrice
+Globe|Globo terráqueo|Globe terrestre
+Telescope|Telescopio|Télescope
+Microscope|Microscopio|Microscope
+Compass|Brújula|Boussole
+Magnet|Imán|Aimant
+Flashlight|Linterna|Lampe torche
+Teddy bear|Osito de peluche|Ours en peluche
+Toy car|Carro de juguete|Voiture miniature
+Fireworks|Fuegos artificiales|Feu d'artifice
+Trash|Basura|Déchets
+Recycling|Reciclaje|Recyclage
+Crown|Corona|Couronne
+Jeans|Jeans|Jean
+Sunglasses|Gafas de sol|Lunettes de soleil
+Vest|Chaleco|Gilet
+
+# School & Fun|Escuela y juegos|École et jeux
+Trumpet|Trompeta|Trompette
+Violin|Violín|Violon
+Flute|Flauta|Flûte
+Saxophone|Saxofón|Saxophone
+Xylophone|Xilófono|Xylophone
+Tennis|Tenis|Tennis
+Golf|Golf|Golf
+Boxing|Boxeo|Boxe
+Cycling|Ciclismo|Cyclisme
+Fishing rod|Caña de pescar|Canne à pêche
+Skipping rope|Cuerda de saltar|Corde à sauter
+Trampoline|Trampolín|Trampoline
+Skateboard|Patineta|Planche à roulettes
+Roller skates|Patines|Patins à roulettes
+
+# People|Personas|Personnes
+Engineer|Ingeniero|Ingénieur
+Scientist|Científico|Scientifique
+Artist|Artista|Artiste
+Singer|Cantante|Chanteur
+Musician|Músico|Musicien
+Actor|Actor|Acteur
+Judge|Juez|Juge
+Lawyer|Abogado|Avocat
+Electrician|Electricista|Électricien
+Plumber|Plomero|Plombier
+Carpenter|Carpintero|Menuisier
+Mechanic|Mecánico|Mécanicien
+Baker|Panadero|Boulanger
+Butcher|Carnicero|Boucher
+Barber|Barbero|Coiffeur
+Postman|Cartero|Facteur
+Cleaner|Limpiador|Agent d'entretien
+Sailor|Marinero|Marin
+Astronaut|Astronauta|Astronaute
+Photographer|Fotógrafo|Photographe
+Journalist|Periodista|Journaliste
+Gardener|Jardinero|Jardinier
+
+# Places|Lugares|Lieux
+Castle|Castillo|Château
+Tower|Torre|Tour
+Lighthouse|Faro|Phare
+Windmill|Molino|Moulin à vent
+Skyscraper|Rascacielos|Gratte-ciel
+Barn|Granero|Grange
+Greenhouse|Invernadero|Serre
+
+# Nature & Weather|Naturaleza y clima|Nature et météo
+Volcano|Volcán|Volcan
+Valley|Valle|Vallée
+Hill|Colina|Colline
+Cliff|Acantilado|Falaise
+Pond|Estanque|Étang
+Cactus|Cactus|Cactus
+Palm tree|Palmera|Palmier
+Bamboo|Bambú|Bambou
+Branch|Rama|Branche
+Root|Raíz|Racine
+Nest|Nido|Nid
+Feather|Pluma|Plume
+Shell|Concha|Coquillage
+Pebble|Guijarro|Galet
+Coal|Carbón|Charbon
+Spider web|Telaraña|Toile d'araignée
+
+# Getting Around|Transporte|Se déplacer
+Airplane|Avión de pasajeros|Avion
+Rocket|Cohete|Fusée
+Submarine|Submarino|Sous-marin
+Police car|Coche de policía|Voiture de police
+Fire truck|Camión de bomberos|Camion de pompiers
+Scooter|Scooter|Trottinette
+Cable car|Teleférico|Téléphérique
+Subway|Metro|Métro
+
+# Body & Health|Cuerpo y salud|Corps et santé
+Stethoscope|Estetoscopio|Stéthoscope
+Syringe|Jeringa|Seringue
+Stretcher|Camilla|Civière
+Plaster cast|Yeso|Plâtre
+Hospital bed|Cama de hospital|Lit d'hôpital

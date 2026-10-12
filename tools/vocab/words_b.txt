@@ -1,0 +1,364 @@
+# Describing|Describir|Décrire
+Big|Grande|Grand
+Small|Pequeño|Petit
+Tall|Alto|Grand
+Short|Bajo|Court
+Long|Largo|Long
+Thin|Delgado|Mince
+Heavy|Pesado|Lourd
+Light|Ligero|Léger
+Fast|Rápido|Rapide
+Slow|Lento|Lent
+Hot|Caliente|Chaud
+Cold|Frío|Froid
+Warm|Tibio|Tiède
+Cool|Fresco|Frais
+Wet|Mojado|Mouillé
+Dry|Seco|Sec
+Clean|Limpio|Propre
+Dirty|Sucio|Sale
+Full|Lleno|Plein
+Empty|Vacío|Vide
+Closed|Cerrado|Fermé
+New|Nuevo|Neuf
+Old|Viejo|Vieux
+Young|Joven|Jeune
+Good|Bueno|Bon
+Bad|Malo|Mauvais
+Beautiful|Hermoso|Beau
+Ugly|Feo|Laid
+Easy|Fácil|Facile
+Hard|Difícil|Difficile
+Soft|Suave|Doux
+Loud|Fuerte|Bruyant
+Sweet|Dulce|Sucré
+Sour|Ácido|Acide
+Bitter|Amargo|Amer
+Salty|Salado|Salé
+Spicy|Picante|Épicé
+Rich|Rico|Riche
+Poor|Pobre|Pauvre
+Dangerous|Peligroso|Dangereux
+Wrong|Incorrecto|Faux
+True|Verdadero|Vrai
+Same|Igual|Pareil
+Different|Diferente|Différent
+First|Primero|Premier
+Last|Último|Dernier
+Next|Siguiente|Suivant
+Left|Izquierda|Gauche
+Up|Arriba|Haut
+Down|Abajo|Bas
+In|Dentro|Dedans
+Out|Fuera|Dehors
+On|Encima|Sur
+Under|Debajo|Sous
+Behind|Detrás|Derrière
+In front|Delante|Devant
+Near|Cerca|Près
+Far|Lejos|Loin
+Inside|Adentro|À l'intérieur
+Here|Aquí|Ici
+There|Allí|Là
+Top|Parte superior|Haut
+Bottom|Parte inferior|Bas
+Middle|Medio|Milieu
+Many|Muchos|Beaucoup
+Few|Pocos|Peu
+All|Todo|Tout
+Enough|Suficiente|Assez
+Too much|Demasiado|Trop
+Very|Muy|Très
+Little|Un poco|Un peu
+Round|Redondo|Rond
+Flat|Plano|Plat
+Sharp|Afilado|Pointu
+Smooth|Liso|Lisse
+Rough|Áspero|Rugueux
+Thick|Grueso|Épais
+Deep|Profundo|Profond
+Wide|Ancho|Large
+Narrow|Estrecho|Étroit
+Strong|Fuerte|Fort
+Weak|Débil|Faible
+Busy|Ocupado|Occupé
+Free|Libre|Libre
+Ready|Listo|Prêt
+Late|Tarde|Tard
+Early|Temprano|Tôt
+Careful|Cuidado|Attention
+Fair|Justo|Juste
+Special|Especial|Spécial
+Important|Importante|Important
+Possible|Posible|Possible
+Alive|Vivo|Vivant
+Broken|Roto|Cassé
+Lost|Perdido|Perdu
+Hidden|Escondido|Caché
+
+# Food & Drink|Comida y bebida|Nourriture et boissons
+Apple|Manzana|Pomme
+Banana|Plátano|Banane
+Orange|Naranja|Orange
+Mango|Mango|Mangue
+Pineapple|Piña|Ananas
+Papaya|Papaya|Papaye
+Watermelon|Sandía|Pastèque
+Grapes|Uvas|Raisin
+Lemon|Limón|Citron
+Coconut|Coco|Noix de coco
+Avocado|Aguacate|Avocat
+Pear|Pera|Poire
+Strawberry|Fresa|Fraise
+Tomato|Tomate|Tomate
+Onion|Cebolla|Oignon
+Pepper|Pimiento|Poivron
+Carrot|Zanahoria|Carotte
+Cabbage|Repollo|Chou
+Potato|Papa|Pomme de terre
+Yam|Ñame|Igname
+Cassava|Yuca|Manioc
+Plantain|Plátano macho|Banane plantain
+Peanut|Maní|Cacahuète
+Beans|Frijoles|Haricots
+Corn|Maíz|Maïs
+Egg|Huevo|Œuf
+Chicken|Pollo|Poulet
+Fish|Pescado|Poisson
+Meat|Carne|Viande
+Beef|Carne de res|Bœuf
+Pork|Cerdo|Porc
+Sausage|Salchicha|Saucisse
+Butter|Mantequilla|Beurre
+Cheese|Queso|Fromage
+Milk|Leche|Lait
+Yogurt|Yogur|Yaourt
+Ice cream|Helado|Glace
+Cake|Pastel|Gâteau
+Biscuit|Galleta|Biscuit
+Chocolate|Chocolate|Chocolat
+Candy|Caramelo|Bonbon
+Sugar|Azúcar|Sucre
+Salt|Sal|Sel
+Oil|Aceite|Huile
+Flour|Harina|Farine
+Honey|Miel|Miel
+Jam|Mermelada|Confiture
+Sauce|Salsa|Sauce
+Salad|Ensalada|Salade
+Sandwich|Sándwich|Sandwich
+Pizza|Pizza|Pizza
+Burger|Hamburguesa|Hamburger
+Chips|Papas fritas|Frites
+Noodles|Fideos|Nouilles
+Pasta|Pasta|Pâtes
+Porridge|Papilla|Bouillie
+Pancake|Panqueque|Crêpe
+Tea|Té|Thé
+Coffee|Café|Café
+Juice|Jugo|Jus
+Soda|Refresco|Soda
+Breakfast|Desayuno|Petit-déjeuner
+Lunch|Almuerzo|Déjeuner
+Dinner|Cena|Dîner
+Meal|Comida|Repas
+Spoon|Cuchara|Cuillère
+Fork|Tenedor|Fourchette
+Knife|Cuchillo|Couteau
+Plate|Plato|Assiette
+Bowl|Tazón|Bol
+Cup|Taza|Tasse
+Glass|Vaso|Verre
+Bottle|Botella|Bouteille
+Pot|Olla|Casserole
+Pan|Sartén|Poêle
+Kettle|Tetera|Bouilloire
+Shrimp|Camarón|Crevette
+Crab meat|Cangrejo|Crabe
+Mushroom|Champiñón|Champignon
+Garlic|Ajo|Ail
+Ginger|Jengibre|Gingembre
+Cucumber|Pepino|Concombre
+Lettuce|Lechuga|Laitue
+Spinach|Espinaca|Épinard
+Okra|Quimbombó|Gombo
+Palm oil|Aceite de palma|Huile de palme
+Peas|Guisantes|Petits pois
+Lime|Lima|Citron vert
+Watermelon juice|Jugo de sandía|Jus de pastèque
+Water bottle|Botella de agua|Bouteille d'eau
+Drinking straw|Pajilla|Paille
+Napkin|Servilleta|Serviette
+Lunch box|Fiambrera|Boîte à repas
+Popcorn|Palomitas|Pop-corn
+Toast|Tostada|Toast
+Cereal|Cereal|Céréales
+Soup bowl|Plato hondo|Bol de soupe
+Hot drink|Bebida caliente|Boisson chaude
+Cold drink|Bebida fría|Boisson fraîche
+
+# Places|Lugares|Lieux
+House|Casa|Maison
+Room|Habitación|Chambre
+Bedroom|Dormitorio|Chambre à coucher
+Living room|Sala|Salon
+Garden|Jardín|Jardin
+Yard|Patio|Cour
+Street|Calle|Rue
+Road|Carretera|Route
+Bridge|Puente|Pont
+City|Ciudad|Ville
+Village|Pueblo|Village
+Country|País|Pays
+Beach|Playa|Plage
+River|Río|Rivière
+Sea|Mar|Mer
+Lake|Lago|Lac
+Mountain|Montaña|Montagne
+Forest|Bosque|Forêt
+Farm|Granja|Ferme
+Park|Parque|Parc
+Playground|Parque infantil|Aire de jeux
+Shop|Tienda|Boutique
+Supermarket|Supermercado|Supermarché
+Bank|Banco|Banque
+Post office|Correo|Bureau de poste
+Police station|Estación de policía|Commissariat
+Fire station|Estación de bomberos|Caserne de pompiers
+Library|Biblioteca|Bibliothèque
+Cinema|Cine|Cinéma
+Stadium|Estadio|Stade
+Mosque|Mezquita|Mosquée
+Toilet|Inodoro|Toilettes
+Office|Oficina|Bureau
+Factory|Fábrica|Usine
+Hotel|Hotel|Hôtel
+Bakery|Panadería|Boulangerie
+Petrol station|Gasolinera|Station-service
+Court|Tribunal|Tribunal
+Museum|Museo|Musée
+Zoo|Zoológico|Zoo
+Bus stop|Parada de autobús|Arrêt de bus
+Classroom|Salón de clases|Salle de classe
+Playing field|Campo de juego|Terrain de jeu
+Well|Pozo|Puits
+Kiosk|Quiosco|Kiosque
+Port|Puerto|Port
+Island|Isla|Île
+Desert|Desierto|Désert
+Cave|Cueva|Grotte
+Waterfall|Cascada|Cascade
+Bush|Arbusto|Brousse
+Compound|Recinto|Concession
+Courtyard|Patio interior|Cour intérieure
+Balcony|Balcón|Balcon
+Attic|Ático|Grenier
+Basement|Sótano|Sous-sol
+Corridor|Pasillo|Couloir
+Lift|Ascensor|Ascenseur
+Shopping mall|Centro comercial|Centre commercial
+
+# Home & Things|Hogar y cosas|Maison et objets
+Door|Puerta|Porte
+Window|Ventana|Fenêtre
+Wall|Pared|Mur
+Roof|Techo|Toit
+Floor|Suelo|Sol
+Stairs|Escaleras|Escalier
+Key|Llave|Clé
+Lock|Candado|Cadenas
+Lamp|Lámpara|Lampe
+Fan|Ventilador|Ventilateur
+Air conditioner|Aire acondicionado|Climatiseur
+Fridge|Refrigerador|Réfrigérateur
+Stove|Estufa|Cuisinière
+Oven|Horno|Four
+Microwave|Microondas|Micro-ondes
+Chair|Silla|Chaise
+Sofa|Sofá|Canapé
+Pillow|Almohada|Oreiller
+Blanket|Manta|Couverture
+Mattress|Colchón|Matelas
+Mirror|Espejo|Miroir
+Clock|Reloj de pared|Horloge
+Watch on wrist|Reloj de pulsera|Montre
+Calendar|Calendario|Calendrier
+Broom|Escoba|Balai
+Bucket|Cubeta|Seau
+Soap|Jabón|Savon
+Towel|Toalla|Serviette de bain
+Toothbrush|Cepillo de dientes|Brosse à dents
+Toothpaste|Pasta de dientes|Dentifrice
+Hairbrush|Cepillo de pelo|Brosse à cheveux
+Shampoo|Champú|Shampooing
+Toilet paper|Papel higiénico|Papier toilette
+Sink|Lavabo|Lavabo
+Tap|Grifo|Robinet
+Bin|Basurero|Poubelle
+Box|Caja|Boîte
+Basket|Canasta|Panier
+Rope|Cuerda|Corde
+Umbrella|Paraguas|Parapluie
+Torch|Linterna|Lampe de poche
+Candle|Vela|Bougie
+Battery|Pila|Pile
+Radio|Radio|Radio
+Laptop|Portátil|Ordinateur portable
+Tablet|Tableta|Tablette
+Camera|Cámara|Appareil photo
+Headphones|Auriculares|Écouteurs
+Remote control|Control remoto|Télécommande
+Toy|Juguete|Jouet
+Ball|Pelota|Ballon
+Doll|Muñeca|Poupée
+Kite|Cometa|Cerf-volant
+Bicycle|Bicicleta|Vélo
+Coin|Moneda|Pièce
+Wallet|Cartera|Portefeuille
+Card|Tarjeta|Carte
+Map|Mapa|Carte géographique
+Letter|Carta|Lettre
+Newspaper|Periódico|Journal
+Magazine|Revista|Magazine
+Paper|Papel|Papier
+Pen|Bolígrafo|Stylo
+Scissors|Tijeras|Ciseaux
+Glue|Pegamento|Colle
+Ruler|Regla|Règle
+Eraser|Borrador|Gomme
+Blackboard|Pizarra|Tableau noir
+Desk|Escritorio|Bureau
+Notebook|Cuaderno|Cahier
+Backpack|Mochila|Sac à dos
+Cupboard|Armario|Placard
+Shelf|Estante|Étagère
+Curtain|Cortina|Rideau
+Carpet|Alfombra|Tapis
+Iron|Plancha|Fer à repasser
+Needle|Aguja|Aiguille
+Thread|Hilo|Fil
+Hammer|Martillo|Marteau
+Nail|Clavo|Clou
+Saw|Sierra|Scie
+Ladder|Escalera de mano|Échelle
+Wheelbarrow|Carretilla|Brouette
+Machete|Machete|Machette
+Hoe|Azada|Houe
+Broom stick|Palo de escoba|Manche à balai
+Stool|Taburete|Tabouret
+Bench|Banco|Banc
+Hammock|Hamaca|Hamac
+Cot|Cuna|Berceau
+Diaper|Pañal|Couche
+Bottle for baby|Biberón|Biberon
+Stroller|Cochecito|Poussette
+Crayons|Crayones|Crayons
+Puzzle|Rompecabezas|Puzzle
+Cards game|Juego de cartas|Jeu de cartes
+Football|Balón de fútbol|Ballon de football
+Drum|Tambor|Tambour
+Guitar|Guitarra|Guitare
+Piano|Piano|Piano
+Trophy|Trofeo|Trophée
+Medal|Medalla|Médaille
+Flag|Bandera|Drapeau

@@ -1,0 +1,152 @@
+# Words whose ARASAAC pictogram was checked by eye and found wrong or misleading.
+# build_vocab.py never includes these. One English label per line.
+Good luck
+Repeat
+Quiet
+Come here
+Share
+Together
+Alone
+Story
+Kind
+Trader
+Stranger
+Lip
+Knee
+Toe
+Fingernail
+Voice
+Clinic
+Sleepy
+Blind
+Mask
+Lonely
+Silly
+Upset
+Safe
+Peaceful
+Decide
+Tell
+Taste
+Miss
+Hope
+Wish
+Tie
+Charge
+Ring
+Visit
+Relax
+Spend
+Borrow
+Try
+Use
+Keep
+Nod
+Bow
+Light
+Young
+Good
+Loud
+Sour
+True
+Out
+Top
+Bottom
+Round
+Flat
+Deep
+Early
+Careful
+Fair
+Special
+Sauce
+Porridge
+Palm oil
+Watermelon juice
+Drinking straw
+Hot drink
+Room
+Yard
+Park
+Court
+Well
+Compound
+Courtyard
+Attic
+Torch
+Hammock
+Bottle for baby
+Cards game
+Uniform
+Suit
+Headscarf
+Broom stick
+Nail
+Fly insect
+Soil
+Shadow
+Windy
+Earth
+Soon
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+Five
+Hundred
+Triangle
+Shape
+Word
+Sentence
+Game
+Running
+God
+Festival
+Blessing
+Village chief
+Discount
+Customer
+Debt
+Bargain
+Full price
+Free of charge
+Ship
+Seat belt
+Road sign
+Journey
+App
+Website
+Computer mouse
+Stall
+Profit
+Ringer
+Octopus
+Almond
+Date fruit
+Black pepper
+Water jug
+Vinegar
+Milkshake
+Chief
+Guest
+Old man
+Old woman
+Catch
+Kick
+Lift
+Pull
+Close
+Turn off
+Watch
+Wave
+Wear
+Corn
+Key
+Mouse
+Card
+Shorts
+Dress
+Cross

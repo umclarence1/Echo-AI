@@ -1,0 +1,6002 @@
+{
+"Hello": {
+"id": 6522,
+"how": "exact",
+"query": "hello"
+},
+"Goodbye": {
+"id": 6028,
+"how": "exact",
+"query": "goodbye"
+},
+"Good morning": {
+"id": 6944,
+"how": "exact",
+"query": "good morning"
+},
+"Good night": {
+"id": 6942,
+"how": "exact",
+"query": "good night"
+},
+"Sorry": {
+"id": 11625,
+"how": "exact",
+"query": "sorry"
+},
+"Welcome": {
+"id": 6936,
+"how": "exact",
+"query": "welcome"
+},
+"Congratulations": {
+"id": 38566,
+"how": "exact",
+"query": "congratulations"
+},
+"Happy birthday": {
+"id": 5997,
+"how": "exact",
+"query": "happy birthday"
+},
+"Good luck": {
+"id": 11164,
+"how": "first",
+"query": "good luck"
+},
+"I love you": {
+"id": 11538,
+"how": "first",
+"query": "i love you"
+},
+"Wait": {
+"id": 36914,
+"how": "exact",
+"query": "wait"
+},
+"More": {
+"id": 5508,
+"how": "exact",
+"query": "more"
+},
+"Again": {
+"id": 37163,
+"how": "exact",
+"query": "again"
+},
+"Finished": {
+"id": 28429,
+"how": "partial",
+"query": "finished"
+},
+"Repeat": {
+"id": 11752,
+"how": "exact",
+"query": "repeat"
+},
+"Slowly": {
+"id": 4676,
+"how": "exact",
+"query": "slowly"
+},
+"Quiet": {
+"id": 38050,
+"how": "exact",
+"query": "quiet"
+},
+"Come here": {
+"id": 32669,
+"how": "exact",
+"query": "come"
+},
+"Share": {
+"id": 38900,
+"how": "exact",
+"query": "share"
+},
+"Together": {
+"id": 5367,
+"how": "exact",
+"query": "together"
+},
+"Alone": {
+"id": 7253,
+"how": "exact",
+"query": "alone"
+},
+"Hug": {
+"id": 4550,
+"how": "exact",
+"query": "hug"
+},
+"Kiss": {
+"id": 6062,
+"how": "exact",
+"query": "kiss"
+},
+"Gift": {
+"id": 25381,
+"how": "exact",
+"query": "gift"
+},
+"Party": {
+"id": 7099,
+"how": "exact",
+"query": "party"
+},
+"Birthday": {
+"id": 37363,
+"how": "exact",
+"query": "birthday"
+},
+"Secret": {
+"id": 39842,
+"how": "partial",
+"query": "secret"
+},
+"Promise": {
+"id": 37046,
+"how": "exact",
+"query": "promise"
+},
+"Joke": {
+"id": 21537,
+"how": "exact",
+"query": "joke"
+},
+"Story": {
+"id": 6469,
+"how": "exact",
+"query": "story"
+},
+"Song": {
+"id": 24791,
+"how": "exact",
+"query": "song"
+},
+"Friendship": {
+"id": 8488,
+"how": "exact",
+"query": "friendship"
+},
+"Kind": {
+"id": 33994,
+"how": "exact",
+"query": "kind"
+},
+"Mother": {
+"id": 2458,
+"how": "exact",
+"query": "mother"
+},
+"Father": {
+"id": 2497,
+"how": "exact",
+"query": "father"
+},
+"Sister": {
+"id": 2422,
+"how": "exact",
+"query": "sister"
+},
+"Brother": {
+"id": 2423,
+"how": "exact",
+"query": "brother"
+},
+"Grandmother": {
+"id": 23710,
+"how": "exact",
+"query": "grandmother"
+},
+"Grandfather": {
+"id": 23718,
+"how": "exact",
+"query": "grandfather"
+},
+"Aunt": {
+"id": 30271,
+"how": "exact",
+"query": "aunt"
+},
+"Uncle": {
+"id": 30255,
+"how": "exact",
+"query": "uncle"
+},
+"Cousin": {
+"id": 30340,
+"how": "exact",
+"query": "cousin"
+},
+"Son": {
+"id": 9887,
+"how": "exact",
+"query": "son"
+},
+"Daughter": {
+"id": 9885,
+"how": "exact",
+"query": "daughter"
+},
+"Husband": {
+"id": 8111,
+"how": "exact",
+"query": "husband"
+},
+"Wife": {
+"id": 8110,
+"how": "exact",
+"query": "wife"
+},
+"Baby": {
+"id": 6060,
+"how": "exact",
+"query": "baby"
+},
+"Boy": {
+"id": 7176,
+"how": "exact",
+"query": "boy"
+},
+"Girl": {
+"id": 27509,
+"how": "exact",
+"query": "girl"
+},
+"Man": {
+"id": 4665,
+"how": "exact",
+"query": "man"
+},
+"Woman": {
+"id": 24621,
+"how": "exact",
+"query": "woman"
+},
+"Child": {
+"id": 7176,
+"how": "exact",
+"query": "child"
+},
+"Family": {
+"id": 2392,
+"how": "exact",
+"query": "family"
+},
+"Neighbor": {
+"id": 37228,
+"how": "exact",
+"query": "neighbor"
+},
+"Police officer": {
+"id": 37367,
+"how": "exact",
+"query": "police officer"
+},
+"Firefighter": {
+"id": 6066,
+"how": "exact",
+"query": "firefighter"
+},
+"Soldier": {
+"id": 2797,
+"how": "exact",
+"query": "soldier"
+},
+"Farmer": {
+"id": 2982,
+"how": "exact",
+"query": "farmer"
+},
+"Driver": {
+"id": 3019,
+"how": "exact",
+"query": "driver"
+},
+"Cook": {
+"id": 2342,
+"how": "exact",
+"query": "cook"
+},
+"King": {
+"id": 5563,
+"how": "exact",
+"query": "king"
+},
+"Queen": {
+"id": 5559,
+"how": "exact",
+"query": "queen"
+},
+"Dentist": {
+"id": 2733,
+"how": "exact",
+"query": "dentist"
+},
+"Pharmacist": {
+"id": 3312,
+"how": "exact",
+"query": "pharmacist"
+},
+"Tailor": {
+"id": 22100,
+"how": "exact",
+"query": "tailor"
+},
+"Fisherman": {
+"id": 3366,
+"how": "exact",
+"query": "fisherman"
+},
+"Student": {
+"id": 5899,
+"how": "exact",
+"query": "student"
+},
+"Pilot": {
+"id": 3370,
+"how": "exact",
+"query": "pilot"
+},
+"Person": {
+"id": 34560,
+"how": "exact",
+"query": "person"
+},
+"Everyone": {
+"id": 36081,
+"how": "exact",
+"query": "everyone"
+},
+"Someone": {
+"id": 37779,
+"how": "exact",
+"query": "someone"
+},
+"Team": {
+"id": 15264,
+"how": "exact",
+"query": "team"
+},
+"Twins": {
+"id": 7115,
+"how": "exact",
+"query": "twins"
+},
+"Teenager": {
+"id": 10206,
+"how": "exact",
+"query": "teenager"
+},
+"Head": {
+"id": 2673,
+"how": "exact",
+"query": "head"
+},
+"Hair": {
+"id": 2851,
+"how": "exact",
+"query": "hair"
+},
+"Face": {
+"id": 2684,
+"how": "exact",
+"query": "face"
+},
+"Eye": {
+"id": 6573,
+"how": "exact",
+"query": "eye"
+},
+"Ear": {
+"id": 2871,
+"how": "exact",
+"query": "ear"
+},
+"Nose": {
+"id": 2887,
+"how": "exact",
+"query": "nose"
+},
+"Mouth": {
+"id": 2663,
+"how": "exact",
+"query": "mouth"
+},
+"Tooth": {
+"id": 10267,
+"how": "exact",
+"query": "tooth"
+},
+"Tongue": {
+"id": 2944,
+"how": "exact",
+"query": "tongue"
+},
+"Lip": {
+"id": 2992,
+"how": "partial",
+"query": "lip"
+},
+"Neck": {
+"id": 2727,
+"how": "exact",
+"query": "neck"
+},
+"Shoulder": {
+"id": 2977,
+"how": "exact",
+"query": "shoulder"
+},
+"Arm": {
+"id": 2669,
+"how": "exact",
+"query": "arm"
+},
+"Elbow": {
+"id": 2707,
+"how": "exact",
+"query": "elbow"
+},
+"Hand": {
+"id": 28431,
+"how": "exact",
+"query": "hand"
+},
+"Finger": {
+"id": 3298,
+"how": "exact",
+"query": "finger"
+},
+"Thumb": {
+"id": 7799,
+"how": "exact",
+"query": "thumb"
+},
+"Chest": {
+"id": 2853,
+"how": "exact",
+"query": "chest"
+},
+"Back": {
+"id": 2748,
+"how": "exact",
+"query": "back"
+},
+"Stomach": {
+"id": 2786,
+"how": "exact",
+"query": "stomach"
+},
+"Hip": {
+"id": 3000,
+"how": "exact",
+"query": "hip"
+},
+"Leg": {
+"id": 8666,
+"how": "exact",
+"query": "leg"
+},
+"Knee": {
+"id": 2810,
+"how": "exact",
+"query": "knee"
+},
+"Foot": {
+"id": 25327,
+"how": "exact",
+"query": "foot"
+},
+"Toe": {
+"id": 7284,
+"how": "partial",
+"query": "toe"
+},
+"Skin": {
+"id": 2840,
+"how": "exact",
+"query": "skin"
+},
+"Bone": {
+"id": 2972,
+"how": "exact",
+"query": "bone"
+},
+"Heart": {
+"id": 4613,
+"how": "exact",
+"query": "heart"
+},
+"Brain": {
+"id": 2696,
+"how": "exact",
+"query": "brain"
+},
+"Blood": {
+"id": 2803,
+"how": "exact",
+"query": "blood"
+},
+"Throat": {
+"id": 3332,
+"how": "exact",
+"query": "throat"
+},
+"Beard": {
+"id": 2657,
+"how": "exact",
+"query": "beard"
+},
+"Eyebrow": {
+"id": 3011,
+"how": "exact",
+"query": "eyebrow"
+},
+"Fingernail": {
+"id": 2705,
+"how": "exact",
+"query": "nail"
+},
+"Lungs": {
+"id": 2822,
+"how": "exact",
+"query": "lungs"
+},
+"Muscle": {
+"id": 2891,
+"how": "exact",
+"query": "muscle"
+},
+"Voice": {
+"id": 11685,
+"how": "partial",
+"query": "voice"
+},
+"Body": {
+"id": 6473,
+"how": "exact",
+"query": "body"
+},
+"Wheelchair": {
+"id": 25471,
+"how": "exact",
+"query": "wheelchair"
+},
+"Crutches": {
+"id": 6154,
+"how": "exact",
+"query": "crutches"
+},
+"Glasses": {
+"id": 3329,
+"how": "exact",
+"query": "glasses"
+},
+"Hearing aid": {
+"id": 5912,
+"how": "exact",
+"query": "hearing aid"
+},
+"Bandage": {
+"id": 6243,
+"how": "exact",
+"query": "bandage"
+},
+"Injection": {
+"id": 5601,
+"how": "exact",
+"query": "injection"
+},
+"Pill": {
+"id": 39792,
+"how": "exact",
+"query": "pill"
+},
+"Thermometer": {
+"id": 32051,
+"how": "exact",
+"query": "thermometer"
+},
+"Fever": {
+"id": 32530,
+"how": "exact",
+"query": "fever"
+},
+"Cough": {
+"id": 3406,
+"how": "exact",
+"query": "cough"
+},
+"Headache": {
+"id": 28651,
+"how": "exact",
+"query": "headache"
+},
+"Toothache": {
+"id": 10263,
+"how": "exact",
+"query": "toothache"
+},
+"Stomachache": {
+"id": 39664,
+"how": "exact",
+"query": "stomachache"
+},
+"Flu": {
+"id": 5479,
+"how": "exact",
+"query": "flu"
+},
+"Allergy": {
+"id": 5372,
+"how": "exact",
+"query": "allergy"
+},
+"Wound": {
+"id": 30786,
+"how": "partial",
+"query": "wound"
+},
+"Ambulance": {
+"id": 6899,
+"how": "exact",
+"query": "ambulance"
+},
+"Clinic": {
+"id": 36210,
+"how": "exact",
+"query": "clinic"
+},
+"Pharmacy": {
+"id": 37368,
+"how": "exact",
+"query": "pharmacy"
+},
+"X-ray": {
+"id": 6198,
+"how": "exact",
+"query": "x-ray"
+},
+"Surgery": {
+"id": 28019,
+"how": "exact",
+"query": "surgery"
+},
+"Sneeze": {
+"id": 16703,
+"how": "exact",
+"query": "sneeze"
+},
+"Vomit": {
+"id": 2777,
+"how": "exact",
+"query": "vomit"
+},
+"Bleed": {
+"id": 39616,
+"how": "exact",
+"query": "bleed"
+},
+"Hurt": {
+"id": 5484,
+"how": "exact",
+"query": "hurt"
+},
+"Itch": {
+"id": 11356,
+"how": "partial",
+"query": "itch"
+},
+"Dizzy": {
+"id": 2464,
+"how": "exact",
+"query": "dizzy"
+},
+"Healthy": {
+"id": 12293,
+"how": "exact",
+"query": "healthy"
+},
+"Diabetes": {
+"id": 28245,
+"how": "exact",
+"query": "diabetes"
+},
+"Blind": {
+"id": 2518,
+"how": "exact",
+"query": "blind"
+},
+"Deaf": {
+"id": 4748,
+"how": "exact",
+"query": "deaf"
+},
+"Breathe": {
+"id": 34409,
+"how": "exact",
+"query": "breathe"
+},
+"Exercise": {
+"id": 10156,
+"how": "exact",
+"query": "exercise"
+},
+"Vitamins": {
+"id": 9170,
+"how": "exact",
+"query": "vitamins"
+},
+"Mask": {
+"id": 5904,
+"how": "exact",
+"query": "mask"
+},
+"Vaccine": {
+"id": 30074,
+"how": "exact",
+"query": "vaccine"
+},
+"Worried": {
+"id": 26985,
+"how": "exact",
+"query": "worried"
+},
+"Nervous": {
+"id": 30391,
+"how": "exact",
+"query": "nervous"
+},
+"Proud": {
+"id": 31408,
+"how": "exact",
+"query": "proud"
+},
+"Shy": {
+"id": 8707,
+"how": "exact",
+"query": "shy"
+},
+"Lonely": {
+"id": 7253,
+"how": "exact",
+"query": "lonely"
+},
+"Bored": {
+"id": 35531,
+"how": "exact",
+"query": "bored"
+},
+"Jealous": {
+"id": 30630,
+"how": "exact",
+"query": "jealous"
+},
+"Surprised": {
+"id": 35529,
+"how": "exact",
+"query": "surprised"
+},
+"Calm": {
+"id": 37828,
+"how": "exact",
+"query": "calm"
+},
+"Hungry": {
+"id": 4962,
+"how": "exact",
+"query": "hungry"
+},
+"Thirsty": {
+"id": 4963,
+"how": "exact",
+"query": "thirsty"
+},
+"Loved": {
+"id": 11178,
+"how": "partial",
+"query": "loved"
+},
+"Embarrassed": {
+"id": 6922,
+"how": "exact",
+"query": "embarrassed"
+},
+"Silly": {
+"id": 15483,
+"how": "partial",
+"query": "silly"
+},
+"Cheerful": {
+"id": 35533,
+"how": "exact",
+"query": "cheerful"
+},
+"Comfortable": {
+"id": 11248,
+"how": "exact",
+"query": "comfortable"
+},
+"Cry": {
+"id": 7147,
+"how": "exact",
+"query": "cry"
+},
+"Laugh": {
+"id": 13354,
+"how": "exact",
+"query": "laugh"
+},
+"Smile": {
+"id": 13354,
+"how": "exact",
+"query": "smile"
+},
+"Brave": {
+"id": 36163,
+"how": "exact",
+"query": "brave"
+},
+"Safe": {
+"id": 6068,
+"how": "exact",
+"query": "safe"
+},
+"Eat": {
+"id": 6456,
+"how": "exact",
+"query": "eat"
+},
+"Drink": {
+"id": 4575,
+"how": "exact",
+"query": "drink"
+},
+"Sleep": {
+"id": 6479,
+"how": "exact",
+"query": "sleep"
+},
+"Wake up": {
+"id": 8989,
+"how": "exact",
+"query": "wake up"
+},
+"Walk": {
+"id": 29951,
+"how": "exact",
+"query": "walk"
+},
+"Run": {
+"id": 6465,
+"how": "exact",
+"query": "run"
+},
+"Jump": {
+"id": 39052,
+"how": "exact",
+"query": "jump"
+},
+"Sit": {
+"id": 6611,
+"how": "exact",
+"query": "sit"
+},
+"Stand": {
+"id": 13370,
+"how": "exact",
+"query": "stand"
+},
+"Lie down": {
+"id": 6027,
+"how": "exact",
+"query": "lie down"
+},
+"Climb": {
+"id": 8226,
+"how": "exact",
+"query": "climb"
+},
+"Swim": {
+"id": 6568,
+"how": "exact",
+"query": "swim"
+},
+"Fall": {
+"id": 5531,
+"how": "exact",
+"query": "fall"
+},
+"Push": {
+"id": 6485,
+"how": "exact",
+"query": "push"
+},
+"Carry": {
+"id": 8983,
+"how": "exact",
+"query": "carry"
+},
+"Throw": {
+"id": 6543,
+"how": "exact",
+"query": "throw"
+},
+"Hold": {
+"id": 7271,
+"how": "exact",
+"query": "hold"
+},
+"Give": {
+"id": 28431,
+"how": "exact",
+"query": "give"
+},
+"Take": {
+"id": 10148,
+"how": "exact",
+"query": "take"
+},
+"Put": {
+"id": 6989,
+"how": "exact",
+"query": "put"
+},
+"Open": {
+"id": 24825,
+"how": "exact",
+"query": "open"
+},
+"Turn on": {
+"id": 21818,
+"how": "exact",
+"query": "turn on"
+},
+"Start": {
+"id": 5431,
+"how": "exact",
+"query": "start"
+},
+"Wash": {
+"id": 34826,
+"how": "exact",
+"query": "wash"
+},
+"Brush": {
+"id": 2694,
+"how": "exact",
+"query": "brush"
+},
+"Comb": {
+"id": 2852,
+"how": "exact",
+"query": "comb"
+},
+"Get dressed": {
+"id": 6627,
+"how": "exact",
+"query": "get dressed"
+},
+"Undress": {
+"id": 11233,
+"how": "exact",
+"query": "undress"
+},
+"Shower": {
+"id": 26803,
+"how": "exact",
+"query": "shower"
+},
+"Bathe": {
+"id": 6058,
+"how": "exact",
+"query": "bathe"
+},
+"Dry": {
+"id": 2566,
+"how": "exact",
+"query": "dry"
+},
+"Clean": {
+"id": 3351,
+"how": "exact",
+"query": "clean"
+},
+"Sweep": {
+"id": 2658,
+"how": "exact",
+"query": "sweep"
+},
+"Cook a meal": {
+"id": 2342,
+"how": "exact",
+"query": "cook"
+},
+"Bake": {
+"id": 5487,
+"how": "exact",
+"query": "bake"
+},
+"Cut": {
+"id": 5975,
+"how": "exact",
+"query": "cut"
+},
+"Pour": {
+"id": 7298,
+"how": "exact",
+"query": "pour"
+},
+"Mix": {
+"id": 5515,
+"how": "exact",
+"query": "mix"
+},
+"Boil": {
+"id": 5485,
+"how": "exact",
+"query": "boil"
+},
+"Fry": {
+"id": 39476,
+"how": "exact",
+"query": "fry"
+},
+"Serve": {
+"id": 7247,
+"how": "exact",
+"query": "serve"
+},
+"Read": {
+"id": 7141,
+"how": "exact",
+"query": "read"
+},
+"Write": {
+"id": 2380,
+"how": "exact",
+"query": "write"
+},
+"Draw": {
+"id": 8088,
+"how": "exact",
+"query": "draw"
+},
+"Paint": {
+"id": 2348,
+"how": "exact",
+"query": "paint"
+},
+"Count": {
+"id": 2714,
+"how": "exact",
+"query": "count"
+},
+"Learn": {
+"id": 37810,
+"how": "exact",
+"query": "learn"
+},
+"Teach": {
+"id": 26809,
+"how": "exact",
+"query": "teach"
+},
+"Study": {
+"id": 6495,
+"how": "exact",
+"query": "study"
+},
+"Think": {
+"id": 38796,
+"how": "exact",
+"query": "think"
+},
+"Remember": {
+"id": 37369,
+"how": "exact",
+"query": "remember"
+},
+"Forget": {
+"id": 26258,
+"how": "exact",
+"query": "forget"
+},
+"Know": {
+"id": 16885,
+"how": "exact",
+"query": "know"
+},
+"Understand": {
+"id": 11697,
+"how": "exact",
+"query": "understand"
+},
+"Decide": {
+"id": 30510,
+"how": "exact",
+"query": "decide"
+},
+"Choose": {
+"id": 30510,
+"how": "exact",
+"query": "choose"
+},
+"Ask": {
+"id": 25062,
+"how": "exact",
+"query": "ask"
+},
+"Answer": {
+"id": 9031,
+"how": "exact",
+"query": "answer"
+},
+"Say": {
+"id": 9693,
+"how": "exact",
+"query": "say"
+},
+"Tell": {
+"id": 9693,
+"how": "exact",
+"query": "tell"
+},
+"Shout": {
+"id": 6552,
+"how": "exact",
+"query": "shout"
+},
+"Whisper": {
+"id": 9037,
+"how": "exact",
+"query": "whisper"
+},
+"Whistle": {
+"id": 6182,
+"how": "exact",
+"query": "whistle"
+},
+"See": {
+"id": 6564,
+"how": "exact",
+"query": "see"
+},
+"Hear": {
+"id": 6572,
+"how": "exact",
+"query": "hear"
+},
+"Smell": {
+"id": 25275,
+"how": "exact",
+"query": "smell"
+},
+"Taste": {
+"id": 7179,
+"how": "partial",
+"query": "taste"
+},
+"Touch": {
+"id": 3293,
+"how": "exact",
+"query": "touch"
+},
+"Like": {
+"id": 37826,
+"how": "exact",
+"query": "like"
+},
+"Love": {
+"id": 37721,
+"how": "exact",
+"query": "love"
+},
+"Hate": {
+"id": 38936,
+"how": "exact",
+"query": "hate"
+},
+"Miss": {
+"id": 22033,
+"how": "exact",
+"query": "miss"
+},
+"Hope": {
+"id": 32564,
+"how": "exact",
+"query": "hope"
+},
+"Wish": {
+"id": 5441,
+"how": "exact",
+"query": "wish"
+},
+"Have": {
+"id": 7271,
+"how": "exact",
+"query": "have"
+},
+"Make": {
+"id": 11749,
+"how": "exact",
+"query": "make"
+},
+"Build": {
+"id": 2713,
+"how": "exact",
+"query": "build"
+},
+"Fix": {
+"id": 6910,
+"how": "exact",
+"query": "fix"
+},
+"Break": {
+"id": 6604,
+"how": "exact",
+"query": "break"
+},
+"Tie": {
+"id": 4614,
+"how": "exact",
+"query": "tie"
+},
+"Fold": {
+"id": 5544,
+"how": "exact",
+"query": "fold"
+},
+"Hang": {
+"id": 5593,
+"how": "exact",
+"query": "hang"
+},
+"Charge": {
+"id": 15986,
+"how": "exact",
+"query": "charge"
+},
+"Ring": {
+"id": 6900,
+"how": "exact",
+"query": "ring"
+},
+"Send": {
+"id": 21828,
+"how": "exact",
+"query": "send"
+},
+"Receive": {
+"id": 17042,
+"how": "exact",
+"query": "receive"
+},
+"Come": {
+"id": 32669,
+"how": "exact",
+"query": "come"
+},
+"Leave": {
+"id": 2806,
+"how": "exact",
+"query": "leave"
+},
+"Arrive": {
+"id": 16807,
+"how": "exact",
+"query": "arrive"
+},
+"Return": {
+"id": 29714,
+"how": "exact",
+"query": "return"
+},
+"Follow": {
+"id": 7037,
+"how": "exact",
+"query": "follow"
+},
+"Lead": {
+"id": 8994,
+"how": "exact",
+"query": "lead"
+},
+"Drive": {
+"id": 6458,
+"how": "exact",
+"query": "drive"
+},
+"Ride": {
+"id": 6045,
+"how": "exact",
+"query": "ride"
+},
+"Fly": {
+"id": 6246,
+"how": "exact",
+"query": "fly"
+},
+"Visit": {
+"id": 27126,
+"how": "exact",
+"query": "visit"
+},
+"Meet": {
+"id": 39520,
+"how": "partial",
+"query": "meet"
+},
+"Invite": {
+"id": 16717,
+"how": "exact",
+"query": "invite"
+},
+"Thank": {
+"id": 38783,
+"how": "exact",
+"query": "thank"
+},
+"Work": {
+"id": 6624,
+"how": "exact",
+"query": "work"
+},
+"Relax": {
+"id": 37858,
+"how": "exact",
+"query": "relax"
+},
+"Go fishing": {
+"id": 11339,
+"how": "exact",
+"query": "fishing"
+},
+"Plant": {
+"id": 3143,
+"how": "exact",
+"query": "plant"
+},
+"Harvest": {
+"id": 32663,
+"how": "exact",
+"query": "harvest"
+},
+"Pay": {
+"id": 6457,
+"how": "exact",
+"query": "pay"
+},
+"Save": {
+"id": 4556,
+"how": "exact",
+"query": "save"
+},
+"Spend": {
+"id": 16901,
+"how": "partial",
+"query": "spend"
+},
+"Lend": {
+"id": 34790,
+"how": "partial",
+"query": "lend"
+},
+"Try": {
+"id": 8148,
+"how": "exact",
+"query": "try"
+},
+"Use": {
+"id": 15485,
+"how": "exact",
+"query": "use"
+},
+"Keep": {
+"id": 17050,
+"how": "exact",
+"query": "keep"
+},
+"Lose": {
+"id": 24760,
+"how": "exact",
+"query": "lose"
+},
+"Find": {
+"id": 24742,
+"how": "exact",
+"query": "find"
+},
+"Search": {
+"id": 6947,
+"how": "exact",
+"query": "search"
+},
+"Hide": {
+"id": 6493,
+"how": "exact",
+"query": "hide"
+},
+"Show": {
+"id": 16823,
+"how": "exact",
+"query": "show"
+},
+"Point": {
+"id": 6612,
+"how": "exact",
+"query": "point"
+},
+"Nod": {
+"id": 34983,
+"how": "partial",
+"query": "nod"
+},
+"Shake": {
+"id": 5365,
+"how": "exact",
+"query": "shake"
+},
+"Bow": {
+"id": 2946,
+"how": "exact",
+"query": "bow"
+},
+"Kneel": {
+"id": 8032,
+"how": "exact",
+"query": "kneel"
+},
+"Knock": {
+"id": 4687,
+"how": "exact",
+"query": "knock"
+},
+"Stretch": {
+"id": 8989,
+"how": "exact",
+"query": "stretch"
+},
+"Yawn": {
+"id": 8513,
+"how": "exact",
+"query": "yawn"
+},
+"Blow": {
+"id": 7258,
+"how": "exact",
+"query": "blow"
+},
+"Spit": {
+"id": 7090,
+"how": "exact",
+"query": "spit"
+},
+"Wipe": {
+"id": 15343,
+"how": "exact",
+"query": "wipe"
+},
+"Dig": {
+"id": 5952,
+"how": "exact",
+"query": "dig"
+},
+"Pick up": {
+"id": 10148,
+"how": "exact",
+"query": "pick up"
+},
+"Bring": {
+"id": 7280,
+"how": "exact",
+"query": "bring"
+},
+"Move": {
+"id": 7167,
+"how": "exact",
+"query": "move"
+},
+"Turn": {
+"id": 6630,
+"how": "exact",
+"query": "turn"
+},
+"Enter": {
+"id": 2742,
+"how": "exact",
+"query": "enter"
+},
+"Wait in line": {
+"id": 27547,
+"how": "first",
+"query": "wait in line"
+},
+"Celebrate": {
+"id": 16649,
+"how": "exact",
+"query": "celebrate"
+},
+"Take a photo": {
+"id": 7108,
+"how": "partial",
+"query": "take a photo"
+},
+"Big": {
+"id": 4658,
+"how": "exact",
+"query": "big"
+},
+"Small": {
+"id": 4716,
+"how": "exact",
+"query": "small"
+},
+"Tall": {
+"id": 25782,
+"how": "exact",
+"query": "tall"
+},
+"Short": {
+"id": 26002,
+"how": "exact",
+"query": "short"
+},
+"Long": {
+"id": 26162,
+"how": "exact",
+"query": "long"
+},
+"Thin": {
+"id": 25048,
+"how": "exact",
+"query": "thin"
+},
+"Heavy": {
+"id": 27025,
+"how": "exact",
+"query": "heavy"
+},
+"Light": {
+"id": 4604,
+"how": "exact",
+"query": "light"
+},
+"Fast": {
+"id": 5306,
+"how": "exact",
+"query": "fast"
+},
+"Slow": {
+"id": 4676,
+"how": "exact",
+"query": "slow"
+},
+"Hot": {
+"id": 2300,
+"how": "exact",
+"query": "hot"
+},
+"Cold": {
+"id": 4652,
+"how": "exact",
+"query": "cold"
+},
+"Warm": {
+"id": 8521,
+"how": "exact",
+"query": "warm"
+},
+"Cool": {
+"id": 27735,
+"how": "exact",
+"query": "cool"
+},
+"Wet": {
+"id": 37364,
+"how": "exact",
+"query": "wet"
+},
+"Dirty": {
+"id": 4750,
+"how": "exact",
+"query": "dirty"
+},
+"Full": {
+"id": 26176,
+"how": "exact",
+"query": "full"
+},
+"Empty": {
+"id": 26527,
+"how": "exact",
+"query": "empty"
+},
+"Closed": {
+"id": 4596,
+"how": "exact",
+"query": "closed"
+},
+"New": {
+"id": 11316,
+"how": "exact",
+"query": "new"
+},
+"Old": {
+"id": 11394,
+"how": "exact",
+"query": "old"
+},
+"Young": {
+"id": 10206,
+"how": "exact",
+"query": "young"
+},
+"Good": {
+"id": 4581,
+"how": "exact",
+"query": "good"
+},
+"Bad": {
+"id": 5504,
+"how": "exact",
+"query": "bad"
+},
+"Beautiful": {
+"id": 26114,
+"how": "exact",
+"query": "beautiful"
+},
+"Ugly": {
+"id": 26090,
+"how": "exact",
+"query": "ugly"
+},
+"Easy": {
+"id": 4645,
+"how": "exact",
+"query": "easy"
+},
+"Hard": {
+"id": 4637,
+"how": "exact",
+"query": "hard"
+},
+"Soft": {
+"id": 4578,
+"how": "exact",
+"query": "soft"
+},
+"Loud": {
+"id": 34383,
+"how": "partial",
+"query": "loud"
+},
+"Sweet": {
+"id": 32440,
+"how": "exact",
+"query": "sweet"
+},
+"Sour": {
+"id": 39904,
+"how": "partial",
+"query": "sour"
+},
+"Bitter": {
+"id": 30928,
+"how": "exact",
+"query": "bitter"
+},
+"Salty": {
+"id": 32524,
+"how": "exact",
+"query": "salty"
+},
+"Spicy": {
+"id": 4719,
+"how": "exact",
+"query": "spicy"
+},
+"Rich": {
+"id": 4733,
+"how": "exact",
+"query": "rich"
+},
+"Poor": {
+"id": 4723,
+"how": "exact",
+"query": "poor"
+},
+"Wrong": {
+"id": 22198,
+"how": "exact",
+"query": "wrong"
+},
+"True": {
+"id": 8715,
+"how": "exact",
+"query": "true"
+},
+"Same": {
+"id": 4667,
+"how": "exact",
+"query": "same"
+},
+"Different": {
+"id": 4628,
+"how": "exact",
+"query": "different"
+},
+"First": {
+"id": 37753,
+"how": "exact",
+"query": "first"
+},
+"Last": {
+"id": 4765,
+"how": "exact",
+"query": "last"
+},
+"Next": {
+"id": 27331,
+"how": "exact",
+"query": "next"
+},
+"Left": {
+"id": 9203,
+"how": "exact",
+"query": "left"
+},
+"Up": {
+"id": 5388,
+"how": "exact",
+"query": "up"
+},
+"Down": {
+"id": 6215,
+"how": "partial",
+"query": "down"
+},
+"In": {
+"id": 7034,
+"how": "exact",
+"query": "in"
+},
+"Out": {
+"id": 8252,
+"how": "exact",
+"query": "out"
+},
+"On": {
+"id": 7814,
+"how": "exact",
+"query": "on"
+},
+"Under": {
+"id": 7047,
+"how": "exact",
+"query": "under"
+},
+"Behind": {
+"id": 5443,
+"how": "exact",
+"query": "behind"
+},
+"In front": {
+"id": 5438,
+"how": "exact",
+"query": "in front"
+},
+"Near": {
+"id": 30383,
+"how": "exact",
+"query": "near"
+},
+"Far": {
+"id": 30385,
+"how": "exact",
+"query": "far"
+},
+"Inside": {
+"id": 5439,
+"how": "exact",
+"query": "inside"
+},
+"Here": {
+"id": 5382,
+"how": "exact",
+"query": "here"
+},
+"There": {
+"id": 5375,
+"how": "exact",
+"query": "there"
+},
+"Top": {
+"id": 16601,
+"how": "exact",
+"query": "top"
+},
+"Bottom": {
+"id": 32818,
+"how": "exact",
+"query": "bottom"
+},
+"Middle": {
+"id": 5449,
+"how": "exact",
+"query": "middle"
+},
+"Many": {
+"id": 7168,
+"how": "exact",
+"query": "many"
+},
+"Few": {
+"id": 7209,
+"how": "exact",
+"query": "few"
+},
+"All": {
+"id": 5596,
+"how": "exact",
+"query": "all"
+},
+"Enough": {
+"id": 28429,
+"how": "partial",
+"query": "enough"
+},
+"Too much": {
+"id": 39188,
+"how": "exact",
+"query": "too much"
+},
+"Very": {
+"id": 25708,
+"how": "exact",
+"query": "very"
+},
+"Little": {
+"id": 25839,
+"how": "exact",
+"query": "little"
+},
+"Round": {
+"id": 16717,
+"how": "partial",
+"query": "round"
+},
+"Flat": {
+"id": 13372,
+"how": "exact",
+"query": "flat"
+},
+"Sharp": {
+"id": 5362,
+"how": "exact",
+"query": "sharp"
+},
+"Smooth": {
+"id": 4685,
+"how": "exact",
+"query": "smooth"
+},
+"Rough": {
+"id": 4568,
+"how": "exact",
+"query": "rough"
+},
+"Thick": {
+"id": 34017,
+"how": "exact",
+"query": "thick"
+},
+"Deep": {
+"id": 30136,
+"how": "partial",
+"query": "deep"
+},
+"Wide": {
+"id": 4559,
+"how": "exact",
+"query": "wide"
+},
+"Narrow": {
+"id": 4643,
+"how": "exact",
+"query": "narrow"
+},
+"Strong": {
+"id": 25121,
+"how": "exact",
+"query": "strong"
+},
+"Weak": {
+"id": 25044,
+"how": "exact",
+"query": "weak"
+},
+"Free": {
+"id": 11474,
+"how": "exact",
+"query": "free"
+},
+"Ready": {
+"id": 17000,
+"how": "exact",
+"query": "ready"
+},
+"Late": {
+"id": 37780,
+"how": "exact",
+"query": "late"
+},
+"Early": {
+"id": 36079,
+"how": "partial",
+"query": "early"
+},
+"Careful": {
+"id": 25618,
+"how": "partial",
+"query": "careful"
+},
+"Fair": {
+"id": 36241,
+"how": "partial",
+"query": "fair"
+},
+"Special": {
+"id": 21020,
+"how": "partial",
+"query": "special"
+},
+"Important": {
+"id": 11471,
+"how": "exact",
+"query": "important"
+},
+"Alive": {
+"id": 11397,
+"how": "exact",
+"query": "alive"
+},
+"Broken": {
+"id": 32388,
+"how": "exact",
+"query": "broken"
+},
+"Lost": {
+"id": 36295,
+"how": "exact",
+"query": "lost"
+},
+"Apple": {
+"id": 2462,
+"how": "exact",
+"query": "apple"
+},
+"Banana": {
+"id": 2530,
+"how": "exact",
+"query": "banana"
+},
+"Mango": {
+"id": 16813,
+"how": "exact",
+"query": "mango"
+},
+"Pineapple": {
+"id": 2525,
+"how": "exact",
+"query": "pineapple"
+},
+"Papaya": {
+"id": 16829,
+"how": "exact",
+"query": "papaya"
+},
+"Watermelon": {
+"id": 2557,
+"how": "exact",
+"query": "watermelon"
+},
+"Grapes": {
+"id": 3247,
+"how": "exact",
+"query": "grapes"
+},
+"Lemon": {
+"id": 3022,
+"how": "exact",
+"query": "lemon"
+},
+"Coconut": {
+"id": 10224,
+"how": "exact",
+"query": "coconut"
+},
+"Avocado": {
+"id": 8009,
+"how": "exact",
+"query": "avocado"
+},
+"Pear": {
+"id": 2561,
+"how": "exact",
+"query": "pear"
+},
+"Strawberry": {
+"id": 2400,
+"how": "exact",
+"query": "strawberry"
+},
+"Tomato": {
+"id": 2594,
+"how": "exact",
+"query": "tomato"
+},
+"Onion": {
+"id": 2323,
+"how": "exact",
+"query": "onion"
+},
+"Pepper": {
+"id": 2838,
+"how": "exact",
+"query": "pepper"
+},
+"Carrot": {
+"id": 2619,
+"how": "exact",
+"query": "carrot"
+},
+"Cabbage": {
+"id": 2708,
+"how": "exact",
+"query": "cabbage"
+},
+"Potato": {
+"id": 2503,
+"how": "exact",
+"query": "potato"
+},
+"Yam": {
+"id": 39818,
+"how": "exact",
+"query": "yam"
+},
+"Cassava": {
+"id": 39819,
+"how": "exact",
+"query": "cassava"
+},
+"Plantain": {
+"id": 37505,
+"how": "exact",
+"query": "plantain"
+},
+"Peanut": {
+"id": 8338,
+"how": "exact",
+"query": "peanut"
+},
+"Beans": {
+"id": 3294,
+"how": "exact",
+"query": "beans"
+},
+"Egg": {
+"id": 2427,
+"how": "exact",
+"query": "egg"
+},
+"Chicken": {
+"id": 4952,
+"how": "exact",
+"query": "chicken"
+},
+"Fish": {
+"id": 2520,
+"how": "exact",
+"query": "fish"
+},
+"Meat": {
+"id": 2316,
+"how": "exact",
+"query": "meat"
+},
+"Beef": {
+"id": 25630,
+"how": "exact",
+"query": "beef"
+},
+"Pork": {
+"id": 25622,
+"how": "exact",
+"query": "pork"
+},
+"Sausage": {
+"id": 6647,
+"how": "exact",
+"query": "sausage"
+},
+"Butter": {
+"id": 2461,
+"how": "exact",
+"query": "butter"
+},
+"Cheese": {
+"id": 2541,
+"how": "exact",
+"query": "cheese"
+},
+"Milk": {
+"id": 2445,
+"how": "exact",
+"query": "milk"
+},
+"Yogurt": {
+"id": 2618,
+"how": "exact",
+"query": "yogurt"
+},
+"Ice cream": {
+"id": 39483,
+"how": "exact",
+"query": "ice cream"
+},
+"Cake": {
+"id": 2502,
+"how": "exact",
+"query": "cake"
+},
+"Biscuit": {
+"id": 8312,
+"how": "exact",
+"query": "biscuit"
+},
+"Chocolate": {
+"id": 25940,
+"how": "exact",
+"query": "chocolate"
+},
+"Candy": {
+"id": 2686,
+"how": "exact",
+"query": "candy"
+},
+"Sugar": {
+"id": 25560,
+"how": "exact",
+"query": "sugar"
+},
+"Salt": {
+"id": 25576,
+"how": "exact",
+"query": "salt"
+},
+"Oil": {
+"id": 2246,
+"how": "exact",
+"query": "oil"
+},
+"Flour": {
+"id": 8600,
+"how": "exact",
+"query": "flour"
+},
+"Honey": {
+"id": 2911,
+"how": "exact",
+"query": "honey"
+},
+"Jam": {
+"id": 2470,
+"how": "exact",
+"query": "jam"
+},
+"Sauce": {
+"id": 35735,
+"how": "exact",
+"query": "sauce"
+},
+"Salad": {
+"id": 2377,
+"how": "exact",
+"query": "salad"
+},
+"Sandwich": {
+"id": 2281,
+"how": "exact",
+"query": "sandwich"
+},
+"Pizza": {
+"id": 2527,
+"how": "exact",
+"query": "pizza"
+},
+"Burger": {
+"id": 2419,
+"how": "exact",
+"query": "burger"
+},
+"Chips": {
+"id": 2505,
+"how": "exact",
+"query": "chips"
+},
+"Noodles": {
+"id": 8584,
+"how": "exact",
+"query": "noodles"
+},
+"Pasta": {
+"id": 8652,
+"how": "exact",
+"query": "pasta"
+},
+"Pancake": {
+"id": 34233,
+"how": "partial",
+"query": "pancake"
+},
+"Tea": {
+"id": 29802,
+"how": "exact",
+"query": "tea"
+},
+"Coffee": {
+"id": 24479,
+"how": "exact",
+"query": "coffee"
+},
+"Juice": {
+"id": 11461,
+"how": "exact",
+"query": "juice"
+},
+"Soda": {
+"id": 4732,
+"how": "exact",
+"query": "soda"
+},
+"Breakfast": {
+"id": 4626,
+"how": "exact",
+"query": "breakfast"
+},
+"Lunch": {
+"id": 4611,
+"how": "exact",
+"query": "lunch"
+},
+"Dinner": {
+"id": 4611,
+"how": "exact",
+"query": "dinner"
+},
+"Meal": {
+"id": 11627,
+"how": "partial",
+"query": "meal"
+},
+"Spoon": {
+"id": 2362,
+"how": "exact",
+"query": "spoon"
+},
+"Fork": {
+"id": 2588,
+"how": "exact",
+"query": "fork"
+},
+"Knife": {
+"id": 4931,
+"how": "exact",
+"query": "knife"
+},
+"Plate": {
+"id": 16857,
+"how": "exact",
+"query": "plate"
+},
+"Bowl": {
+"id": 3257,
+"how": "exact",
+"query": "bowl"
+},
+"Cup": {
+"id": 2582,
+"how": "exact",
+"query": "cup"
+},
+"Bottle": {
+"id": 2288,
+"how": "exact",
+"query": "bottle"
+},
+"Kettle": {
+"id": 39004,
+"how": "exact",
+"query": "kettle"
+},
+"Shrimp": {
+"id": 8350,
+"how": "exact",
+"query": "shrimp"
+},
+"Crab meat": {
+"id": 2312,
+"how": "exact",
+"query": "crab"
+},
+"Mushroom": {
+"id": 8328,
+"how": "exact",
+"query": "mushroom"
+},
+"Garlic": {
+"id": 2641,
+"how": "exact",
+"query": "garlic"
+},
+"Ginger": {
+"id": 37252,
+"how": "exact",
+"query": "ginger"
+},
+"Cucumber": {
+"id": 2847,
+"how": "exact",
+"query": "cucumber"
+},
+"Lettuce": {
+"id": 2446,
+"how": "exact",
+"query": "lettuce"
+},
+"Spinach": {
+"id": 8311,
+"how": "exact",
+"query": "spinach"
+},
+"Okra": {
+"id": 39817,
+"how": "exact",
+"query": "okra"
+},
+"Palm oil": {
+"id": 2246,
+"how": "first",
+"query": "palm oil"
+},
+"Peas": {
+"id": 7182,
+"how": "exact",
+"query": "peas"
+},
+"Lime": {
+"id": 15453,
+"how": "exact",
+"query": "lime"
+},
+"Watermelon juice": {
+"id": 2557,
+"how": "exact",
+"query": "watermelon"
+},
+"Water bottle": {
+"id": 4587,
+"how": "exact",
+"query": "water bottle"
+},
+"Drinking straw": {
+"id": 6163,
+"how": "exact",
+"query": "straw"
+},
+"Napkin": {
+"id": 36303,
+"how": "exact",
+"query": "napkin"
+},
+"Lunch box": {
+"id": 39457,
+"how": "exact",
+"query": "lunch box"
+},
+"Popcorn": {
+"id": 5534,
+"how": "exact",
+"query": "popcorn"
+},
+"Toast": {
+"id": 17330,
+"how": "exact",
+"query": "toast"
+},
+"Cereal": {
+"id": 34749,
+"how": "exact",
+"query": "cereal"
+},
+"Soup bowl": {
+"id": 2573,
+"how": "exact",
+"query": "soup"
+},
+"Hot drink": {
+"id": 4575,
+"how": "first",
+"query": "hot drink"
+},
+"Cold drink": {
+"id": 37529,
+"how": "partial",
+"query": "cold drink"
+},
+"House": {
+"id": 6964,
+"how": "exact",
+"query": "house"
+},
+"Room": {
+"id": 32234,
+"how": "exact",
+"query": "room"
+},
+"Bedroom": {
+"id": 5988,
+"how": "exact",
+"query": "bedroom"
+},
+"Living room": {
+"id": 6211,
+"how": "exact",
+"query": "living room"
+},
+"Garden": {
+"id": 2974,
+"how": "exact",
+"query": "garden"
+},
+"Yard": {
+"id": 23979,
+"how": "partial",
+"query": "yard"
+},
+"Street": {
+"id": 2299,
+"how": "exact",
+"query": "street"
+},
+"Road": {
+"id": 2302,
+"how": "exact",
+"query": "road"
+},
+"Bridge": {
+"id": 6194,
+"how": "exact",
+"query": "bridge"
+},
+"City": {
+"id": 2704,
+"how": "exact",
+"query": "city"
+},
+"Village": {
+"id": 2823,
+"how": "exact",
+"query": "village"
+},
+"Country": {
+"id": 35431,
+"how": "exact",
+"query": "country"
+},
+"Beach": {
+"id": 30518,
+"how": "exact",
+"query": "beach"
+},
+"River": {
+"id": 2811,
+"how": "exact",
+"query": "river"
+},
+"Sea": {
+"id": 2925,
+"how": "exact",
+"query": "sea"
+},
+"Lake": {
+"id": 6022,
+"how": "exact",
+"query": "lake"
+},
+"Mountain": {
+"id": 2909,
+"how": "exact",
+"query": "mountain"
+},
+"Forest": {
+"id": 2666,
+"how": "exact",
+"query": "forest"
+},
+"Farm": {
+"id": 32482,
+"how": "exact",
+"query": "farm"
+},
+"Park": {
+"id": 5379,
+"how": "exact",
+"query": "park"
+},
+"Playground": {
+"id": 33064,
+"how": "exact",
+"query": "playground"
+},
+"Shop": {
+"id": 35695,
+"how": "exact",
+"query": "shop"
+},
+"Supermarket": {
+"id": 3389,
+"how": "exact",
+"query": "supermarket"
+},
+"Bank": {
+"id": 3062,
+"how": "exact",
+"query": "bank"
+},
+"Post office": {
+"id": 6464,
+"how": "exact",
+"query": "post office"
+},
+"Police station": {
+"id": 3083,
+"how": "exact",
+"query": "police station"
+},
+"Fire station": {
+"id": 3140,
+"how": "exact",
+"query": "fire station"
+},
+"Library": {
+"id": 6063,
+"how": "exact",
+"query": "library"
+},
+"Cinema": {
+"id": 30387,
+"how": "exact",
+"query": "cinema"
+},
+"Stadium": {
+"id": 5993,
+"how": "exact",
+"query": "stadium"
+},
+"Mosque": {
+"id": 24177,
+"how": "exact",
+"query": "mosque"
+},
+"Toilet": {
+"id": 5921,
+"how": "exact",
+"query": "toilet"
+},
+"Office": {
+"id": 36089,
+"how": "exact",
+"query": "office"
+},
+"Factory": {
+"id": 24507,
+"how": "exact",
+"query": "factory"
+},
+"Hotel": {
+"id": 15730,
+"how": "exact",
+"query": "hotel"
+},
+"Bakery": {
+"id": 6576,
+"how": "exact",
+"query": "bakery"
+},
+"Petrol station": {
+"id": 32404,
+"how": "exact",
+"query": "petrol station"
+},
+"Court": {
+"id": 6186,
+"how": "exact",
+"query": "court"
+},
+"Museum": {
+"id": 32406,
+"how": "exact",
+"query": "museum"
+},
+"Zoo": {
+"id": 4773,
+"how": "exact",
+"query": "zoo"
+},
+"Bus stop": {
+"id": 2499,
+"how": "exact",
+"query": "bus stop"
+},
+"Classroom": {
+"id": 9815,
+"how": "exact",
+"query": "classroom"
+},
+"Playing field": {
+"id": 27230,
+"how": "first",
+"query": "playing field"
+},
+"Well": {
+"id": 5397,
+"how": "exact",
+"query": "well"
+},
+"Kiosk": {
+"id": 2956,
+"how": "exact",
+"query": "kiosk"
+},
+"Port": {
+"id": 3145,
+"how": "exact",
+"query": "port"
+},
+"Island": {
+"id": 2966,
+"how": "exact",
+"query": "island"
+},
+"Desert": {
+"id": 2734,
+"how": "exact",
+"query": "desert"
+},
+"Cave": {
+"id": 2729,
+"how": "exact",
+"query": "cave"
+},
+"Waterfall": {
+"id": 5951,
+"how": "exact",
+"query": "waterfall"
+},
+"Bush": {
+"id": 30241,
+"how": "exact",
+"query": "bush"
+},
+"Courtyard": {
+"id": 39552,
+"how": "partial",
+"query": "courtyard"
+},
+"Balcony": {
+"id": 8254,
+"how": "exact",
+"query": "balcony"
+},
+"Attic": {
+"id": 25879,
+"how": "exact",
+"query": "attic"
+},
+"Basement": {
+"id": 8223,
+"how": "exact",
+"query": "basement"
+},
+"Corridor": {
+"id": 16315,
+"how": "exact",
+"query": "corridor"
+},
+"Shopping mall": {
+"id": 15551,
+"how": "exact",
+"query": "shopping mall"
+},
+"Door": {
+"id": 3244,
+"how": "exact",
+"query": "door"
+},
+"Window": {
+"id": 2611,
+"how": "exact",
+"query": "window"
+},
+"Wall": {
+"id": 2860,
+"how": "exact",
+"query": "wall"
+},
+"Roof": {
+"id": 2584,
+"how": "exact",
+"query": "roof"
+},
+"Floor": {
+"id": 2575,
+"how": "exact",
+"query": "floor"
+},
+"Stairs": {
+"id": 2379,
+"how": "exact",
+"query": "stairs"
+},
+"Lock": {
+"id": 3261,
+"how": "exact",
+"query": "lock"
+},
+"Lamp": {
+"id": 4936,
+"how": "exact",
+"query": "lamp"
+},
+"Fan": {
+"id": 2612,
+"how": "exact",
+"query": "fan"
+},
+"Air conditioner": {
+"id": 2640,
+"how": "exact",
+"query": "air conditioner"
+},
+"Fridge": {
+"id": 3272,
+"how": "exact",
+"query": "fridge"
+},
+"Stove": {
+"id": 2341,
+"how": "exact",
+"query": "stove"
+},
+"Oven": {
+"id": 2426,
+"how": "exact",
+"query": "oven"
+},
+"Microwave": {
+"id": 2473,
+"how": "exact",
+"query": "microwave"
+},
+"Chair": {
+"id": 3155,
+"how": "exact",
+"query": "chair"
+},
+"Sofa": {
+"id": 25479,
+"how": "exact",
+"query": "sofa"
+},
+"Pillow": {
+"id": 2250,
+"how": "exact",
+"query": "pillow"
+},
+"Blanket": {
+"id": 2459,
+"how": "exact",
+"query": "blanket"
+},
+"Mattress": {
+"id": 8078,
+"how": "exact",
+"query": "mattress"
+},
+"Mirror": {
+"id": 8573,
+"how": "exact",
+"query": "mirror"
+},
+"Clock": {
+"id": 5561,
+"how": "exact",
+"query": "clock"
+},
+"Watch on wrist": {
+"id": 2549,
+"how": "exact",
+"query": "wristwatch"
+},
+"Calendar": {
+"id": 32488,
+"how": "exact",
+"query": "calendar"
+},
+"Broom": {
+"id": 2658,
+"how": "exact",
+"query": "broom"
+},
+"Bucket": {
+"id": 2725,
+"how": "exact",
+"query": "bucket"
+},
+"Soap": {
+"id": 8094,
+"how": "exact",
+"query": "soap"
+},
+"Towel": {
+"id": 2593,
+"how": "exact",
+"query": "towel"
+},
+"Toothbrush": {
+"id": 2694,
+"how": "exact",
+"query": "toothbrush"
+},
+"Toothpaste": {
+"id": 2858,
+"how": "exact",
+"query": "toothpaste"
+},
+"Hairbrush": {
+"id": 2695,
+"how": "exact",
+"query": "hairbrush"
+},
+"Shampoo": {
+"id": 2699,
+"how": "exact",
+"query": "shampoo"
+},
+"Toilet paper": {
+"id": 2862,
+"how": "exact",
+"query": "toilet paper"
+},
+"Tap": {
+"id": 2414,
+"how": "exact",
+"query": "tap"
+},
+"Bin": {
+"id": 2355,
+"how": "exact",
+"query": "bin"
+},
+"Box": {
+"id": 5935,
+"how": "exact",
+"query": "box"
+},
+"Basket": {
+"id": 3012,
+"how": "exact",
+"query": "basket"
+},
+"Rope": {
+"id": 7006,
+"how": "exact",
+"query": "rope"
+},
+"Umbrella": {
+"id": 2500,
+"how": "exact",
+"query": "umbrella"
+},
+"Torch": {
+"id": 5905,
+"how": "exact",
+"query": "torch"
+},
+"Candle": {
+"id": 6242,
+"how": "exact",
+"query": "candle"
+},
+"Battery": {
+"id": 8320,
+"how": "exact",
+"query": "battery"
+},
+"Radio": {
+"id": 26358,
+"how": "exact",
+"query": "radio"
+},
+"Laptop": {
+"id": 7214,
+"how": "exact",
+"query": "laptop"
+},
+"Tablet": {
+"id": 28099,
+"how": "exact",
+"query": "tablet"
+},
+"Camera": {
+"id": 24925,
+"how": "exact",
+"query": "camera"
+},
+"Headphones": {
+"id": 5915,
+"how": "exact",
+"query": "headphones"
+},
+"Remote control": {
+"id": 26182,
+"how": "exact",
+"query": "remote control"
+},
+"Toy": {
+"id": 9813,
+"how": "exact",
+"query": "toy"
+},
+"Ball": {
+"id": 3241,
+"how": "exact",
+"query": "ball"
+},
+"Doll": {
+"id": 26238,
+"how": "exact",
+"query": "doll"
+},
+"Kite": {
+"id": 2350,
+"how": "exact",
+"query": "kite"
+},
+"Bicycle": {
+"id": 6935,
+"how": "exact",
+"query": "bicycle"
+},
+"Coin": {
+"id": 8633,
+"how": "partial",
+"query": "coin"
+},
+"Wallet": {
+"id": 2689,
+"how": "exact",
+"query": "wallet"
+},
+"Map": {
+"id": 5505,
+"how": "exact",
+"query": "map"
+},
+"Letter": {
+"id": 2688,
+"how": "exact",
+"query": "letter"
+},
+"Newspaper": {
+"id": 2845,
+"how": "exact",
+"query": "newspaper"
+},
+"Magazine": {
+"id": 24364,
+"how": "exact",
+"query": "magazine"
+},
+"Paper": {
+"id": 8349,
+"how": "exact",
+"query": "paper"
+},
+"Pen": {
+"id": 10313,
+"how": "exact",
+"query": "pen"
+},
+"Scissors": {
+"id": 2591,
+"how": "exact",
+"query": "scissors"
+},
+"Glue": {
+"id": 2709,
+"how": "exact",
+"query": "glue"
+},
+"Ruler": {
+"id": 2815,
+"how": "exact",
+"query": "ruler"
+},
+"Blackboard": {
+"id": 2526,
+"how": "exact",
+"query": "blackboard"
+},
+"Desk": {
+"id": 36285,
+"how": "partial",
+"query": "desk"
+},
+"Notebook": {
+"id": 2359,
+"how": "exact",
+"query": "notebook"
+},
+"Backpack": {
+"id": 2475,
+"how": "exact",
+"query": "backpack"
+},
+"Cupboard": {
+"id": 23753,
+"how": "exact",
+"query": "cupboard"
+},
+"Shelf": {
+"id": 3279,
+"how": "partial",
+"query": "shelf"
+},
+"Curtain": {
+"id": 8344,
+"how": "exact",
+"query": "curtain"
+},
+"Carpet": {
+"id": 2249,
+"how": "exact",
+"query": "carpet"
+},
+"Iron": {
+"id": 2528,
+"how": "exact",
+"query": "iron"
+},
+"Needle": {
+"id": 2639,
+"how": "exact",
+"query": "needle"
+},
+"Thread": {
+"id": 2978,
+"how": "exact",
+"query": "thread"
+},
+"Hammer": {
+"id": 2705,
+"how": "exact",
+"query": "hammer"
+},
+"Nail": {
+"id": 2705,
+"how": "exact",
+"query": "nail"
+},
+"Saw": {
+"id": 2800,
+"how": "exact",
+"query": "saw"
+},
+"Ladder": {
+"id": 27278,
+"how": "partial",
+"query": "ladder"
+},
+"Wheelbarrow": {
+"id": 5947,
+"how": "exact",
+"query": "wheelbarrow"
+},
+"Machete": {
+"id": 38513,
+"how": "exact",
+"query": "machete"
+},
+"Hoe": {
+"id": 2651,
+"how": "exact",
+"query": "hoe"
+},
+"Broom stick": {
+"id": 2658,
+"how": "exact",
+"query": "broom"
+},
+"Stool": {
+"id": 3291,
+"how": "exact",
+"query": "stool"
+},
+"Bench": {
+"id": 3255,
+"how": "exact",
+"query": "bench"
+},
+"Hammock": {
+"id": 26917,
+"how": "exact",
+"query": "hammock"
+},
+"Cot": {
+"id": 5980,
+"how": "exact",
+"query": "cot"
+},
+"Diaper": {
+"id": 22017,
+"how": "exact",
+"query": "diaper"
+},
+"Bottle for baby": {
+"id": 36825,
+"how": "partial",
+"query": "baby bottle"
+},
+"Crayons": {
+"id": 4951,
+"how": "exact",
+"query": "crayons"
+},
+"Puzzle": {
+"id": 2540,
+"how": "exact",
+"query": "puzzle"
+},
+"Cards game": {
+"id": 26016,
+"how": "first",
+"query": "playing cards"
+},
+"Football": {
+"id": 16743,
+"how": "exact",
+"query": "football"
+},
+"Drum": {
+"id": 2578,
+"how": "exact",
+"query": "drum"
+},
+"Guitar": {
+"id": 2417,
+"how": "exact",
+"query": "guitar"
+},
+"Piano": {
+"id": 2521,
+"how": "exact",
+"query": "piano"
+},
+"Trophy": {
+"id": 3162,
+"how": "exact",
+"query": "trophy"
+},
+"Medal": {
+"id": 3128,
+"how": "exact",
+"query": "medal"
+},
+"Flag": {
+"id": 5918,
+"how": "exact",
+"query": "flag"
+},
+"Shirt": {
+"id": 13640,
+"how": "exact",
+"query": "shirt"
+},
+"T-shirt": {
+"id": 2309,
+"how": "exact",
+"query": "t-shirt"
+},
+"Trousers": {
+"id": 2565,
+"how": "exact",
+"query": "trousers"
+},
+"Skirt": {
+"id": 2391,
+"how": "exact",
+"query": "skirt"
+},
+"Jacket": {
+"id": 4872,
+"how": "exact",
+"query": "jacket"
+},
+"Coat": {
+"id": 2242,
+"how": "exact",
+"query": "coat"
+},
+"Sweater": {
+"id": 2436,
+"how": "exact",
+"query": "sweater"
+},
+"Socks": {
+"id": 2298,
+"how": "exact",
+"query": "socks"
+},
+"Shoes": {
+"id": 2775,
+"how": "exact",
+"query": "shoes"
+},
+"Sandals": {
+"id": 2556,
+"how": "exact",
+"query": "sandals"
+},
+"Slippers": {
+"id": 2620,
+"how": "exact",
+"query": "slippers"
+},
+"Boots": {
+"id": 2287,
+"how": "exact",
+"query": "boots"
+},
+"Hat": {
+"id": 2572,
+"how": "exact",
+"query": "hat"
+},
+"Cap": {
+"id": 39395,
+"how": "exact",
+"query": "cap"
+},
+"Scarf": {
+"id": 2290,
+"how": "exact",
+"query": "scarf"
+},
+"Gloves": {
+"id": 2415,
+"how": "exact",
+"query": "gloves"
+},
+"Belt": {
+"id": 2336,
+"how": "exact",
+"query": "belt"
+},
+"Underwear": {
+"id": 25680,
+"how": "exact",
+"query": "underwear"
+},
+"Pajamas": {
+"id": 35333,
+"how": "partial",
+"query": "pajamas"
+},
+"Swimsuit": {
+"id": 2270,
+"how": "exact",
+"query": "swimsuit"
+},
+"Raincoat": {
+"id": 8122,
+"how": "exact",
+"query": "raincoat"
+},
+"Ring on finger": {
+"id": 6900,
+"how": "exact",
+"query": "ring"
+},
+"Necklace": {
+"id": 2347,
+"how": "exact",
+"query": "necklace"
+},
+"Earring": {
+"id": 8363,
+"how": "exact",
+"query": "earring"
+},
+"Bracelet": {
+"id": 2537,
+"how": "exact",
+"query": "bracelet"
+},
+"Handbag": {
+"id": 2284,
+"how": "exact",
+"query": "handbag"
+},
+"Suit": {
+"id": 29931,
+"how": "exact",
+"query": "suit"
+},
+"Apron": {
+"id": 2366,
+"how": "exact",
+"query": "apron"
+},
+"Zip": {
+"id": 16897,
+"how": "exact",
+"query": "zip"
+},
+"Button": {
+"id": 2668,
+"how": "exact",
+"query": "button"
+},
+"Pocket": {
+"id": 6937,
+"how": "exact",
+"query": "pocket"
+},
+"Dog": {
+"id": 7202,
+"how": "exact",
+"query": "dog"
+},
+"Cat": {
+"id": 7114,
+"how": "exact",
+"query": "cat"
+},
+"Cow": {
+"id": 2609,
+"how": "exact",
+"query": "cow"
+},
+"Goat": {
+"id": 25887,
+"how": "exact",
+"query": "goat"
+},
+"Sheep": {
+"id": 2489,
+"how": "exact",
+"query": "sheep"
+},
+"Pig": {
+"id": 24972,
+"how": "exact",
+"query": "pig"
+},
+"Hen": {
+"id": 2403,
+"how": "exact",
+"query": "hen"
+},
+"Rooster": {
+"id": 2404,
+"how": "exact",
+"query": "rooster"
+},
+"Duck": {
+"id": 28479,
+"how": "exact",
+"query": "duck"
+},
+"Horse": {
+"id": 2294,
+"how": "exact",
+"query": "horse"
+},
+"Donkey": {
+"id": 2291,
+"how": "exact",
+"query": "donkey"
+},
+"Rabbit": {
+"id": 2351,
+"how": "exact",
+"query": "rabbit"
+},
+"Rat": {
+"id": 2821,
+"how": "exact",
+"query": "rat"
+},
+"Monkey": {
+"id": 2477,
+"how": "exact",
+"query": "monkey"
+},
+"Elephant": {
+"id": 2372,
+"how": "exact",
+"query": "elephant"
+},
+"Lion": {
+"id": 25187,
+"how": "exact",
+"query": "lion"
+},
+"Tiger": {
+"id": 2590,
+"how": "exact",
+"query": "tiger"
+},
+"Giraffe": {
+"id": 2437,
+"how": "exact",
+"query": "giraffe"
+},
+"Zebra": {
+"id": 2324,
+"how": "exact",
+"query": "zebra"
+},
+"Hippo": {
+"id": 2424,
+"how": "exact",
+"query": "hippo"
+},
+"Crocodile": {
+"id": 2343,
+"how": "exact",
+"query": "crocodile"
+},
+"Snake": {
+"id": 2568,
+"how": "exact",
+"query": "snake"
+},
+"Frog": {
+"id": 28473,
+"how": "exact",
+"query": "frog"
+},
+"Turtle": {
+"id": 10241,
+"how": "exact",
+"query": "turtle"
+},
+"Bird": {
+"id": 2490,
+"how": "exact",
+"query": "bird"
+},
+"Eagle": {
+"id": 2638,
+"how": "exact",
+"query": "eagle"
+},
+"Owl": {
+"id": 2671,
+"how": "exact",
+"query": "owl"
+},
+"Parrot": {
+"id": 2934,
+"how": "exact",
+"query": "parrot"
+},
+"Butterfly": {
+"id": 26200,
+"how": "exact",
+"query": "butterfly"
+},
+"Bee": {
+"id": 24823,
+"how": "exact",
+"query": "bee"
+},
+"Ant": {
+"id": 2425,
+"how": "exact",
+"query": "ant"
+},
+"Fly insect": {
+"id": 6246,
+"how": "exact",
+"query": "fly"
+},
+"Mosquito": {
+"id": 2479,
+"how": "exact",
+"query": "mosquito"
+},
+"Spider": {
+"id": 38275,
+"how": "exact",
+"query": "spider"
+},
+"Worm": {
+"id": 28485,
+"how": "exact",
+"query": "worm"
+},
+"Snail": {
+"id": 8061,
+"how": "exact",
+"query": "snail"
+},
+"Bear": {
+"id": 2488,
+"how": "exact",
+"query": "bear"
+},
+"Wolf": {
+"id": 5892,
+"how": "exact",
+"query": "wolf"
+},
+"Fox": {
+"id": 2623,
+"how": "exact",
+"query": "fox"
+},
+"Deer": {
+"id": 3263,
+"how": "exact",
+"query": "deer"
+},
+"Camel": {
+"id": 8522,
+"how": "exact",
+"query": "camel"
+},
+"Gorilla": {
+"id": 2410,
+"how": "exact",
+"query": "gorilla"
+},
+"Whale": {
+"id": 2268,
+"how": "exact",
+"query": "whale"
+},
+"Dolphin": {
+"id": 2732,
+"how": "exact",
+"query": "dolphin"
+},
+"Shark": {
+"id": 2589,
+"how": "exact",
+"query": "shark"
+},
+"Crab": {
+"id": 2312,
+"how": "exact",
+"query": "crab"
+},
+"Lizard": {
+"id": 2949,
+"how": "exact",
+"query": "lizard"
+},
+"Pigeon": {
+"id": 25293,
+"how": "exact",
+"query": "pigeon"
+},
+"Cockroach": {
+"id": 4617,
+"how": "exact",
+"query": "cockroach"
+},
+"Squirrel": {
+"id": 25815,
+"how": "exact",
+"query": "squirrel"
+},
+"Chick": {
+"id": 2533,
+"how": "exact",
+"query": "chick"
+},
+"Kitten": {
+"id": 2406,
+"how": "exact",
+"query": "kitten"
+},
+"Calf": {
+"id": 26489,
+"how": "exact",
+"query": "calf"
+},
+"Bull": {
+"id": 2595,
+"how": "exact",
+"query": "bull"
+},
+"Sun": {
+"id": 7252,
+"how": "exact",
+"query": "sun"
+},
+"Moon": {
+"id": 2933,
+"how": "exact",
+"query": "moon"
+},
+"Star": {
+"id": 2752,
+"how": "exact",
+"query": "star"
+},
+"Sky": {
+"id": 6978,
+"how": "exact",
+"query": "sky"
+},
+"Cloud": {
+"id": 34383,
+"how": "exact",
+"query": "cloud"
+},
+"Rain": {
+"id": 7148,
+"how": "exact",
+"query": "rain"
+},
+"Wind": {
+"id": 23731,
+"how": "exact",
+"query": "wind"
+},
+"Storm": {
+"id": 34892,
+"how": "partial",
+"query": "storm"
+},
+"Thunder": {
+"id": 11389,
+"how": "exact",
+"query": "thunder"
+},
+"Lightning": {
+"id": 34545,
+"how": "exact",
+"query": "lightning"
+},
+"Snow": {
+"id": 7172,
+"how": "exact",
+"query": "snow"
+},
+"Ice": {
+"id": 7128,
+"how": "exact",
+"query": "ice"
+},
+"Fire": {
+"id": 4654,
+"how": "exact",
+"query": "fire"
+},
+"Smoke": {
+"id": 6529,
+"how": "exact",
+"query": "smoke"
+},
+"Tree": {
+"id": 3057,
+"how": "exact",
+"query": "tree"
+},
+"Flower": {
+"id": 7104,
+"how": "exact",
+"query": "flower"
+},
+"Grass": {
+"id": 3113,
+"how": "exact",
+"query": "grass"
+},
+"Leaf": {
+"id": 5077,
+"how": "exact",
+"query": "leaf"
+},
+"Seed": {
+"id": 7245,
+"how": "exact",
+"query": "seed"
+},
+"Rock": {
+"id": 6594,
+"how": "exact",
+"query": "rock"
+},
+"Sand": {
+"id": 4565,
+"how": "exact",
+"query": "sand"
+},
+"Soil": {
+"id": 37339,
+"how": "exact",
+"query": "soil"
+},
+"Mud": {
+"id": 5908,
+"how": "exact",
+"query": "mud"
+},
+"Rainbow": {
+"id": 2986,
+"how": "exact",
+"query": "rainbow"
+},
+"Weather": {
+"id": 24721,
+"how": "exact",
+"query": "weather"
+},
+"Season": {
+"id": 5464,
+"how": "exact",
+"query": "season"
+},
+"Summer": {
+"id": 5604,
+"how": "exact",
+"query": "summer"
+},
+"Winter": {
+"id": 5493,
+"how": "exact",
+"query": "winter"
+},
+"Sunny": {
+"id": 2796,
+"how": "exact",
+"query": "sunny"
+},
+"Cloudy": {
+"id": 2882,
+"how": "exact",
+"query": "cloudy"
+},
+"Rainy": {
+"id": 2936,
+"how": "exact",
+"query": "rainy"
+},
+"Windy": {
+"id": 2779,
+"how": "exact",
+"query": "windy"
+},
+"Flood": {
+"id": 4669,
+"how": "exact",
+"query": "flood"
+},
+"Puddle": {
+"id": 25936,
+"how": "exact",
+"query": "puddle"
+},
+"Dust": {
+"id": 4878,
+"how": "exact",
+"query": "dust"
+},
+"Air": {
+"id": 9044,
+"how": "exact",
+"query": "air"
+},
+"Earth": {
+"id": 3160,
+"how": "exact",
+"query": "earth"
+},
+"Planet": {
+"id": 2829,
+"how": "exact",
+"query": "planet"
+},
+"Shadow": {
+"id": 6649,
+"how": "exact",
+"query": "shadow"
+},
+"Today": {
+"id": 7131,
+"how": "exact",
+"query": "today"
+},
+"Tomorrow": {
+"id": 38278,
+"how": "exact",
+"query": "tomorrow"
+},
+"Yesterday": {
+"id": 38279,
+"how": "exact",
+"query": "yesterday"
+},
+"Morning": {
+"id": 25704,
+"how": "exact",
+"query": "morning"
+},
+"Afternoon": {
+"id": 7268,
+"how": "exact",
+"query": "afternoon"
+},
+"Evening": {
+"id": 38567,
+"how": "partial",
+"query": "evening"
+},
+"Night": {
+"id": 26997,
+"how": "exact",
+"query": "night"
+},
+"Day": {
+"id": 37731,
+"how": "exact",
+"query": "day"
+},
+"Week": {
+"id": 37732,
+"how": "exact",
+"query": "week"
+},
+"Month": {
+"id": 7161,
+"how": "exact",
+"query": "month"
+},
+"Year": {
+"id": 6903,
+"how": "exact",
+"query": "year"
+},
+"Hour": {
+"id": 7129,
+"how": "exact",
+"query": "hour"
+},
+"Minute": {
+"id": 37374,
+"how": "exact",
+"query": "minute"
+},
+"Now": {
+"id": 32747,
+"how": "exact",
+"query": "now"
+},
+"Later": {
+"id": 32749,
+"how": "exact",
+"query": "later"
+},
+"Soon": {
+"id": 33044,
+"how": "partial",
+"query": "soon"
+},
+"Always": {
+"id": 17322,
+"how": "exact",
+"query": "always"
+},
+"Never": {
+"id": 5527,
+"how": "exact",
+"query": "never"
+},
+"Sometimes": {
+"id": 27385,
+"how": "exact",
+"query": "sometimes"
+},
+"Monday": {
+"id": 6554,
+"how": "exact",
+"query": "monday"
+},
+"Tuesday": {
+"id": 6557,
+"how": "exact",
+"query": "tuesday"
+},
+"Wednesday": {
+"id": 6563,
+"how": "exact",
+"query": "wednesday"
+},
+"Thursday": {
+"id": 6536,
+"how": "exact",
+"query": "thursday"
+},
+"Friday": {
+"id": 6629,
+"how": "exact",
+"query": "friday"
+},
+"Saturday": {
+"id": 6605,
+"how": "exact",
+"query": "saturday"
+},
+"Sunday": {
+"id": 6478,
+"how": "exact",
+"query": "sunday"
+},
+"January": {
+"id": 6488,
+"how": "exact",
+"query": "january"
+},
+"February": {
+"id": 6498,
+"how": "exact",
+"query": "february"
+},
+"March": {
+"id": 6558,
+"how": "exact",
+"query": "march"
+},
+"April": {
+"id": 6024,
+"how": "exact",
+"query": "april"
+},
+"May": {
+"id": 6559,
+"how": "exact",
+"query": "may"
+},
+"June": {
+"id": 6539,
+"how": "exact",
+"query": "june"
+},
+"July": {
+"id": 6538,
+"how": "exact",
+"query": "july"
+},
+"August": {
+"id": 6034,
+"how": "exact",
+"query": "august"
+},
+"September": {
+"id": 6613,
+"how": "exact",
+"query": "september"
+},
+"October": {
+"id": 6571,
+"how": "exact",
+"query": "october"
+},
+"November": {
+"id": 6570,
+"how": "exact",
+"query": "november"
+},
+"December": {
+"id": 6476,
+"how": "exact",
+"query": "december"
+},
+"Zero": {
+"id": 2626,
+"how": "exact",
+"query": "zero"
+},
+"One": {
+"id": 2627,
+"how": "exact",
+"query": "one"
+},
+"Two": {
+"id": 2628,
+"how": "exact",
+"query": "two"
+},
+"Three": {
+"id": 2629,
+"how": "exact",
+"query": "three"
+},
+"Four": {
+"id": 2630,
+"how": "exact",
+"query": "four"
+},
+"Five": {
+"id": 39311,
+"how": "exact",
+"query": "five"
+},
+"Six": {
+"id": 2632,
+"how": "exact",
+"query": "six"
+},
+"Seven": {
+"id": 2633,
+"how": "exact",
+"query": "seven"
+},
+"Eight": {
+"id": 2634,
+"how": "exact",
+"query": "eight"
+},
+"Nine": {
+"id": 2635,
+"how": "exact",
+"query": "nine"
+},
+"Ten": {
+"id": 7025,
+"how": "exact",
+"query": "ten"
+},
+"Twenty": {
+"id": 29550,
+"how": "exact",
+"query": "twenty"
+},
+"Fifty": {
+"id": 29342,
+"how": "exact",
+"query": "fifty"
+},
+"Hundred": {
+"id": 29278,
+"how": "partial",
+"query": "hundred"
+},
+"Thousand": {
+"id": 29258,
+"how": "partial",
+"query": "thousand"
+},
+"Half": {
+"id": 19570,
+"how": "exact",
+"query": "half"
+},
+"Double": {
+"id": 16345,
+"how": "exact",
+"query": "double"
+},
+"Red": {
+"id": 2808,
+"how": "exact",
+"query": "red"
+},
+"Blue": {
+"id": 4869,
+"how": "exact",
+"query": "blue"
+},
+"Green": {
+"id": 4887,
+"how": "exact",
+"query": "green"
+},
+"Yellow": {
+"id": 2648,
+"how": "exact",
+"query": "yellow"
+},
+"Pink": {
+"id": 2807,
+"how": "exact",
+"query": "pink"
+},
+"Purple": {
+"id": 2907,
+"how": "exact",
+"query": "purple"
+},
+"Brown": {
+"id": 2923,
+"how": "exact",
+"query": "brown"
+},
+"Black": {
+"id": 2886,
+"how": "exact",
+"query": "black"
+},
+"White": {
+"id": 8043,
+"how": "exact",
+"query": "white"
+},
+"Gray": {
+"id": 3340,
+"how": "exact",
+"query": "gray"
+},
+"Gold": {
+"id": 6161,
+"how": "exact",
+"query": "gold"
+},
+"Silver": {
+"id": 6183,
+"how": "exact",
+"query": "silver"
+},
+"Circle": {
+"id": 4603,
+"how": "exact",
+"query": "circle"
+},
+"Square": {
+"id": 4616,
+"how": "exact",
+"query": "square"
+},
+"Triangle": {
+"id": 2604,
+"how": "exact",
+"query": "triangle"
+},
+"Rectangle": {
+"id": 4731,
+"how": "exact",
+"query": "rectangle"
+},
+"Color": {
+"id": 5968,
+"how": "exact",
+"query": "color"
+},
+"Shape": {
+"id": 32619,
+"how": "exact",
+"query": "shape"
+},
+"Class": {
+"id": 32554,
+"how": "partial",
+"query": "class"
+},
+"Lesson": {
+"id": 35401,
+"how": "partial",
+"query": "lesson"
+},
+"Homework": {
+"id": 11228,
+"how": "exact",
+"query": "homework"
+},
+"Exam": {
+"id": 38462,
+"how": "exact",
+"query": "exam"
+},
+"Alphabet": {
+"id": 3050,
+"how": "exact",
+"query": "alphabet"
+},
+"Word": {
+"id": 9837,
+"how": "exact",
+"query": "word"
+},
+"Sentence": {
+"id": 15026,
+"how": "partial",
+"query": "sentence"
+},
+"Math": {
+"id": 36373,
+"how": "partial",
+"query": "math"
+},
+"Science": {
+"id": 32542,
+"how": "exact",
+"query": "science"
+},
+"Reading": {
+"id": 2447,
+"how": "exact",
+"query": "reading"
+},
+"Writing": {
+"id": 2380,
+"how": "exact",
+"query": "writing"
+},
+"Break time": {
+"id": 27339,
+"how": "exact",
+"query": "recess"
+},
+"Bell": {
+"id": 5949,
+"how": "exact",
+"query": "bell"
+},
+"Chalk": {
+"id": 8107,
+"how": "exact",
+"query": "chalk"
+},
+"University": {
+"id": 15537,
+"how": "exact",
+"query": "university"
+},
+"Game": {
+"id": 6170,
+"how": "exact",
+"query": "game"
+},
+"Music": {
+"id": 24791,
+"how": "exact",
+"query": "music"
+},
+"Basketball": {
+"id": 10166,
+"how": "exact",
+"query": "basketball"
+},
+"Volleyball": {
+"id": 10167,
+"how": "exact",
+"query": "volleyball"
+},
+"Swimming": {
+"id": 25038,
+"how": "exact",
+"query": "swimming"
+},
+"Running": {
+"id": 26055,
+"how": "partial",
+"query": "running"
+},
+"Sport": {
+"id": 7010,
+"how": "exact",
+"query": "sport"
+},
+"Team game": {
+"id": 15264,
+"how": "exact",
+"query": "team"
+},
+"Win": {
+"id": 7218,
+"how": "exact",
+"query": "win"
+},
+"Lose game": {
+"id": 24760,
+"how": "exact",
+"query": "lose"
+},
+"Draw picture": {
+"id": 11238,
+"how": "exact",
+"query": "drawing"
+},
+"Painting": {
+"id": 2360,
+"how": "exact",
+"query": "painting"
+},
+"Video": {
+"id": 26535,
+"how": "exact",
+"query": "video"
+},
+"Photo": {
+"id": 7107,
+"how": "exact",
+"query": "photo"
+},
+"Movie": {
+"id": 24797,
+"how": "exact",
+"query": "movie"
+},
+"Cartoon": {
+"id": 8089,
+"how": "exact",
+"query": "cartoon"
+},
+"Dancing": {
+"id": 35747,
+"how": "exact",
+"query": "dancing"
+},
+"Picture book": {
+"id": 25191,
+"how": "exact",
+"query": "book"
+},
+"Swing": {
+"id": 4608,
+"how": "exact",
+"query": "swing"
+},
+"Slide": {
+"id": 4759,
+"how": "exact",
+"query": "slide"
+},
+"Sandcastle": {
+"id": 4790,
+"how": "exact",
+"query": "sandcastle"
+},
+"Balloon": {
+"id": 2408,
+"how": "exact",
+"query": "balloon"
+},
+"Clown": {
+"id": 2854,
+"how": "exact",
+"query": "clown"
+},
+"God": {
+"id": 24013,
+"how": "exact",
+"query": "god"
+},
+"Prayer": {
+"id": 30863,
+"how": "exact",
+"query": "prayer"
+},
+"Imam": {
+"id": 24113,
+"how": "exact",
+"query": "imam"
+},
+"Funeral": {
+"id": 3195,
+"how": "exact",
+"query": "funeral"
+},
+"Wedding": {
+"id": 37362,
+"how": "exact",
+"query": "wedding"
+},
+"Festival": {
+"id": 25103,
+"how": "exact",
+"query": "festival"
+},
+"Blessing": {
+"id": 23828,
+"how": "exact",
+"query": "blessing"
+},
+"Angel": {
+"id": 3056,
+"how": "exact",
+"query": "angel"
+},
+"Choir": {
+"id": 2717,
+"how": "exact",
+"query": "choir"
+},
+"Hymn": {
+"id": 38000,
+"how": "exact",
+"query": "hymn"
+},
+"Celebration": {
+"id": 6969,
+"how": "exact",
+"query": "celebration"
+},
+"Christmas": {
+"id": 3134,
+"how": "exact",
+"query": "christmas"
+},
+"Easter": {
+"id": 32478,
+"how": "partial",
+"query": "easter"
+},
+"Ramadan": {
+"id": 36438,
+"how": "exact",
+"query": "ramadan"
+},
+"Village chief": {
+"id": 37571,
+"how": "partial",
+"query": "chief"
+},
+"Drum beat": {
+"id": 2578,
+"how": "exact",
+"query": "drum"
+},
+"Cloth": {
+"id": 3402,
+"how": "exact",
+"query": "cloth"
+},
+"Beads": {
+"id": 5356,
+"how": "exact",
+"query": "beads"
+},
+"Traditional dance": {
+"id": 35747,
+"how": "exact",
+"query": "dance"
+},
+"Grandparents": {
+"id": 6876,
+"how": "exact",
+"query": "grandparents"
+},
+"Elder": {
+"id": 25796,
+"how": "partial",
+"query": "elder"
+},
+"Change": {
+"id": 37360,
+"how": "exact",
+"query": "change"
+},
+"Cheap": {
+"id": 4574,
+"how": "exact",
+"query": "cheap"
+},
+"Expensive": {
+"id": 4589,
+"how": "exact",
+"query": "expensive"
+},
+"Receipt": {
+"id": 9184,
+"how": "exact",
+"query": "receipt"
+},
+"Customer": {
+"id": 24641,
+"how": "partial",
+"query": "customer"
+},
+"Scale for weighing": {
+"id": 2659,
+"how": "exact",
+"query": "scales"
+},
+"Cash": {
+"id": 8506,
+"how": "first",
+"query": "cash"
+},
+"Stall": {
+"id": 5102,
+"how": "exact",
+"query": "stall"
+},
+"Sack": {
+"id": 6210,
+"how": "exact",
+"query": "sack"
+},
+"Load": {
+"id": 21492,
+"how": "exact",
+"query": "load"
+},
+"Full price": {
+"id": 9874,
+"how": "exact",
+"query": "price"
+},
+"Free of charge": {
+"id": 11474,
+"how": "exact",
+"query": "free"
+},
+"Shopping": {
+"id": 9058,
+"how": "exact",
+"query": "shopping"
+},
+"Bill": {
+"id": 5995,
+"how": "exact",
+"query": "bill"
+},
+"Taxi": {
+"id": 2580,
+"how": "exact",
+"query": "taxi"
+},
+"Train": {
+"id": 2603,
+"how": "exact",
+"query": "train"
+},
+"Ship": {
+"id": 10189,
+"how": "exact",
+"query": "ship"
+},
+"Boat": {
+"id": 6932,
+"how": "exact",
+"query": "boat"
+},
+"Canoe": {
+"id": 6179,
+"how": "exact",
+"query": "canoe"
+},
+"Motorbike": {
+"id": 7166,
+"how": "exact",
+"query": "motorbike"
+},
+"Truck": {
+"id": 3232,
+"how": "exact",
+"query": "truck"
+},
+"Tricycle": {
+"id": 2605,
+"how": "exact",
+"query": "tricycle"
+},
+"Helicopter": {
+"id": 7126,
+"how": "exact",
+"query": "helicopter"
+},
+"Tractor": {
+"id": 2600,
+"how": "exact",
+"query": "tractor"
+},
+"Traffic light": {
+"id": 2567,
+"how": "partial",
+"query": "traffic light"
+},
+"Petrol": {
+"id": 8125,
+"how": "exact",
+"query": "petrol"
+},
+"Tyre": {
+"id": 37103,
+"how": "exact",
+"query": "tyre"
+},
+"Passenger": {
+"id": 16105,
+"how": "exact",
+"query": "passenger"
+},
+"Seat belt": {
+"id": 5962,
+"how": "exact",
+"query": "seat belt"
+},
+"Helmet": {
+"id": 2691,
+"how": "exact",
+"query": "helmet"
+},
+"Road sign": {
+"id": 3200,
+"how": "first",
+"query": "road sign"
+},
+"Parking": {
+"id": 6283,
+"how": "exact",
+"query": "parking"
+},
+"Journey": {
+"id": 10186,
+"how": "exact",
+"query": "journey"
+},
+"Luggage cart": {
+"id": 8562,
+"how": "exact",
+"query": "luggage"
+},
+"Highway": {
+"id": 7046,
+"how": "exact",
+"query": "highway"
+},
+"Tunnel": {
+"id": 8972,
+"how": "exact",
+"query": "tunnel"
+},
+"Ticket office": {
+"id": 29208,
+"how": "exact",
+"query": "ticket"
+},
+"Internet": {
+"id": 37366,
+"how": "exact",
+"query": "internet"
+},
+"WiFi": {
+"id": 35503,
+"how": "exact",
+"query": "wifi"
+},
+"Email": {
+"id": 32540,
+"how": "exact",
+"query": "email"
+},
+"Message": {
+"id": 37867,
+"how": "partial",
+"query": "message"
+},
+"Password": {
+"id": 27691,
+"how": "exact",
+"query": "password"
+},
+"Screen": {
+"id": 25498,
+"how": "exact",
+"query": "screen"
+},
+"Keyboard": {
+"id": 2793,
+"how": "exact",
+"query": "keyboard"
+},
+"Computer mouse": {
+"id": 36647,
+"how": "first",
+"query": "computer mouse"
+},
+"Printer": {
+"id": 26138,
+"how": "exact",
+"query": "printer"
+},
+"App": {
+"id": 2462,
+"how": "partial",
+"query": "app"
+},
+"Website": {
+"id": 30227,
+"how": "partial",
+"query": "website"
+},
+"Download": {
+"id": 27397,
+"how": "exact",
+"query": "download"
+},
+"Video call": {
+"id": 8537,
+"how": "exact",
+"query": "video call"
+},
+"Speaker": {
+"id": 8336,
+"how": "exact",
+"query": "speaker"
+},
+"Microphone": {
+"id": 2912,
+"how": "exact",
+"query": "microphone"
+},
+"Plug": {
+"id": 2373,
+"how": "exact",
+"query": "plug"
+},
+"Cable": {
+"id": 6948,
+"how": "exact",
+"query": "cable"
+},
+"Solar panel": {
+"id": 38040,
+"how": "exact",
+"query": "solar panel"
+},
+"Generator": {
+"id": 15916,
+"how": "exact",
+"query": "generator"
+},
+"Light bulb": {
+"id": 2285,
+"how": "exact",
+"query": "light bulb"
+},
+"Excuse me": {
+"id": null,
+"how": "none",
+"query": "excuse"
+},
+"Maybe": {
+"id": null,
+"how": "none",
+"query": "perhaps"
+},
+"Hurry": {
+"id": 5306,
+"how": "exact",
+"query": "quickly"
+},
+"Boss": {
+"id": null,
+"how": "none",
+"query": "boss"
+},
+"Trader": {
+"id": 21421,
+"how": "partial",
+"query": "merchant"
+},
+"Stranger": {
+"id": 2392,
+"how": "first",
+"query": "unknown person"
+},
+"Sleepy": {
+"id": 35537,
+"how": "exact",
+"query": "tired"
+},
+"Frustrated": {
+"id": 35539,
+"how": "exact",
+"query": "angry"
+},
+"Grateful": {
+"id": null,
+"how": "none",
+"query": "grateful"
+},
+"Upset": {
+"id": 35539,
+"how": "exact",
+"query": "annoyed"
+},
+"Peaceful": {
+"id": 37828,
+"how": "exact",
+"query": "calm"
+},
+"Believe": {
+"id": null,
+"how": "none",
+"query": "believe"
+},
+"Borrow": {
+"id": 34790,
+"how": "partial",
+"query": "lend"
+},
+"Dangerous": {
+"id": 25315,
+"how": "exact",
+"query": "danger"
+},
+"Busy": {
+"id": null,
+"how": "none",
+"query": "busy"
+},
+"Possible": {
+"id": null,
+"how": "none",
+"query": "possible"
+},
+"Hidden": {
+"id": 6493,
+"how": "exact",
+"query": "hide"
+},
+"Porridge": {
+"id": 38524,
+"how": "partial",
+"query": "oatmeal"
+},
+"Compound": {
+"id": 23979,
+"how": "partial",
+"query": "yard"
+},
+"Stroller": {
+"id": 6281,
+"how": "exact",
+"query": "baby carriage"
+},
+"Uniform": {
+"id": 32446,
+"how": "first",
+"query": "school uniform"
+},
+"Headscarf": {
+"id": 2290,
+"how": "exact",
+"query": "scarf"
+},
+"Puppy": {
+"id": null,
+"how": "none",
+"query": "puppy"
+},
+"Headmaster": {
+"id": 4631,
+"how": "exact",
+"query": "principal"
+},
+"Singing": {
+"id": 6960,
+"how": "exact",
+"query": "sing"
+},
+"Quran": {
+"id": 23973,
+"how": "exact",
+"query": "koran"
+},
+"Sermon": {
+"id": null,
+"how": "none",
+"query": "preach"
+},
+"Tradition": {
+"id": null,
+"how": "none",
+"query": "custom"
+},
+"Discount": {
+"id": 39712,
+"how": "partial",
+"query": "sale"
+},
+"Banknote": {
+"id": null,
+"how": "none",
+"query": "banknote"
+},
+"Debt": {
+"id": 2593,
+"how": "partial",
+"query": "owe"
+},
+"Profit": {
+"id": 4630,
+"how": "exact",
+"query": "money"
+},
+"Bargain": {
+"id": 32520,
+"how": "exact",
+"query": "negotiate"
+},
+"Sell out": {
+"id": null,
+"how": "none",
+"query": "sold out"
+},
+"Crossing": {
+"id": null,
+"how": "none",
+"query": "crosswalk"
+},
+"Chief": {
+"id": 37571,
+"how": "partial",
+"query": "chief"
+},
+"Guest": {
+"id": 34329,
+"how": "partial",
+"query": "guest"
+},
+"Old man": {
+"id": 36217,
+"how": "exact",
+"query": "elderly man"
+},
+"Old woman": {
+"id": 36872,
+"how": "partial",
+"query": "elderly woman"
+},
+"Engineer": {
+"id": 2968,
+"how": "exact",
+"query": "engineer"
+},
+"Scientist": {
+"id": 8076,
+"how": "exact",
+"query": "scientist"
+},
+"Artist": {
+"id": 2834,
+"how": "exact",
+"query": "artist"
+},
+"Singer": {
+"id": 4585,
+"how": "exact",
+"query": "singer"
+},
+"Musician": {
+"id": 2890,
+"how": "exact",
+"query": "musician"
+},
+"Actor": {
+"id": 36075,
+"how": "exact",
+"query": "actor"
+},
+"Judge": {
+"id": 2957,
+"how": "exact",
+"query": "judge"
+},
+"Lawyer": {
+"id": 2636,
+"how": "exact",
+"query": "lawyer"
+},
+"Electrician": {
+"id": 2740,
+"how": "exact",
+"query": "electrician"
+},
+"Plumber": {
+"id": 3321,
+"how": "exact",
+"query": "plumber"
+},
+"Carpenter": {
+"id": 2687,
+"how": "exact",
+"query": "carpenter"
+},
+"Mechanic": {
+"id": 2921,
+"how": "exact",
+"query": "mechanic"
+},
+"Baker": {
+"id": 3358,
+"how": "exact",
+"query": "baker"
+},
+"Butcher": {
+"id": 3008,
+"how": "exact",
+"query": "butcher"
+},
+"Barber": {
+"id": 35897,
+"how": "partial",
+"query": "barber"
+},
+"Postman": {
+"id": 2690,
+"how": "exact",
+"query": "postman"
+},
+"Cleaner": {
+"id": 3238,
+"how": "exact",
+"query": "cleaner"
+},
+"Sailor": {
+"id": 5507,
+"how": "exact",
+"query": "sailor"
+},
+"Astronaut": {
+"id": 4569,
+"how": "exact",
+"query": "astronaut"
+},
+"Photographer": {
+"id": 3197,
+"how": "exact",
+"query": "photographer"
+},
+"Journalist": {
+"id": 8664,
+"how": "exact",
+"query": "journalist"
+},
+"Gardener": {
+"id": 2961,
+"how": "exact",
+"query": "gardener"
+},
+"Stethoscope": {
+"id": 6000,
+"how": "exact",
+"query": "stethoscope"
+},
+"Syringe": {
+"id": 2960,
+"how": "exact",
+"query": "syringe"
+},
+"Stretcher": {
+"id": 24933,
+"how": "exact",
+"query": "stretcher"
+},
+"Plaster cast": {
+"id": 16141,
+"how": "partial",
+"query": "plaster cast"
+},
+"Hospital bed": {
+"id": 35341,
+"how": "exact",
+"query": "hospital bed"
+},
+"Pull": {
+"id": 39900,
+"how": "partial",
+"query": "pull"
+},
+"Lift": {
+"id": 2260,
+"how": "exact",
+"query": "lift"
+},
+"Catch": {
+"id": 3241,
+"how": "first",
+"query": "catch ball"
+},
+"Kick": {
+"id": 3241,
+"how": "first",
+"query": "kick ball"
+},
+"Close": {
+"id": 3244,
+"how": "first",
+"query": "close door"
+},
+"Turn off": {
+"id": 27518,
+"how": "exact",
+"query": "switch off"
+},
+"Call": {
+"id": 25269,
+"how": "first",
+"query": "phone call"
+},
+"Watch": {
+"id": 6564,
+"how": "exact",
+"query": "look"
+},
+"Wear": {
+"id": 14534,
+"how": "exact",
+"query": "put on"
+},
+"Wave": {
+"id": 28431,
+"how": "first",
+"query": "wave hand"
+},
+"Orange": {
+"id": 11298,
+"how": "manual",
+"query": "tangerine"
+},
+"Corn": {
+"id": 4879,
+"how": "exact",
+"query": "corn"
+},
+"Glass": {
+"id": 2610,
+"how": "exact",
+"query": "drinking glass"
+},
+"Pot": {
+"id": 3231,
+"how": "exact",
+"query": "saucepan"
+},
+"Pan": {
+"id": 2558,
+"how": "exact",
+"query": "frying pan"
+},
+"Cherry": {
+"id": 8303,
+"how": "exact",
+"query": "cherry"
+},
+"Peach": {
+"id": 2468,
+"how": "exact",
+"query": "peach"
+},
+"Plum": {
+"id": 8305,
+"how": "exact",
+"query": "plum"
+},
+"Pumpkin": {
+"id": 2679,
+"how": "exact",
+"query": "pumpkin"
+},
+"Broccoli": {
+"id": 23853,
+"how": "exact",
+"query": "broccoli"
+},
+"Cauliflower": {
+"id": 23953,
+"how": "exact",
+"query": "cauliflower"
+},
+"Radish": {
+"id": 8678,
+"how": "exact",
+"query": "radish"
+},
+"Beetroot": {
+"id": 26370,
+"how": "exact",
+"query": "beetroot"
+},
+"Celery": {
+"id": 8492,
+"how": "exact",
+"query": "celery"
+},
+"Eggplant": {
+"id": 36443,
+"how": "partial",
+"query": "eggplant"
+},
+"Olive": {
+"id": 8316,
+"how": "exact",
+"query": "olive"
+},
+"Almond": {
+"id": 3174,
+"how": "exact",
+"query": "almond"
+},
+"Walnut": {
+"id": 2880,
+"how": "exact",
+"query": "walnut"
+},
+"Date fruit": {
+"id": 28339,
+"how": "first",
+"query": "date fruit"
+},
+"Fig": {
+"id": 2979,
+"how": "exact",
+"query": "fig"
+},
+"Pomegranate": {
+"id": 8594,
+"how": "exact",
+"query": "pomegranate"
+},
+"Kiwi": {
+"id": 2955,
+"how": "exact",
+"query": "kiwi"
+},
+"Melon": {
+"id": 2469,
+"how": "exact",
+"query": "melon"
+},
+"Tangerine": {
+"id": 11298,
+"how": "exact",
+"query": "tangerine"
+},
+"Grapefruit": {
+"id": 13352,
+"how": "exact",
+"query": "grapefruit"
+},
+"Sweet potato": {
+"id": 36354,
+"how": "exact",
+"query": "sweet potato"
+},
+"Bacon": {
+"id": 2994,
+"how": "exact",
+"query": "bacon"
+},
+"Ham": {
+"id": 2433,
+"how": "exact",
+"query": "ham"
+},
+"Hot dog": {
+"id": 6647,
+"how": "exact",
+"query": "hot dog"
+},
+"Donut": {
+"id": 2368,
+"how": "exact",
+"query": "donut"
+},
+"Cookie": {
+"id": 8312,
+"how": "exact",
+"query": "cookie"
+},
+"Muffin": {
+"id": 25211,
+"how": "exact",
+"query": "muffin"
+},
+"Croissant": {
+"id": 2358,
+"how": "exact",
+"query": "croissant"
+},
+"Waffle": {
+"id": 34227,
+"how": "exact",
+"query": "waffle"
+},
+"Lollipop": {
+"id": 2832,
+"how": "exact",
+"query": "lollipop"
+},
+"Chewing gum": {
+"id": 8724,
+"how": "exact",
+"query": "chewing gum"
+},
+"Ketchup": {
+"id": 6540,
+"how": "exact",
+"query": "ketchup"
+},
+"Mustard": {
+"id": 6565,
+"how": "partial",
+"query": "mustard"
+},
+"Vinegar": {
+"id": 5605,
+"how": "exact",
+"query": "vinegar"
+},
+"Black pepper": {
+"id": 2886,
+"how": "first",
+"query": "black pepper"
+},
+"Lemonade": {
+"id": 6551,
+"how": "exact",
+"query": "lemonade"
+},
+"Milkshake": {
+"id": 8503,
+"how": "exact",
+"query": "milkshake"
+},
+"Water jug": {
+"id": 2816,
+"how": "first",
+"query": "water jug"
+},
+"Castle": {
+"id": 5422,
+"how": "exact",
+"query": "castle"
+},
+"Tower": {
+"id": 6232,
+"how": "exact",
+"query": "tower"
+},
+"Lighthouse": {
+"id": 4646,
+"how": "exact",
+"query": "lighthouse"
+},
+"Windmill": {
+"id": 13086,
+"how": "exact",
+"query": "windmill"
+},
+"Skyscraper": {
+"id": 6199,
+"how": "exact",
+"query": "skyscraper"
+},
+"Barn": {
+"id": 27810,
+"how": "exact",
+"query": "barn"
+},
+"Greenhouse": {
+"id": 7135,
+"how": "exact",
+"query": "greenhouse"
+},
+"Key": {
+"id": 3244,
+"how": "first",
+"query": "door key"
+},
+"Sink": {
+"id": 2399,
+"how": "first",
+"query": "sink basin"
+},
+"Card": {
+"id": 17208,
+"how": "exact",
+"query": "card"
+},
+"Eraser": {
+"id": 2409,
+"how": "exact",
+"query": "rubber"
+},
+"Bathtub": {
+"id": 2272,
+"how": "exact",
+"query": "bathtub"
+},
+"Washing machine": {
+"id": 2442,
+"how": "exact",
+"query": "washing machine"
+},
+"Vacuum cleaner": {
+"id": 3227,
+"how": "exact",
+"query": "vacuum cleaner"
+},
+"Toaster": {
+"id": 2598,
+"how": "exact",
+"query": "toaster"
+},
+"Blender": {
+"id": 17175,
+"how": "exact",
+"query": "blender"
+},
+"Cutting board": {
+"id": 9090,
+"how": "exact",
+"query": "cutting board"
+},
+"Ladle": {
+"id": 2320,
+"how": "exact",
+"query": "ladle"
+},
+"Teapot": {
+"id": 7276,
+"how": "exact",
+"query": "teapot"
+},
+"Fireplace": {
+"id": 8072,
+"how": "exact",
+"query": "fireplace"
+},
+"Doorbell": {
+"id": 10171,
+"how": "partial",
+"query": "doorbell"
+},
+"Mailbox": {
+"id": 2292,
+"how": "exact",
+"query": "mailbox"
+},
+"Fence": {
+"id": 6651,
+"how": "exact",
+"query": "fence"
+},
+"Gate": {
+"id": 37619,
+"how": "exact",
+"query": "gate"
+},
+"Garage": {
+"id": 16975,
+"how": "exact",
+"query": "garage"
+},
+"Swimming pool": {
+"id": 30516,
+"how": "exact",
+"query": "swimming pool"
+},
+"Tent": {
+"id": 4756,
+"how": "exact",
+"query": "tent"
+},
+"Bed sheet": {
+"id": 8367,
+"how": "exact",
+"query": "bed sheet"
+},
+"Hanger": {
+"id": 2846,
+"how": "exact",
+"query": "hanger"
+},
+"Clothesline": {
+"id": 11384,
+"how": "exact",
+"query": "clothesline"
+},
+"Matches": {
+"id": 4595,
+"how": "exact",
+"query": "matches"
+},
+"Sponge": {
+"id": 2749,
+"how": "exact",
+"query": "sponge"
+},
+"Razor": {
+"id": 2726,
+"how": "exact",
+"query": "razor"
+},
+"Perfume": {
+"id": 35673,
+"how": "exact",
+"query": "perfume"
+},
+"Lipstick": {
+"id": 2992,
+"how": "exact",
+"query": "lipstick"
+},
+"Hair dryer": {
+"id": 2560,
+"how": "exact",
+"query": "hair dryer"
+},
+"Nail clippers": {
+"id": 2721,
+"how": "exact",
+"query": "nail clippers"
+},
+"Suitcase": {
+"id": 2931,
+"how": "exact",
+"query": "suitcase"
+},
+"Envelope": {
+"id": 10325,
+"how": "exact",
+"query": "envelope"
+},
+"Stamp": {
+"id": 2802,
+"how": "exact",
+"query": "stamp"
+},
+"Stapler": {
+"id": 2413,
+"how": "exact",
+"query": "stapler"
+},
+"Calculator": {
+"id": 5419,
+"how": "exact",
+"query": "calculator"
+},
+"Globe": {
+"id": 27798,
+"how": "exact",
+"query": "globe"
+},
+"Telescope": {
+"id": 8531,
+"how": "exact",
+"query": "telescope"
+},
+"Microscope": {
+"id": 8168,
+"how": "exact",
+"query": "microscope"
+},
+"Compass": {
+"id": 9146,
+"how": "exact",
+"query": "compass"
+},
+"Magnet": {
+"id": 8138,
+"how": "exact",
+"query": "magnet"
+},
+"Flashlight": {
+"id": 6138,
+"how": "exact",
+"query": "flashlight"
+},
+"Teddy bear": {
+"id": 4945,
+"how": "exact",
+"query": "teddy bear"
+},
+"Toy car": {
+"id": 2340,
+"how": "exact",
+"query": "toy car"
+},
+"Fireworks": {
+"id": 5474,
+"how": "exact",
+"query": "fireworks"
+},
+"Trash": {
+"id": 8499,
+"how": "exact",
+"query": "trash"
+},
+"Recycling": {
+"id": 8205,
+"how": "exact",
+"query": "recycling"
+},
+"Crown": {
+"id": 2718,
+"how": "exact",
+"query": "crown"
+},
+"Jeans": {
+"id": 24222,
+"how": "exact",
+"query": "jeans"
+},
+"Sunglasses": {
+"id": 3330,
+"how": "exact",
+"query": "sunglasses"
+},
+"Vest": {
+"id": 2698,
+"how": "exact",
+"query": "vest"
+},
+"Shorts": {
+"id": 10142,
+"how": "partial",
+"query": "shorts"
+},
+"Dress": {
+"id": 6627,
+"how": "exact",
+"query": "dress"
+},
+"Mouse": {
+"id": 2820,
+"how": "exact",
+"query": "mouse"
+},
+"Ox": {
+"id": 10238,
+"how": "exact",
+"query": "ox"
+},
+"Lamb": {
+"id": 2489,
+"how": "exact",
+"query": "lamb"
+},
+"Turkey": {
+"id": 2509,
+"how": "exact",
+"query": "turkey"
+},
+"Goose": {
+"id": 2878,
+"how": "exact",
+"query": "goose"
+},
+"Swan": {
+"id": 2337,
+"how": "exact",
+"query": "swan"
+},
+"Penguin": {
+"id": 3243,
+"how": "exact",
+"query": "penguin"
+},
+"Kangaroo": {
+"id": 2313,
+"how": "exact",
+"query": "kangaroo"
+},
+"Panda": {
+"id": 2869,
+"how": "exact",
+"query": "panda"
+},
+"Koala": {
+"id": 2954,
+"how": "exact",
+"query": "koala"
+},
+"Leopard": {
+"id": 2942,
+"how": "exact",
+"query": "leopard"
+},
+"Rhinoceros": {
+"id": 2550,
+"how": "exact",
+"query": "rhinoceros"
+},
+"Hedgehog": {
+"id": 26829,
+"how": "exact",
+"query": "hedgehog"
+},
+"Bat": {
+"id": 2903,
+"how": "exact",
+"query": "bat"
+},
+"Seal": {
+"id": 2397,
+"how": "exact",
+"query": "seal"
+},
+"Octopus": {
+"id": 31115,
+"how": "exact",
+"query": "octopus"
+},
+"Jellyfish": {
+"id": 2920,
+"how": "exact",
+"query": "jellyfish"
+},
+"Starfish": {
+"id": 3310,
+"how": "exact",
+"query": "starfish"
+},
+"Ladybug": {
+"id": 2924,
+"how": "exact",
+"query": "ladybug"
+},
+"Grasshopper": {
+"id": 2805,
+"how": "exact",
+"query": "grasshopper"
+},
+"Scorpion": {
+"id": 8564,
+"how": "exact",
+"query": "scorpion"
+},
+"Peacock": {
+"id": 13348,
+"how": "exact",
+"query": "peacock"
+},
+"Flamingo": {
+"id": 3316,
+"how": "exact",
+"query": "flamingo"
+},
+"Pony": {
+"id": 8324,
+"how": "exact",
+"query": "pony"
+},
+"Hamster": {
+"id": 3346,
+"how": "exact",
+"query": "hamster"
+},
+"Goldfish": {
+"id": null,
+"how": "none",
+"query": "goldfish"
+},
+"Volcano": {
+"id": 6247,
+"how": "exact",
+"query": "volcano"
+},
+"Valley": {
+"id": 6238,
+"how": "exact",
+"query": "valley"
+},
+"Hill": {
+"id": 38728,
+"how": "exact",
+"query": "hill"
+},
+"Cliff": {
+"id": 8007,
+"how": "exact",
+"query": "cliff"
+},
+"Pond": {
+"id": 39264,
+"how": "exact",
+"query": "pond"
+},
+"Cactus": {
+"id": 3070,
+"how": "exact",
+"query": "cactus"
+},
+"Palm tree": {
+"id": 3138,
+"how": "exact",
+"query": "palm tree"
+},
+"Bamboo": {
+"id": 21413,
+"how": "exact",
+"query": "bamboo"
+},
+"Branch": {
+"id": 7224,
+"how": "exact",
+"query": "branch"
+},
+"Root": {
+"id": 3148,
+"how": "exact",
+"query": "root"
+},
+"Nest": {
+"id": 7173,
+"how": "exact",
+"query": "nest"
+},
+"Feather": {
+"id": 5545,
+"how": "exact",
+"query": "feather"
+},
+"Shell": {
+"id": 34625,
+"how": "exact",
+"query": "shell"
+},
+"Pebble": {
+"id": null,
+"how": "none",
+"query": "pebble"
+},
+"Coal": {
+"id": 5943,
+"how": "exact",
+"query": "coal"
+},
+"Spider web": {
+"id": 6286,
+"how": "exact",
+"query": "spider web"
+},
+"Trumpet": {
+"id": 2607,
+"how": "exact",
+"query": "trumpet"
+},
+"Violin": {
+"id": 2615,
+"how": "exact",
+"query": "violin"
+},
+"Flute": {
+"id": 2396,
+"how": "exact",
+"query": "flute"
+},
+"Saxophone": {
+"id": 2559,
+"how": "exact",
+"query": "saxophone"
+},
+"Xylophone": {
+"id": 2616,
+"how": "exact",
+"query": "xylophone"
+},
+"Tennis": {
+"id": 10158,
+"how": "exact",
+"query": "tennis"
+},
+"Golf": {
+"id": 10160,
+"how": "exact",
+"query": "golf"
+},
+"Boxing": {
+"id": 8981,
+"how": "exact",
+"query": "boxing"
+},
+"Cycling": {
+"id": 9699,
+"how": "exact",
+"query": "cycling"
+},
+"Fishing rod": {
+"id": 5941,
+"how": "exact",
+"query": "fishing rod"
+},
+"Skipping rope": {
+"id": 3265,
+"how": "exact",
+"query": "skipping rope"
+},
+"Trampoline": {
+"id": 23891,
+"how": "exact",
+"query": "trampoline"
+},
+"Skateboard": {
+"id": 2507,
+"how": "exact",
+"query": "skateboard"
+},
+"Roller skates": {
+"id": 2506,
+"how": "exact",
+"query": "roller skates"
+},
+"Cross": {
+"id": 5976,
+"how": "exact",
+"query": "cross"
+},
+"Plane": {
+"id": 2264,
+"how": "exact",
+"query": "aeroplane"
+},
+"Airplane": {
+"id": 9205,
+"how": "exact",
+"query": "airplane"
+},
+"Rocket": {
+"id": 2344,
+"how": "exact",
+"query": "rocket"
+},
+"Submarine": {
+"id": 3157,
+"how": "exact",
+"query": "submarine"
+},
+"Police car": {
+"id": 3426,
+"how": "exact",
+"query": "police car"
+},
+"Fire truck": {
+"id": 4925,
+"how": "exact",
+"query": "fire truck"
+},
+"Scooter": {
+"id": 2508,
+"how": "exact",
+"query": "scooter"
+},
+"Cable car": {
+"id": 22119,
+"how": "exact",
+"query": "cable car"
+},
+"Subway": {
+"id": 26925,
+"how": "exact",
+"query": "subway"
+}
+}
