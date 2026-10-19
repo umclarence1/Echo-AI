@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -22,8 +21,7 @@ import '../services/pictogram_loader.dart';
 import '../services/khaya_service.dart';
 import '../services/arasaac_service.dart';
 import '../services/app_settings.dart';
-import '../services/speech_cache.dart';
-import '../services/device_voice.dart';
+import '../services/speech_service.dart';
 import '../services/language_scope.dart';
 import '../services/natural_speech.dart';
 import '../services/user_data_store.dart';
@@ -32,6 +30,7 @@ import 'library_screen.dart';
 import 'settings_screen.dart';
 import 'about_screen.dart';
 import 'voice_profile_screen.dart';
+import 'boards/boards_screen.dart';
 
 class CommunicationBoard extends StatefulWidget {
   const CommunicationBoard({super.key});
@@ -42,7 +41,7 @@ class CommunicationBoard extends StatefulWidget {
 
 class _CommunicationBoardState extends State<CommunicationBoard> {
   final TextEditingController _textController = TextEditingController();
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  final SpeechService _speech = SpeechService();
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final FocusNode _switchFocusNode = FocusNode();
 
@@ -110,7 +109,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     _scanTimer?.cancel();
     _switchFocusNode.dispose();
     _textController.dispose();
-    _audioPlayer.dispose();
+    unawaited(_speech.dispose());
     super.dispose();
   }
 
@@ -220,8 +219,8 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   String _displayLabel(VocabularyItem item) {
     if (item.collectionId == 'collection_feel' &&
         AppSettings.speakerIsFeminine) {
-      final feminine =
-          GenderForms.feminineAdjective['${selectedLanguage.code}||${item.label}'];
+      final feminine = GenderForms
+          .feminineAdjective['${selectedLanguage.code}||${item.label}'];
       if (feminine != null) return feminine;
     }
     return _nameLabel(item.label);
@@ -399,43 +398,15 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     if (text.isEmpty || isSpeaking) return;
 
     setState(() => isSpeaking = true);
-    // Silence whichever voice engine spoke last - the phone's TTS and the
-    // Khaya audio player are two separate systems, so switching languages
-    // between taps never overlaps or plays out of order.
-    await _audioPlayer.stop();
-    await DeviceVoice.stop();
     try {
-      // Languages Khaya doesn't cover (French) use the phone's own
-      // voice - free, offline, no quota.
-      if (!language.prefersKhayaVoice) {
-        final spoke =
-            language.voiceLocale != null &&
-            await DeviceVoice.speak(text, language.voiceLocale!);
-        if (!spoke && mounted) {
-          _showMessage(context.tr('no_voice', {'lang': language.label}));
-        }
-        return;
+      final spoke = await _speech.speak(text, language);
+      if (!spoke && mounted) {
+        _showMessage(
+          language.prefersKhayaVoice
+              ? context.tr('no_connection')
+              : context.tr('no_voice', {'lang': language.label}),
+        );
       }
-
-      var audio = await SpeechCache.read(text, language.code);
-      final fromCache = audio != null;
-      audio ??= await KhayaService.synthesizeSpeech(text, language.khayaCode!);
-
-      if (audio != null) {
-        if (!fromCache) {
-          // Don't block playback on the write - cache it for next time.
-          unawaited(SpeechCache.write(text, language.code, audio));
-        }
-        await _audioPlayer.play(BytesSource(audio));
-        return;
-      }
-
-      // Khaya is unreachable: use the phone's voice if it has one for this
-      // language (English), otherwise the message stays on screen.
-      final spoke =
-          language.voiceLocale != null &&
-          await DeviceVoice.speak(text, language.voiceLocale!);
-      if (!spoke && mounted) _showMessage(context.tr('no_connection'));
     } finally {
       if (mounted) setState(() => isSpeaking = false);
     }
@@ -443,9 +414,9 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
 
   void _showMessage(String message) {
     if (!mounted) return;
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(message)),
-    );
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text(message)));
   }
 
   void selectContext(Context context) {
@@ -1113,6 +1084,25 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
               child: Text('Echo', style: TextStyle(fontSize: 28)),
             ),
             ListTile(
+              leading: const Icon(Icons.dashboard_outlined),
+              title: Text(context.tr('boards_title')),
+              onTap: () async {
+                Navigator.pop(context);
+                await _speech.stop();
+                if (!mounted) return;
+                if (AppSettings.switchScanningEnabled.value) {
+                  _scanTimer?.cancel();
+                }
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(builder: (_) => const BoardsScreen()),
+                );
+                if (mounted && AppSettings.switchScanningEnabled.value) {
+                  _startScanning();
+                }
+              },
+            ),
+            ListTile(
               leading: const Icon(Icons.map_outlined),
               title: Text(context.tr('menu_contexts')),
               onTap: _openContextPicker,
@@ -1338,7 +1328,10 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                         .map(
                           (l) => Align(
                             alignment: Alignment.centerLeft,
-                            child: Text(l.label, overflow: TextOverflow.ellipsis),
+                            child: Text(
+                              l.label,
+                              overflow: TextOverflow.ellipsis,
+                            ),
                           ),
                         )
                         .toList(),

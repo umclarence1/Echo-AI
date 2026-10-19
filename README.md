@@ -54,6 +54,63 @@ flutter test
 
 The tests drive the real app at phone size, offline.
 
+## My Boards
+
+Open the communication board's menu and choose **My Boards**. Create a named
+board, add sections, then use **Choose pictograms** to select several words.
+Selections remain highlighted while you search; **Done** applies them to the
+section. Each tile's menu can move it earlier/later, move it to another section,
+or remove it. The section menu can rename, reorder or delete a section.
+
+Choose **Save** to keep your changes. Leaving an edited board asks whether to
+discard unsaved changes. The board list offers duplicate and delete actions;
+its play button opens **Present mode**. Tap pictures to build a message, then
+choose Speak. Stop also cancels speech that is still being downloaded. Previous
+and Next switch sections without clearing the message. Changing the speaking
+language asks to clear any existing message first. Emergency phrases remain
+available in Present mode. Switch scanning follows the setting in Settings
+(Space/Enter selects the highlighted item).
+
+Boards are stored locally, separately from existing favorites and contexts.
+There is no AI service or account requirement. Bundled pictograms work offline;
+speech still depends on installed device voices or cached Khaya audio. In a
+browser, data belongs to that browser and site address (including the port).
+Changing the development server's IP/port, using private browsing, or clearing
+site data can make saved boards unavailable. This feature does not add cloud
+backup or guarantee that a development server can be reopened offline.
+
+### Returning to the version before My Boards
+
+The pre-feature checkpoint is commit `8225f11`, tagged
+`checkpoint/before-my-boards-20261018`. Feature development is on
+`codex/my-boards`. With any later edits committed or otherwise saved, create a
+separate recovery branch with:
+
+```powershell
+git switch -c recovery/before-my-boards checkpoint/before-my-boards-20261018
+```
+
+Return to the feature version with:
+
+```powershell
+git switch codex/my-boards
+```
+
+This changes the source version; it does not erase saved boards or other local
+app data. A source ZIP was also saved outside this repository at
+`C:\Users\Papa Offei\.codex\visualizations\2026\10\14\01a13c7f-d7d8-7953-9751-150dc107eef8\Echo-AI-before-my-boards-20261018-verified.zip`.
+It includes the local Khaya configuration. Unrelated generated outputs were
+left in place. The ZIP can be extracted into a separate folder for an
+independent copy of the original source.
+
+On Windows installations with spaces in the Flutter SDK path, native test
+hooks may fail with `'C:\Users\Papa' is not recognized`. The Windows short path
+works for this installation:
+
+```powershell
+& 'C:\Users\PAPAOF~1\Downloads\Flutter\flutter\bin\flutter.bat' test
+```
+
 ## Rebuilding the word library
 
 Words live in `tools/vocab/words_*.txt` (English and French per line).

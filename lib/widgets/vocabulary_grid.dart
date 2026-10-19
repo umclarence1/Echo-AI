@@ -76,8 +76,9 @@ class VocabularyTile extends StatelessWidget {
     final localAsset = PictogramAssets.localAssetFor(item.label);
     final hasSymbol = item.symbolUrl != null && item.symbolUrl!.isNotEmpty;
 
-    return GestureDetector(
+    return InkWell(
       onTap: onTap,
+      borderRadius: BorderRadius.circular(12),
       child: Container(
         decoration: BoxDecoration(
           color: isHighlighted ? Colors.amber.shade200 : Colors.blue.shade200,

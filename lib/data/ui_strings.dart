@@ -5,6 +5,61 @@
 class UiStrings {
   static const Map<String, Map<String, String>> _s = {
     'en': {
+      'boards_title': 'My Boards',
+      'boards_create': 'Create board',
+      'boards_name': 'Name',
+      'boards_name_required': 'Enter a name.',
+      'boards_done': 'Done',
+      'boards_empty':
+          'Prepare for a presentation, lesson or appointment. Create a board and group the pictures you need into sections.',
+      'boards_summary': '{sections} sections · {words} pictograms',
+      'boards_present': 'Present',
+      'boards_edit': 'Edit board',
+      'boards_duplicate': 'Duplicate board',
+      'boards_copy_name': '{name} (copy)',
+      'boards_delete': 'Delete board?',
+      'boards_delete_message':
+          'Delete “{name}” from this device? This cannot be undone.',
+      'boards_save_error':
+          'Could not save. Your changes are still here. Please try again.',
+      'boards_load_error':
+          'Could not read saved boards. Your stored data has not been changed.',
+      'boards_retry': 'Retry',
+      'boards_save': 'Save',
+      'boards_saving': 'Saving…',
+      'boards_rename': 'Rename board',
+      'boards_editor_hint':
+          'Group your pictograms into sections. Use each tile’s menu to move or remove it. Save when you are ready.',
+      'boards_no_sections': 'Add a section to start building your board.',
+      'boards_add_section': 'Add section',
+      'boards_rename_section': 'Rename section',
+      'boards_delete_section': 'Delete section?',
+      'boards_delete_section_message':
+          'Remove this section and its tiles from the board? The words remain in the library.',
+      'boards_no_words': 'No pictograms in this section yet.',
+      'boards_choose_words': 'Choose pictograms',
+      'boards_move_up': 'Move section earlier',
+      'boards_move_down': 'Move section later',
+      'boards_move_earlier': 'Move tile earlier',
+      'boards_move_later': 'Move tile later',
+      'boards_move_section': 'Move to section',
+      'boards_remove_word': 'Remove tile',
+      'boards_section_options': 'Section options',
+      'boards_word_options': 'Tile options',
+      'boards_unsaved': 'Unsaved changes',
+      'boards_discard_message': 'Leave without saving your changes?',
+      'boards_discard': 'Discard changes',
+      'boards_stop': 'Stop',
+      'boards_previous': 'Previous',
+      'boards_next': 'Next',
+      'boards_sentence_hint': 'Tap pictures to build your message.',
+      'boards_voice_error':
+          'Speech is unavailable. Check your connection or installed device voices. Your message is still visible.',
+      'boards_change_language': 'Change speaking language?',
+      'boards_change_language_message':
+          'Clear the current message before changing language? Your saved board will stay the same.',
+      'boards_scan_hint':
+          'Press Space or Enter when the item you want is highlighted.',
       'library_short': 'Words',
       'library': 'Word library',
       'library_search': 'Search all words',
@@ -45,7 +100,8 @@ class UiStrings {
       'emergency_title': 'Emergency phrases',
       'people': 'People',
       'add_person': 'Add person',
-      'no_people': 'No one added yet. Tap "Add person" to personalize this board.',
+      'no_people':
+          'No one added yet. Tap "Add person" to personalize this board.',
       'display_name': 'Display name',
       'relationship_optional': 'Relationship (optional)',
       'relationship_hint': 'e.g. Brother, Teacher',
@@ -99,6 +155,61 @@ class UiStrings {
           'Real photos are used for a few Ghanaian items no pictogram library covers well:',
     },
     'fr': {
+      'boards_title': 'Mes tableaux',
+      'boards_create': 'Créer un tableau',
+      'boards_name': 'Nom',
+      'boards_name_required': 'Saisissez un nom.',
+      'boards_done': 'Terminé',
+      'boards_empty':
+          'Préparez une présentation, un cours ou un rendez-vous. Créez un tableau et regroupez vos pictogrammes en sections.',
+      'boards_summary': '{sections} sections · {words} pictogrammes',
+      'boards_present': 'Présenter',
+      'boards_edit': 'Modifier le tableau',
+      'boards_duplicate': 'Dupliquer le tableau',
+      'boards_copy_name': '{name} (copie)',
+      'boards_delete': 'Supprimer le tableau ?',
+      'boards_delete_message':
+          'Supprimer « {name} » de cet appareil ? Cette action est définitive.',
+      'boards_save_error':
+          'Enregistrement impossible. Vos modifications sont conservées à l’écran. Réessayez.',
+      'boards_load_error':
+          'Lecture des tableaux impossible. Les données enregistrées sont inchangées.',
+      'boards_retry': 'Réessayer',
+      'boards_save': 'Enregistrer',
+      'boards_saving': 'Enregistrement…',
+      'boards_rename': 'Renommer le tableau',
+      'boards_editor_hint':
+          'Regroupez vos pictogrammes en sections. Utilisez le menu de chaque image pour la déplacer ou la retirer, puis enregistrez.',
+      'boards_no_sections': 'Ajoutez une section pour commencer.',
+      'boards_add_section': 'Ajouter une section',
+      'boards_rename_section': 'Renommer la section',
+      'boards_delete_section': 'Supprimer la section ?',
+      'boards_delete_section_message':
+          'Retirer cette section et ses images ? Les mots restent dans la bibliothèque.',
+      'boards_no_words': 'Aucun pictogramme dans cette section.',
+      'boards_choose_words': 'Choisir des pictogrammes',
+      'boards_move_up': 'Avancer la section',
+      'boards_move_down': 'Reculer la section',
+      'boards_move_earlier': 'Avancer l’image',
+      'boards_move_later': 'Reculer l’image',
+      'boards_move_section': 'Déplacer vers une section',
+      'boards_remove_word': 'Retirer l’image',
+      'boards_section_options': 'Options de section',
+      'boards_word_options': 'Options du pictogramme',
+      'boards_unsaved': 'Modifications non enregistrées',
+      'boards_discard_message': 'Quitter sans enregistrer vos modifications ?',
+      'boards_discard': 'Abandonner les modifications',
+      'boards_stop': 'Arrêter',
+      'boards_previous': 'Précédent',
+      'boards_next': 'Suivant',
+      'boards_sentence_hint': 'Touchez les images pour composer votre message.',
+      'boards_voice_error':
+          'Voix indisponible. Vérifiez la connexion ou les voix installées. Votre message reste visible.',
+      'boards_change_language': 'Changer la langue parlée ?',
+      'boards_change_language_message':
+          'Effacer le message avant de changer de langue ? Le tableau enregistré restera inchangé.',
+      'boards_scan_hint':
+          'Appuyez sur Espace ou Entrée quand l’élément souhaité est surligné.',
       'library_short': 'Mots',
       'library': 'Bibliothèque de mots',
       'library_search': 'Chercher parmi tous les mots',
@@ -164,7 +275,8 @@ class UiStrings {
       'context_name': 'Nom du contexte',
       'context_name_hint': 'ex. Chez mamie',
       'context_words': 'Mots',
-      'context_words_hint': 'Séparez les mots par des virgules : thé, jardin, radio',
+      'context_words_hint':
+          'Séparez les mots par des virgules : thé, jardin, radio',
       'create': 'Créer',
       'my_contexts': 'Vos contextes',
       'settings_title': 'Réglages',

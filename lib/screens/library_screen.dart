@@ -12,6 +12,8 @@ class LibraryScreen extends StatefulWidget {
   final String Function(VocabularyItem) labelBuilder;
   final String? Function(VocabularyItem) secondaryLabelBuilder;
   final void Function(VocabularyItem) onItemTap;
+  final Set<String>? initialSelection;
+  final void Function(List<VocabularyItem>)? onSelectionDone;
 
   const LibraryScreen({
     super.key,
@@ -20,6 +22,8 @@ class LibraryScreen extends StatefulWidget {
     required this.labelBuilder,
     required this.secondaryLabelBuilder,
     required this.onItemTap,
+    this.initialSelection,
+    this.onSelectionDone,
   });
 
   /// All library words as board items, made once.
@@ -40,6 +44,7 @@ class LibraryScreen extends StatefulWidget {
 class _LibraryScreenState extends State<LibraryScreen> {
   final TextEditingController _search = TextEditingController();
   String? _categoryId;
+  late final Set<String> _selected = {...?widget.initialSelection};
 
   @override
   void dispose() {
@@ -65,6 +70,18 @@ class _LibraryScreenState extends State<LibraryScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(context.tr('library')),
+        actions: [
+          if (widget.onSelectionDone != null)
+            TextButton(
+              onPressed: () {
+                widget.onSelectionDone!(
+                  widget.items.where((i) => _selected.contains(i.id)).toList(),
+                );
+                Navigator.pop(context);
+              },
+              child: Text('${context.tr('boards_done')} (${_selected.length})'),
+            ),
+        ],
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(56),
           child: Padding(
@@ -142,7 +159,16 @@ class _LibraryScreenState extends State<LibraryScreen> {
                         item: item,
                         label: label,
                         secondaryLabel: secondary != label ? secondary : null,
+                        isHighlighted: _selected.contains(item.id),
                         onTap: () {
+                          if (widget.onSelectionDone != null) {
+                            setState(() {
+                              if (!_selected.add(item.id)) {
+                                _selected.remove(item.id);
+                              }
+                            });
+                            return;
+                          }
                           Navigator.pop(context);
                           widget.onItemTap(item);
                         },

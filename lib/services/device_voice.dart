@@ -29,22 +29,28 @@ class DeviceVoice {
   /// Returns true if the phone had a voice for [locale] and spoke [text].
   /// Returns false if the voice is missing or speech failed, so the caller
   /// can tell the user how to install it.
-  static Future<bool> speak(String text, String locale) async {
+  static Future<bool> speak(
+    String text,
+    String locale, {
+    bool Function()? isCancelled,
+  }) async {
     try {
       await _init();
+      if (isCancelled?.call() ?? false) return false;
       // Clear anything left over from a previous, possibly-stuck utterance
       // before checking or speaking, so two languages never overlap.
       await _tts.stop();
       if (!await _isAvailable(locale)) return false;
+      if (isCancelled?.call() ?? false) return false;
       await _tts.setLanguage(locale);
+      if (isCancelled?.call() ?? false) return false;
       // awaitSpeakCompletion can hang forever if the browser's "finished"
       // event never fires (a known flutter_tts-on-web issue, e.g. after the
       // tab loses focus). A stuck wait would silently break every Speak tap
       // after it, since the caller never gets control back. Time it out.
-      await _tts.speak(text).timeout(
-        const Duration(seconds: 12),
-        onTimeout: () => 1,
-      );
+      await _tts
+          .speak(text)
+          .timeout(const Duration(seconds: 12), onTimeout: () => 1);
       return true;
     } catch (e) {
       debugPrint('Device voice error: $e');
