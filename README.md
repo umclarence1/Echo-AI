@@ -111,6 +111,32 @@ works for this installation:
 & 'C:\Users\PAPAOF~1\Downloads\Flutter\flutter\bin\flutter.bat' test
 ```
 
+## Message tense
+
+The main communication board and My Boards → Present include a Tense selector.
+Present is the default. Build a message, then choose Past, Present or Future;
+Speak reads the displayed message. For example, `I want water` becomes
+`I wanted water` or `I will want water`. Switching tense always uses the source
+message, so repeated changes do not stack extra verbs. Pictograms and saved
+board layouts are unchanged. Clear and language changes reset to Present.
+Typing an edit starts a new source message; choose a tense again to convert it.
+
+Conversion runs locally without AI or a network request. This first version
+supports simple English statements beginning with I, you, he, she, it, we or
+they, common verbs, states, and simple negatives. Unknown verbs, questions,
+multiple clauses, explicit time words, and complex grammar remain unchanged
+with a notice. Other languages show an availability notice and leave the
+selector disabled. Natural speech suggestions are hidden in Past/Future so
+they cannot accidentally replace a converted message with a present phrase.
+
+The version before this feature is commit `4accb86`, tagged
+`checkpoint/before-tense-20261020`. With later edits saved, open that version
+on a separate branch:
+
+```powershell
+git switch -c recovery/before-tense checkpoint/before-tense-20261020
+```
+
 ## Rebuilding the word library
 
 Words live in `tools/vocab/words_*.txt` (English and French per line).

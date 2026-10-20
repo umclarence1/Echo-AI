@@ -8,6 +8,8 @@ import '../../services/app_settings.dart';
 import '../../services/board_vocabulary.dart';
 import '../../services/language_scope.dart';
 import '../../services/speech_service.dart';
+import '../../services/tense_converter.dart';
+import '../../widgets/tense_selector.dart';
 import '../../widgets/vocabulary_grid.dart';
 import 'board_dialogs.dart';
 
@@ -21,6 +23,22 @@ class BoardPresentScreen extends StatefulWidget {
 class _BoardPresentScreenState extends State<BoardPresentScreen> {
   final SpeechService _speech = SpeechService();
   final List<String> _words = [];
+  SentenceTense _tense = SentenceTense.present;
+  bool _tenseSelected = false;
+  String get _message => _tenseSelected
+      ? TenseConverter.convert(_words.join(' '), _tense, _language.code).text
+      : _words.join(' ');
+
+  void _changeTense(SentenceTense tense) => setState(() {
+    _tense = tense;
+    _tenseSelected = true;
+  });
+
+  void _clearMessage() => setState(() {
+    _words.clear();
+    _tense = SentenceTense.present;
+    _tenseSelected = false;
+  });
   final FocusNode _switchFocus = FocusNode();
   final ScrollController _contentScroll = ScrollController();
   late EchoLanguage _language = AppSettings.language.value;
@@ -75,13 +93,13 @@ class _BoardPresentScreenState extends State<BoardPresentScreen> {
         () => _words.add(BoardVocabulary.label(item.label, _language.code)),
       ),
     () {
-      if (_words.isNotEmpty && !_speaking) _speak(_words.join(' '), _language);
+      if (_words.isNotEmpty && !_speaking) _speak(_message, _language);
     },
     _stop,
     () {
       if (_words.isNotEmpty) setState(() => _words.removeLast());
     },
-    () => setState(_words.clear),
+    _clearMessage,
     () {
       if (_section > 0) _navigate(-1);
     },
@@ -89,6 +107,12 @@ class _BoardPresentScreenState extends State<BoardPresentScreen> {
       if (_section < widget.board.sections.length - 1) _navigate(1);
     },
     _emergency,
+    for (final tense in SentenceTense.values)
+      () {
+        if (TenseConverter.supportsLanguage(_language.code)) {
+          _changeTense(tense);
+        }
+      },
   ];
 
   bool _highlight(int action) =>
@@ -149,6 +173,8 @@ class _BoardPresentScreenState extends State<BoardPresentScreen> {
       setState(() {
         _language = language;
         _words.clear();
+        _tense = SentenceTense.present;
+        _tenseSelected = false;
       });
     }
   }
@@ -302,12 +328,34 @@ class _BoardPresentScreenState extends State<BoardPresentScreen> {
                           child: Text(
                             _words.isEmpty
                                 ? context.tr('boards_sentence_hint')
-                                : _words.join(' '),
+                                : _message,
                             style: const TextStyle(fontSize: 22),
                           ),
                         ),
                       ),
                       const SizedBox(height: 8),
+                      TenseSelector(
+                        value: _tense,
+                        source: _words.join(' '),
+                        conversionRequested: _tenseSelected,
+                        languageCode: _language.code,
+                        onChanged: _changeTense,
+                      ),
+                      if (AppSettings.switchScanningEnabled.value)
+                        Wrap(
+                          spacing: 8,
+                          children: [
+                            for (final tense in SentenceTense.values)
+                              _control(
+                                context.tr('tense_${tense.name}'),
+                                Icons.schedule,
+                                TenseConverter.supportsLanguage(_language.code)
+                                    ? () => _changeTense(tense)
+                                    : null,
+                                actionStart + 7 + tense.index,
+                              ),
+                          ],
+                        ),
                       Wrap(
                         spacing: 8,
                         runSpacing: 8,
@@ -317,7 +365,7 @@ class _BoardPresentScreenState extends State<BoardPresentScreen> {
                             Icons.volume_up,
                             _words.isEmpty || _speaking
                                 ? null
-                                : () => _speak(_words.join(' '), _language),
+                                : () => _speak(_message, _language),
                             actionStart,
                           ),
                           _control(
@@ -337,9 +385,7 @@ class _BoardPresentScreenState extends State<BoardPresentScreen> {
                           _control(
                             context.tr('clear'),
                             Icons.clear,
-                            _words.isEmpty
-                                ? null
-                                : () => setState(_words.clear),
+                            _words.isEmpty ? null : _clearMessage,
                             actionStart + 3,
                           ),
                           _control(

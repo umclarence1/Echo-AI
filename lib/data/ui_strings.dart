@@ -5,6 +5,14 @@
 class UiStrings {
   static const Map<String, Map<String, String>> _s = {
     'en': {
+      'tense_label': 'Tense',
+      'tense_past': 'Past',
+      'tense_present': 'Present',
+      'tense_future': 'Future',
+      'tense_language':
+          'Tense conversion is available for simple English statements only.',
+      'tense_unsupported':
+          'This message could not be converted. Your words are unchanged. Try a simple statement such as “I want water”.',
       'boards_title': 'My Boards',
       'boards_create': 'Create board',
       'boards_name': 'Name',
@@ -155,6 +163,14 @@ class UiStrings {
           'Real photos are used for a few Ghanaian items no pictogram library covers well:',
     },
     'fr': {
+      'tense_label': 'Temps',
+      'tense_past': 'Passé',
+      'tense_present': 'Présent',
+      'tense_future': 'Futur',
+      'tense_language':
+          'La conversion des temps est disponible uniquement pour les phrases simples en anglais.',
+      'tense_unsupported':
+          'Cette phrase ne peut pas être convertie. Vos mots restent inchangés.',
       'boards_title': 'Mes tableaux',
       'boards_create': 'Créer un tableau',
       'boards_name': 'Nom',

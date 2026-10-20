@@ -24,6 +24,8 @@ import '../services/app_settings.dart';
 import '../services/speech_service.dart';
 import '../services/language_scope.dart';
 import '../services/natural_speech.dart';
+import '../services/tense_converter.dart';
+import '../widgets/tense_selector.dart';
 import '../services/user_data_store.dart';
 import 'favorites_screen.dart';
 import 'library_screen.dart';
@@ -41,6 +43,47 @@ class CommunicationBoard extends StatefulWidget {
 
 class _CommunicationBoardState extends State<CommunicationBoard> {
   final TextEditingController _textController = TextEditingController();
+  SentenceTense _tense = SentenceTense.present;
+  bool _tenseSelected = false;
+  String _tenseSource = '';
+  String _renderedMessage = '';
+  bool _settingMessage = false;
+
+  void _setMessage(String source) {
+    _tenseSource = source;
+    _settingMessage = true;
+    _renderedMessage = _tenseSelected
+        ? TenseConverter.convert(source, _tense, selectedLanguage.code).text
+        : source;
+    _textController.text = _renderedMessage;
+    _textController.selection = TextSelection.collapsed(
+      offset: _textController.text.length,
+    );
+    _settingMessage = false;
+    _updateSpeechSuggestions();
+  }
+
+  void _messageChanged() {
+    if (_settingMessage || _textController.text == _renderedMessage) return;
+    // Manual edits are a new source message. Keep exactly what the user typed;
+    // conversion happens on the next tense selection or pictogram addition.
+    setState(() {
+      _tenseSource = _textController.text;
+      _renderedMessage = _textController.text;
+      _tense = SentenceTense.present;
+      _tenseSelected = false;
+    });
+    _updateSpeechSuggestions();
+  }
+
+  void _changeTense(SentenceTense tense) {
+    setState(() {
+      _tense = tense;
+      _tenseSelected = true;
+      _setMessage(_tenseSource);
+    });
+  }
+
   final SpeechService _speech = SpeechService();
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final FocusNode _switchFocusNode = FocusNode();
@@ -88,7 +131,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   void initState() {
     super.initState();
     _loadPictograms();
-    _textController.addListener(_updateSpeechSuggestions);
+    _textController.addListener(_messageChanged);
     AppSettings.naturalSpeechEnabled.addListener(_updateSpeechSuggestions);
     AppSettings.speakerGender.addListener(_onGrammarChanged);
     AppSettings.language.addListener(_onLanguageNotified);
@@ -101,7 +144,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
 
   @override
   void dispose() {
-    _textController.removeListener(_updateSpeechSuggestions);
+    _textController.removeListener(_messageChanged);
     AppSettings.naturalSpeechEnabled.removeListener(_updateSpeechSuggestions);
     AppSettings.speakerGender.removeListener(_onGrammarChanged);
     AppSettings.language.removeListener(_onLanguageNotified);
@@ -310,7 +353,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     setState(() {
       sentence.add(item);
       sentenceDisplayWords.add(_displayLabel(item));
-      _textController.text = _buildSentenceText();
+      _setMessage(_buildSentenceText());
       _countUse(item);
     });
   }
@@ -338,7 +381,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
         sentenceDisplayWords.add(_displayLabel(item));
       }
       _countUse(item);
-      _textController.text = _buildSentenceText();
+      _setMessage(_buildSentenceText());
     });
   }
 
@@ -373,7 +416,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
       if (sentence.isNotEmpty) {
         sentence.removeLast();
         sentenceDisplayWords.removeLast();
-        _textController.text = _buildSentenceText();
+        _setMessage(_buildSentenceText());
       }
     });
   }
@@ -382,7 +425,9 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     setState(() {
       sentence.clear();
       sentenceDisplayWords.clear();
-      _textController.clear();
+      _tense = SentenceTense.present;
+      _tenseSelected = false;
+      _setMessage('');
       speechSuggestions = [];
     });
   }
@@ -490,7 +535,9 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     setState(() {
       sentence.clear();
       sentenceDisplayWords.clear();
-      _textController.text = text;
+      _tense = SentenceTense.present;
+      _tenseSelected = false;
+      _setMessage(text);
     });
     _speak(text, translated != null ? selectedLanguage : EchoLanguage.english);
   }
@@ -947,7 +994,9 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
 
   void _updateSpeechSuggestions() {
     if (!mounted) return;
-    final suggestions = AppSettings.naturalSpeechEnabled.value
+    final suggestions =
+        AppSettings.naturalSpeechEnabled.value &&
+            _tense == SentenceTense.present
         ? NaturalSpeech.suggest(
             language: selectedLanguage,
             rawText: _textController.text,
@@ -962,7 +1011,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
 
   void _applySuggestion(String suggestion) {
     setState(() {
-      _textController.text = suggestion;
+      _setMessage(suggestion);
       speechSuggestions = [];
     });
   }
@@ -1027,6 +1076,16 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                         if (_frequentlyUsedItems.isNotEmpty)
                           _buildFrequentlyUsedRow(),
 
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: TenseSelector(
+                            value: _tense,
+                            source: _tenseSource,
+                            conversionRequested: _tenseSelected,
+                            languageCode: selectedLanguage.code,
+                            onChanged: _changeTense,
+                          ),
+                        ),
                         SentenceBuilder(
                           controller: _textController,
                           onDelete: deleteLastWord,
