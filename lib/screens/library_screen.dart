@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../data/library_vocabulary.dart';
+import '../services/vocabulary_catalog.dart';
 import '../models/vocabulary_item.dart';
 import '../services/language_scope.dart';
 import '../widgets/vocabulary_grid.dart';
@@ -27,15 +27,7 @@ class LibraryScreen extends StatefulWidget {
   });
 
   /// All library words as board items, made once.
-  static final List<VocabularyItem> allItems = [
-    for (final category in LibraryVocabulary.categories)
-      for (final word in category.words)
-        VocabularyItem(
-          id: 'lib_${word.label}',
-          label: word.label,
-          collectionId: category.id,
-        ),
-  ];
+  static List<VocabularyItem> get allItems => VocabularyCatalog.items;
 
   @override
   State<LibraryScreen> createState() => _LibraryScreenState();
@@ -55,12 +47,16 @@ class _LibraryScreenState extends State<LibraryScreen> {
   List<VocabularyItem> get _visible {
     final query = _search.text.trim().toLowerCase();
     return widget.items.where((item) {
+      if (_categoryId != null &&
+          !VocabularyCatalog.belongsTo(item, _categoryId!)) {
+        return false;
+      }
       if (query.isNotEmpty) {
         final shown = widget.labelBuilder(item).toLowerCase();
         return item.label.toLowerCase().contains(query) ||
             shown.contains(query);
       }
-      return _categoryId == null || item.collectionId == _categoryId;
+      return true;
     }).toList();
   }
 
@@ -109,21 +105,35 @@ class _LibraryScreenState extends State<LibraryScreen> {
           SizedBox(
             height: 52,
             child: ListView(
+              key: const ValueKey('library_categories'),
               scrollDirection: Axis.horizontal,
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
               children: [
                 Padding(
                   padding: const EdgeInsets.only(right: 6),
                   child: ChoiceChip(
+                    key: const ValueKey('library_category_all'),
                     label: Text(context.tr('all_words')),
                     selected: _categoryId == null,
                     onSelected: (_) => setState(() => _categoryId = null),
                   ),
                 ),
-                for (final category in LibraryVocabulary.categories)
+                for (final category
+                    in [
+                      ...VocabularyCatalog.categories,
+                      if (widget.items.any(
+                        (i) => VocabularyCatalog.belongsTo(i, 'personal'),
+                      ))
+                        VocabularyCategory('personal', 'My words', []),
+                    ].where(
+                      (c) => widget.items.any(
+                        (i) => VocabularyCatalog.belongsTo(i, c.id),
+                      ),
+                    ))
                   Padding(
                     padding: const EdgeInsets.only(right: 6),
                     child: ChoiceChip(
+                      key: ValueKey('library_category_${category.id}'),
                       label: Text(widget.categoryName(category.label)),
                       selected: _categoryId == category.id,
                       onSelected: (_) =>

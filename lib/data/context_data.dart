@@ -3,6 +3,7 @@ import '../models/vocabulary_item.dart';
 import '../services/arasaac_service.dart';
 
 class ContextData {
+  /// Starter shortcuts; VocabularyCatalog adds the related category after them.
   static List<Context> getContexts() {
     return [
       Context(

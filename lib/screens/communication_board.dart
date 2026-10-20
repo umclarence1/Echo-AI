@@ -25,6 +25,7 @@ import '../services/speech_service.dart';
 import '../services/language_scope.dart';
 import '../services/natural_speech.dart';
 import '../services/practice_run.dart';
+import '../services/vocabulary_catalog.dart';
 import '../services/tense_converter.dart';
 import '../widgets/tense_selector.dart';
 import '../services/user_data_store.dart';
@@ -114,8 +115,8 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   // makes code-switching (mixing languages mid-sentence) work.
   List<String> sentenceDisplayWords = [];
   List<VocabularyItem> coreVocabulary = CoreVocabulary.getItems();
-  List<Context> contexts = ContextData.getContexts();
-  List<Collection> collections = CollectionsData.getCollections();
+  List<Context> contexts = VocabularyCatalog.contexts;
+  List<Collection> collections = VocabularyCatalog.collections;
   // Home is shown from the start rather than leaving the board mostly empty
   // below the core row - people can still switch or close it.
   late Context? selectedContext = contexts.isNotEmpty ? contexts.first : null;
@@ -263,11 +264,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     }
   }
 
-  static final _connectorFeel = VocabularyItem(
-    id: 'connector_feel',
-    label: 'feel',
-    symbolUrl: ArasaacService.getPictogramUrl('3293'),
-  );
+  static final _connectorFeel = VocabularyCatalog.feelConnector;
 
   List<VocabularyItem> get _allVocabularyItems => [
     ...coreVocabulary,
@@ -341,15 +338,27 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     final khayaCode = language.khayaCode;
     if (khayaCode == null) return;
 
-    final missingLabels = _allVocabularyItems
-        // People's names stay as they are.
-        .where((item) => item.collectionId != 'collection_people')
-        .map((item) => item.label)
-        .toSet()
-        .where(
-          (label) => !_translations.containsKey('${language.code}||$label'),
-        )
-        .toList();
+    // Expanded groups use bundled translations; avoid a bulk API request for
+    // the entire library whenever a Ghanaian language is selected.
+    final missingLabels =
+        [
+              ...CoreVocabulary.getItems(),
+              for (final c in ContextData.getContexts()) ...c.vocabulary,
+              for (final c in CollectionsData.getCollections()) ...c.items,
+              for (final c in _savedCustomContexts) ...c.vocabulary,
+              for (final c in contexts.where(_isCustom)) ...c.vocabulary,
+              ...people,
+              ...favorites,
+              _connectorFeel,
+            ]
+            // People's names stay as they are.
+            .where((item) => item.collectionId != 'collection_people')
+            .map((item) => item.label)
+            .toSet()
+            .where(
+              (label) => !_translations.containsKey('${language.code}||$label'),
+            )
+            .toList();
 
     if (missingLabels.isEmpty) return;
 
@@ -391,6 +400,10 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   /// appending, so "I" + "Happy" reads as "I feel happy" (or "Me siento
   /// feliz") rather than the two words stacked side by side.
   void _addFeelSelection(VocabularyItem item) {
+    if (!VocabularyCatalog.isFeelingState(item.label)) {
+      addToSentence(item);
+      return;
+    }
     if (_isPractice && !widget.practice!.acceptsInput) return;
     setState(() {
       final lastWasI =
@@ -586,11 +599,17 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
       context,
       MaterialPageRoute(
         builder: (_) => LibraryScreen(
-          items: LibraryScreen.allItems,
+          items: VocabularyCatalog.merge([
+            ...LibraryScreen.allItems,
+            if (!_isPractice) ...people,
+            if (!_isPractice) ...favorites,
+            if (!_isPractice)
+              for (final c in contexts.where(_isCustom)) ...c.vocabulary,
+          ]),
           categoryName: _nameLabel,
           labelBuilder: _displayLabel,
           secondaryLabelBuilder: _englishSubtitle,
-          onItemTap: addToSentence,
+          onItemTap: _activateFrequentlyUsed,
         ),
       ),
     );
@@ -680,26 +699,20 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                       ),
                     ),
                     Expanded(
-                      child: people.isEmpty
-                          ? Center(
-                              child: Padding(
-                                padding: const EdgeInsets.all(24),
-                                child: Text(
-                                  context.tr('no_people'),
-                                  textAlign: TextAlign.center,
-                                  style: const TextStyle(color: Colors.grey),
-                                ),
-                              ),
-                            )
-                          : VocabularyGrid(
-                              items: people,
-                              labelBuilder: _displayLabel,
-                              secondaryLabelBuilder: _englishSubtitle,
-                              onItemTap: (item) {
-                                Navigator.pop(sheetContext);
-                                addToSentence(item);
-                              },
-                            ),
+                      child: SingleChildScrollView(
+                        child: VocabularyGrid(
+                          items: VocabularyCatalog.merge([
+                            ...people,
+                            ...VocabularyCatalog.categoryItems('people'),
+                          ]),
+                          labelBuilder: _displayLabel,
+                          secondaryLabelBuilder: _englishSubtitle,
+                          onItemTap: (item) {
+                            Navigator.pop(sheetContext);
+                            addToSentence(item);
+                          },
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -1335,20 +1348,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
               key: const ValueKey('board_collections'),
               scrollDirection: Axis.horizontal,
               children: [
-                ...collections.map((collection) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 4,
-                      vertical: 6,
-                    ),
-                    child: OutlinedButton.icon(
-                      key: ValueKey(collection.id),
-                      onPressed: () => _openCollection(collection),
-                      icon: const Icon(Icons.folder_open, size: 16),
-                      label: Text(_nameLabel(collection.label)),
-                    ),
-                  );
-                }),
+                ...collections.take(3).map(_collectionButton),
                 if (!_isPractice)
                   Padding(
                     padding: const EdgeInsets.symmetric(
@@ -1361,6 +1361,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                       label: Text(_nameLabel('People')),
                     ),
                   ),
+                ...collections.skip(3).map(_collectionButton),
               ],
             ),
           ),
@@ -1368,6 +1369,16 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
       ),
     );
   }
+
+  Widget _collectionButton(Collection collection) => Padding(
+    padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 6),
+    child: OutlinedButton.icon(
+      key: ValueKey(collection.id),
+      onPressed: () => _openCollection(collection),
+      icon: const Icon(Icons.folder_open, size: 16),
+      label: Text(_nameLabel(collection.label)),
+    ),
+  );
 
   Widget _buildFrequentlyUsedRow() {
     // Built from individual tiles in a horizontal strip, not VocabularyGrid

@@ -2,8 +2,8 @@ import '../models/collection.dart';
 import '../models/vocabulary_item.dart';
 import '../services/arasaac_service.dart';
 
-/// Concept-based collections. Per the PRD, only these expand into a
-/// secondary grid - everything else on the board inserts a word directly.
+/// Starter shortcuts for the original collections. VocabularyCatalog keeps
+/// these first and adds the full category, including generated library words.
 class CollectionsData {
   static List<Collection> getCollections() {
     return [

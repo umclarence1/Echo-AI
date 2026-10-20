@@ -9,8 +9,8 @@ launches with English, Twi, Ga, Ewe, Dagbani and French. Ewe, Dagbani and French
 
 - **Board.** A fixed core vocabulary that never moves, plus contexts (Home,
   Hospital, School, Restaurant, Church, Market, Travel) and collections
-  (Feel, Food, Places, People).
-- **Word library.** More than 1,000 words in 19 category folders with search,
+  (Feel, Food, Places, People, plus the full library categories).
+- **Word library.** More than 1,000 words in shared categories with search,
   every one with a bundled ARASAAC pictogram, so the whole library works
   offline. Real photos cover Ghanaian dishes and trotro.
 - **Languages.** English, Twi, Ga, Ewe, Dagbani and French. Board words, menus and
@@ -188,6 +188,29 @@ a separate branch:
 ```powershell
 git switch -c recovery/before-practice checkpoint/before-practice-20261020
 ```
+
+## Vocabulary organization
+
+**Words → All words** includes the fixed core, every built-in context and
+collection tile, and the generated library, with one entry per label. Saved
+People, Favorites and custom-context words are also included in normal Words;
+unclassified personal entries appear in **My words**. They are available in
+the prepared-board picker too.
+
+`VocabularyCatalog` joins the original data sources into one index. Category
+membership is independent of a word's original source, so a word can appear
+in several useful categories without duplicate entries in All words. Each
+board collection exposes its full category; contexts include their related
+category while keeping existing shortcut tiles first. People includes both
+built-in people and saved personal entries. Searching with a category selected
+stays within that category. Core positions and saved word IDs are preserved.
+
+The generated library file intentionally excludes words already defined by
+the board. Keep generating it normally: the runtime catalog supplies the
+complete vocabulary. Coverage tests check all sources and all categories,
+including Food, Feelings, Places, People, Health, School and Technology.
+
+The previous version is tagged `checkpoint/before-vocabulary-grouping-20261020`.
 
 ## Rebuilding the word library
 

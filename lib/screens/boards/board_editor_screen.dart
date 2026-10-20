@@ -5,6 +5,7 @@ import '../../services/app_settings.dart';
 import '../../services/board_repository.dart';
 import '../../services/board_vocabulary.dart';
 import '../../services/language_scope.dart';
+import '../../services/user_data_store.dart';
 import '../../widgets/vocabulary_grid.dart';
 import '../library_screen.dart';
 import 'board_dialogs.dart';
@@ -113,6 +114,10 @@ class _BoardEditorScreenState extends State<BoardEditorScreen> {
     final section = _board.sections[index];
     final words = <String, VocabularyItem>{
       for (final item in BoardVocabulary.items) item.id: item,
+      for (final item in UserDataStore.loadPeople()) item.id: item,
+      for (final item in UserDataStore.loadFavorites()) item.id: item,
+      for (final c in UserDataStore.loadCustomContexts())
+        for (final item in c.vocabulary) item.id: item,
       for (final item in section.items) item.id: item,
     }.values.toList();
     Navigator.push(

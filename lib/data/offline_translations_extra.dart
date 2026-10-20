@@ -8,6 +8,8 @@ class ExtraTranslations {
     // names of contexts and collections
 
     // ---- French ----
+    'fr||Core': 'Mots essentiels',
+    'fr||My words': 'Mes mots',
     'fr||I': 'Je',
     'fr||You': 'Tu',
     'fr||Want': 'Veux',
