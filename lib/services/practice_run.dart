@@ -1,6 +1,9 @@
 import 'dart:math';
 import 'package:flutter/foundation.dart';
 import '../models/practice.dart';
+import '../models/vocabulary_item.dart';
+import '../data/library_vocabulary.dart';
+import '../data/collections_data.dart';
 import 'board_vocabulary.dart';
 import 'pictogram_assets.dart';
 
@@ -25,10 +28,23 @@ class PracticePrompt {
 }
 
 class PracticePrompts {
-  static const version = 'english-basic-v1';
-  static List<PracticePrompt> build() {
-    final labels = BoardVocabulary.items.map((i) => i.label).toSet();
-    const objects = [
+  static const version = 'english-varied-v2';
+  static List<PracticePrompt> build({Iterable<VocabularyItem>? vocabulary}) {
+    final labels = (vocabulary ?? BoardVocabulary.items)
+        .map((i) => i.label)
+        .where((label) => PictogramAssets.localAssetFor(label) != null)
+        .toSet();
+    // Categories supply the actual words. Grammar tags restrict combinations
+    // where English would need an unavailable article (e.g. "I want a book").
+    final foodWords = {
+      for (final c in LibraryVocabulary.categories)
+        if (c.id == 'food_drink') ...c.words.map((w) => w.label),
+      for (final c in CollectionsData.getCollections())
+        if (c.id == 'collection_food') ...c.items.map((w) => w.label),
+      if (labels.contains('Food')) 'Food',
+    }.intersection(labels);
+    const massOrPluralFood = {
+      'Food',
       'Water',
       'Rice',
       'Bread',
@@ -40,20 +56,152 @@ class PracticePrompts {
       'Jollof Rice',
       'Waakye',
       'Kelewele',
-      'Help',
-      'Medicine',
-    ];
-    return [
-      for (final subject in ['I', 'You'])
-        for (final verb in ['Want', 'Need'])
-          for (final object in objects)
-            if ([subject, verb, object].every(
-              (w) =>
-                  labels.contains(w) &&
-                  PictogramAssets.localAssetFor(w) != null,
-            ))
-              PracticePrompt('$subject/$verb/$object', [subject, verb, object]),
-    ];
+      'Grapes',
+      'Beans',
+      'Yam',
+      'Cassava',
+      'Chicken',
+      'Fish',
+      'Meat',
+      'Beef',
+      'Pork',
+      'Butter',
+      'Cheese',
+      'Milk',
+      'Yogurt',
+      'Ice cream',
+      'Cake',
+      'Chocolate',
+      'Candy',
+      'Sugar',
+      'Salt',
+      'Oil',
+      'Flour',
+      'Honey',
+      'Jam',
+      'Salad',
+      'Pizza',
+      'Chips',
+      'Noodles',
+      'Pasta',
+      'Tea',
+      'Coffee',
+      'Juice',
+      'Soda',
+      'Breakfast',
+      'Lunch',
+      'Dinner',
+      'Shrimp',
+      'Crab meat',
+      'Garlic',
+      'Ginger',
+      'Lettuce',
+      'Spinach',
+      'Okra',
+      'Peas',
+      'Popcorn',
+      'Toast',
+      'Cereal',
+      'Broccoli',
+      'Cauliflower',
+      'Beetroot',
+      'Celery',
+      'Eggplant',
+    };
+    final food = foodWords.intersection(massOrPluralFood);
+    final drinks = food.intersection({
+      'Water',
+      'Milk',
+      'Tea',
+      'Coffee',
+      'Juice',
+      'Soda',
+    });
+    final edible = food.difference(drinks).difference({'Oil', 'Flour'});
+    final pluralThings =
+        {
+          for (final c in LibraryVocabulary.categories)
+            if (c.id == 'clothes' || c.id == 'home_things')
+              ...c.words.map((w) => w.label),
+        }.intersection(labels).intersection({
+          'Trousers',
+          'Shoes',
+          'Socks',
+          'Gloves',
+          'Boots',
+          'Sandals',
+          'Shorts',
+          'Jeans',
+          'Sunglasses',
+          'Pajamas',
+          'Pyjamas',
+          'Crayons',
+          'Scissors',
+        });
+    final objects = {
+      ...food,
+      ...pluralThings,
+      ...labels.intersection({'Help', 'Medicine', 'Rest'}),
+    };
+    final actions = labels.intersection({
+      'Walk',
+      'Run',
+      'Jump',
+      'Sit',
+      'Stand',
+      'Swim',
+      'Read',
+      'Write',
+      'Work',
+      'Play',
+      'Sleep',
+      'Sing',
+      'Dance',
+      'Pray',
+      'Rest',
+    });
+    final prompts = <String, PracticePrompt>{};
+    void add(List<String> words) {
+      // Check every slot, including the subject, verb, modifier and object.
+      if (!words.every(labels.contains)) return;
+      final id = words.join('/');
+      prompts.putIfAbsent(id, () => PracticePrompt(id, words));
+    }
+
+    for (final subject in ['I', 'You']) {
+      for (final verb in ['Want', 'Need']) {
+        for (final object in objects) {
+          add([subject, verb, object]);
+          add([subject, verb, object, 'Please']);
+          add([subject, verb, 'More', object]);
+        }
+      }
+      for (final object in edible) {
+        add([subject, 'Eat', object]);
+      }
+      for (final object in drinks) {
+        add([subject, 'Drink', object]);
+      }
+      for (final object in {...food, ...pluralThings}) {
+        add([subject, 'Like', object]);
+      }
+      for (final action in actions) {
+        add([subject, action]);
+      }
+      for (final place in ['Home', 'Outside']) {
+        add([subject, 'Go', place]);
+      }
+    }
+    for (final action in {...actions, 'Help', 'Stop', 'Wait', 'Eat', 'Drink'}) {
+      add(['Please', action]);
+    }
+    for (final object in edible) {
+      add(['Please', 'Eat', object]);
+    }
+    for (final object in drinks) {
+      add(['Please', 'Drink', object]);
+    }
+    return prompts.values.toList();
   }
 }
 

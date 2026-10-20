@@ -145,8 +145,12 @@ communication board, its contexts, collections and word library. Tap **Check**
 to score a match and move on. A wrong check leaves the message available for
 correction; **Skip** moves on without scoring. Delete and Clear work normally.
 
-The first prompt set is `english-basic-v1`: 52 simple English sentences using
-I/You, want/need and everyday objects available as bundled pictograms. Prompts
+The current prompt set is `english-varied-v2`. It draws objects from the actual
+food, clothing and household vocabulary, checking every subject, verb, modifier
+and object against available bundled pictograms. Templates include requests,
+polite requests, asking for more, eating/drinking, likes, actions, going
+home/outside and polite commands. Grammar tags prevent combinations such as
+eating medicine or singular nouns needing unavailable article tiles. Prompts
 are shuffled without repeats until the set is exhausted. Practice uses English
 without changing the app's selected language. Typing messages, sentence
 suggestions, tense conversion and custom phrase shortcuts are unavailable in

@@ -80,7 +80,7 @@ void main() {
     'every generated prompt is buildable from available bundled pictograms',
     () {
       final prompts = PracticePrompts.build();
-      expect(prompts.length, 52);
+      expect(prompts.length, greaterThan(300));
       expect(prompts.map((p) => p.id).toSet().length, prompts.length);
       final vocabulary = BoardVocabulary.items.map((i) => i.label).toSet();
       for (final prompt in prompts) {
@@ -93,6 +93,41 @@ void main() {
       expect(waterPrompt().matches(' i   WANT water. '), isTrue);
       expect(waterPrompt().matches('Water I Want'), isFalse);
       expect(waterPrompt().matches('I Want Water Help'), isFalse);
+    },
+  );
+
+  test(
+    'varied templates use only the supplied vocabulary, including all object slots',
+    () {
+      final all = PracticePrompts.build();
+      final phrases = all.map((p) => p.words.join(' ')).toSet();
+      expect(
+        phrases,
+        containsAll([
+          'I Eat Rice',
+          'You Drink Milk',
+          'I Run',
+          'Please Help',
+          'You Want More Water',
+          'I Go Outside',
+          'I Like Cheese',
+          'Please Eat Bread',
+          'I Need Shoes',
+          'You Want Juice Please',
+        ]),
+      );
+      final reduced = BoardVocabulary.items.where(
+        (i) => i.label != 'Milk' && i.label != 'Eat' && i.label != 'More',
+      );
+      final reducedLabels = reduced.map((i) => i.label).toSet();
+      final prompts = PracticePrompts.build(vocabulary: reduced);
+      expect(prompts, isNotEmpty);
+      for (final prompt in prompts) {
+        expect(prompt.words.every(reducedLabels.contains), true);
+        expect(prompt.words, isNot(contains('Milk')));
+        expect(prompt.words, isNot(contains('Eat')));
+        expect(prompt.words, isNot(contains('More')));
+      }
     },
   );
 
