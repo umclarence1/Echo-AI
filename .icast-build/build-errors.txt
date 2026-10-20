@@ -1,0 +1,2 @@
+[artifact-tool] embedded_font_subset_missing_glyph: Embedded font is subsetted; glyph coverage checks are not available yet.
+Every source-required native-table owner must have exactly one validation policy     at async file:///C:/Users/Papa%20Offei/Downloads/Echo-AI/.icast-build/build.mjs:77:14

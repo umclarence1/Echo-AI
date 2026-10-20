@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {Presentation,PresentationFile} from '@oai/artifact-tool';
+process.on('uncaughtException',e=>{console.error(e.message);process.exit(1)});
+const dir='.icast-build/template-faithful';const proto=JSON.parse(await fs.readFile(dir+'/presentation.json','utf8'));
+for(const im of proto.images??[])if(im.data)im.data=Uint8Array.from(Object.values(im.data));
+for(const font of proto.fonts??[])for(const f of font.embeddedFonts??[])if(f.data)f.data=Uint8Array.from(Object.values(f.data));
+const p=await Presentation.load(proto),c=p.slides.items[7].charts.items[0];
+c.position={left:57.6,top:153.6,width:729.6,height:475.2};
+c.frame={left:57.6,top:153.6,width:729.6,height:475.2};
+c.series.getItemAt(0).values=[0.0210,0.0276,0.0251,0.0386];
+await(await PresentationFile.exportPptx(p)).save(dir+'/candidate-fixed.pptx');
+await fs.writeFile(dir+'/8-fixed.png',new Uint8Array(await(await p.slides.items[7].export({format:'png',scale:1})).arrayBuffer()));
+console.log('FIXED');

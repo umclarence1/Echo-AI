@@ -1,0 +1,8 @@
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+import {finalizePresentation} from 'file:///C:/Users/Papa%20Offei/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations/container_tools/artifact_tool_utils.mjs';
+process.on('uncaughtException',e=>{console.error(e.message);process.exit(1)});
+const root=process.cwd(),skill='C:/Users/Papa Offei/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations',src='C:/Users/Papa Offei/Downloads/ICAST/ICAST2026_Presentation_Template_.pptx';
+console.log(await finalizePresentation({workspaceDir:root,candidatePath:path.join(root,'.icast-build/candidate-repaired.pptx'),finalPath:path.join(root,'outputs/ICAST2026_Chest_XRay_Retrieval.pptx'),pythonExecutable:'C:/Users/Papa Offei/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit','--require-native-table-slide','6','--require-native-table-slide','7'],requiredNativeTableOwnerSlides:[6,7],requiredNativeChartOwnerSlides:[8],materializeLiteralChartWorkbooks:true,fontPolicy:{basis:'reference',families:['Roboto','Times New Roman'],referencePath:src,referenceSha256:crypto.createHash('sha256').update(await fs.readFile(src)).digest('hex')},verifyArtifactToolImport:true,receiptPath:path.join(root,'.icast-build/validation.json')}));
+
