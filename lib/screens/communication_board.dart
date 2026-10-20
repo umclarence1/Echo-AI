@@ -24,6 +24,7 @@ import '../services/app_settings.dart';
 import '../services/speech_service.dart';
 import '../services/language_scope.dart';
 import '../services/natural_speech.dart';
+import '../services/practice_run.dart';
 import '../services/tense_converter.dart';
 import '../widgets/tense_selector.dart';
 import '../services/user_data_store.dart';
@@ -33,15 +34,29 @@ import 'settings_screen.dart';
 import 'about_screen.dart';
 import 'voice_profile_screen.dart';
 import 'boards/boards_screen.dart';
+import 'practice/practice_screen.dart';
 
 class CommunicationBoard extends StatefulWidget {
-  const CommunicationBoard({super.key});
+  final PracticeRun? practice;
+  const CommunicationBoard({super.key, this.practice});
 
   @override
   State<CommunicationBoard> createState() => _CommunicationBoardState();
 }
 
 class _CommunicationBoardState extends State<CommunicationBoard> {
+  int _practiceRevision = 0;
+  bool get _isPractice => widget.practice != null;
+
+  void _practiceChanged() {
+    if (!mounted) return;
+    if (widget.practice!.revision != _practiceRevision) {
+      _practiceRevision = widget.practice!.revision;
+      clearSentence();
+    }
+    if (widget.practice!.finished) unawaited(_speech.stop());
+  }
+
   final TextEditingController _textController = TextEditingController();
   SentenceTense _tense = SentenceTense.present;
   bool _tenseSelected = false;
@@ -60,6 +75,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
       offset: _textController.text.length,
     );
     _settingMessage = false;
+    widget.practice?.setAnswer(_renderedMessage);
     _updateSpeechSuggestions();
   }
 
@@ -125,11 +141,13 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
     ...LibraryTranslations.data,
   };
 
-  EchoLanguage get selectedLanguage => AppSettings.language.value;
+  EchoLanguage get selectedLanguage =>
+      _isPractice ? EchoLanguage.english : AppSettings.language.value;
 
   @override
   void initState() {
     super.initState();
+    widget.practice?.addListener(_practiceChanged);
     _loadPictograms();
     _textController.addListener(_messageChanged);
     AppSettings.naturalSpeechEnabled.addListener(_updateSpeechSuggestions);
@@ -144,6 +162,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
 
   @override
   void dispose() {
+    widget.practice?.removeListener(_practiceChanged);
     _textController.removeListener(_messageChanged);
     AppSettings.naturalSpeechEnabled.removeListener(_updateSpeechSuggestions);
     AppSettings.speakerGender.removeListener(_onGrammarChanged);
@@ -230,10 +249,18 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
       // The person's own contexts are added after the built-in ones. Their
       // pictograms were saved when they were created, so nothing is fetched
       // here and starting the app stays instant even with no internet.
-      contexts = [...updatedContexts, ..._savedCustomContexts];
+      contexts = [
+        ...updatedContexts,
+        if (!_isPractice) ..._savedCustomContexts,
+      ];
       collections = updatedCollections;
       isLoadingPictograms = false;
     });
+    if (_isPractice) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) widget.practice?.start();
+      });
+    }
   }
 
   static final _connectorFeel = VocabularyItem(
@@ -293,7 +320,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   }
 
   void _onLanguageNotified() {
-    if (!mounted) return;
+    if (!mounted || _isPractice) return;
     // Start the message fresh in the new language, rather than leaving the
     // old sentence sitting in the box - simpler to follow, especially when
     // demonstrating one language at a time.
@@ -345,11 +372,13 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   }
 
   void _countUse(VocabularyItem item) {
+    if (_isPractice) return;
     _usageCounts[item.id] = (_usageCounts[item.id] ?? 0) + 1;
     unawaited(UserDataStore.saveUsage(_usageCounts));
   }
 
   void addToSentence(VocabularyItem item) {
+    if (_isPractice && !widget.practice!.acceptsInput) return;
     setState(() {
       sentence.add(item);
       sentenceDisplayWords.add(_displayLabel(item));
@@ -362,6 +391,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   /// appending, so "I" + "Happy" reads as "I feel happy" (or "Me siento
   /// feliz") rather than the two words stacked side by side.
   void _addFeelSelection(VocabularyItem item) {
+    if (_isPractice && !widget.practice!.acceptsInput) return;
     setState(() {
       final lastWasI =
           sentence.isNotEmpty && sentence.last.label.toLowerCase() == 'i';
@@ -532,6 +562,13 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   void _sayEmergency(EmergencyPhrase phrase) {
     final translated = phrase.inLanguage(selectedLanguage);
     final text = translated ?? phrase.english;
+    if (_isPractice) {
+      _speak(
+        text,
+        translated != null ? selectedLanguage : EchoLanguage.english,
+      );
+      return;
+    }
     setState(() {
       sentence.clear();
       sentenceDisplayWords.clear();
@@ -582,18 +619,21 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                   ),
                 ),
                 Expanded(
-                  child: VocabularyGrid(
-                    items: collection.items,
-                    labelBuilder: _displayLabel,
-                    secondaryLabelBuilder: _englishSubtitle,
-                    onItemTap: (item) {
-                      Navigator.pop(sheetContext);
-                      if (collection.id == 'collection_feel') {
-                        _addFeelSelection(item);
-                      } else {
-                        addToSentence(item);
-                      }
-                    },
+                  child: SingleChildScrollView(
+                    key: const ValueKey('collection_words'),
+                    child: VocabularyGrid(
+                      items: collection.items,
+                      labelBuilder: _displayLabel,
+                      secondaryLabelBuilder: _englishSubtitle,
+                      onItemTap: (item) {
+                        Navigator.pop(sheetContext);
+                        if (collection.id == 'collection_feel') {
+                          _addFeelSelection(item);
+                        } else {
+                          addToSentence(item);
+                        }
+                      },
+                    ),
                   ),
                 ),
               ],
@@ -995,7 +1035,8 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
   void _updateSpeechSuggestions() {
     if (!mounted) return;
     final suggestions =
-        AppSettings.naturalSpeechEnabled.value &&
+        !_isPractice &&
+            AppSettings.naturalSpeechEnabled.value &&
             _tense == SentenceTense.present
         ? NaturalSpeech.suggest(
             language: selectedLanguage,
@@ -1036,7 +1077,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
           },
           child: Scaffold(
             key: _scaffoldKey,
-            drawer: _buildDrawer(),
+            drawer: _isPractice ? null : _buildDrawer(),
             floatingActionButton: scanningEnabled
                 ? FloatingActionButton.extended(
                     onPressed: _activateHighlighted,
@@ -1073,26 +1114,28 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
 
                         _buildCollectionsRow(),
 
-                        if (_frequentlyUsedItems.isNotEmpty)
+                        if (!_isPractice && _frequentlyUsedItems.isNotEmpty)
                           _buildFrequentlyUsedRow(),
 
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 16),
-                          child: TenseSelector(
-                            value: _tense,
-                            source: _tenseSource,
-                            conversionRequested: _tenseSelected,
-                            languageCode: selectedLanguage.code,
-                            onChanged: _changeTense,
+                        if (!_isPractice)
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: TenseSelector(
+                              value: _tense,
+                              source: _tenseSource,
+                              conversionRequested: _tenseSelected,
+                              languageCode: selectedLanguage.code,
+                              onChanged: _changeTense,
+                            ),
                           ),
-                        ),
-                        SentenceBuilder(
-                          controller: _textController,
-                          onDelete: deleteLastWord,
-                          onClear: clearSentence,
-                          speechSuggestions: speechSuggestions,
-                          onApplySuggestion: _applySuggestion,
-                        ),
+                        if (!_isPractice)
+                          SentenceBuilder(
+                            controller: _textController,
+                            onDelete: deleteLastWord,
+                            onClear: clearSentence,
+                            speechSuggestions: speechSuggestions,
+                            onApplySuggestion: _applySuggestion,
+                          ),
 
                         // Core vocabulary stays at the top of this area and never
                         // moves; the chosen context sits below it. On a small
@@ -1141,6 +1184,25 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
           children: [
             const DrawerHeader(
               child: Text('Echo', style: TextStyle(fontSize: 28)),
+            ),
+            ListTile(
+              leading: const Icon(Icons.timer_outlined),
+              title: Text(context.tr('practice_title')),
+              onTap: () async {
+                Navigator.pop(context);
+                await _speech.stop();
+                if (!mounted) return;
+                _scanTimer?.cancel();
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(
+                    builder: (_) => const PracticeScreen(),
+                  ),
+                );
+                if (mounted && AppSettings.switchScanningEnabled.value) {
+                  _startScanning();
+                }
+              },
             ),
             ListTile(
               leading: const Icon(Icons.dashboard_outlined),
@@ -1270,6 +1332,7 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
           ),
           Expanded(
             child: ListView(
+              key: const ValueKey('board_collections'),
               scrollDirection: Axis.horizontal,
               children: [
                 ...collections.map((collection) {
@@ -1279,23 +1342,25 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                       vertical: 6,
                     ),
                     child: OutlinedButton.icon(
+                      key: ValueKey(collection.id),
                       onPressed: () => _openCollection(collection),
                       icon: const Icon(Icons.folder_open, size: 16),
                       label: Text(_nameLabel(collection.label)),
                     ),
                   );
                 }),
-                Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 4,
-                    vertical: 6,
+                if (!_isPractice)
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 4,
+                      vertical: 6,
+                    ),
+                    child: OutlinedButton.icon(
+                      onPressed: _openPeopleCollection,
+                      icon: const Icon(Icons.folder_open, size: 16),
+                      label: Text(_nameLabel('People')),
+                    ),
                   ),
-                  child: OutlinedButton.icon(
-                    onPressed: _openPeopleCollection,
-                    icon: const Icon(Icons.folder_open, size: 16),
-                    label: Text(_nameLabel('People')),
-                  ),
-                ),
               ],
             ),
           ),
@@ -1354,60 +1419,63 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
         children: [
           Row(
             children: [
-              IconButton(
-                icon: const Icon(Icons.menu),
-                onPressed: () => _scaffoldKey.currentState?.openDrawer(),
-              ),
+              if (!_isPractice)
+                IconButton(
+                  icon: const Icon(Icons.menu),
+                  onPressed: () => _scaffoldKey.currentState?.openDrawer(),
+                ),
               const Text(
                 'Echo',
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               const Spacer(),
-              IconButton(
-                tooltip: context.tr('find_word_tooltip'),
-                icon: isSearching
-                    ? const SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: CircularProgressIndicator(strokeWidth: 2),
-                      )
-                    : const Icon(Icons.search),
-                onPressed: isSearching ? null : _searchAndAddWord,
-              ),
-              SizedBox(
-                width: 112,
-                child: DropdownButtonHideUnderline(
-                  child: DropdownButton<EchoLanguage>(
-                    isDense: true,
-                    isExpanded: true,
-                    value: selectedLanguage,
-                    // The closed box shows just the name; "draft" appears in
-                    // the open list, where there is room.
-                    selectedItemBuilder: (_) => EchoLanguage.all
-                        .map(
-                          (l) => Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text(
-                              l.label,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
+              if (!_isPractice)
+                IconButton(
+                  tooltip: context.tr('find_word_tooltip'),
+                  icon: isSearching
+                      ? const SizedBox(
+                          width: 20,
+                          height: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2),
                         )
-                        .toList(),
-                    items: EchoLanguage.all.map((language) {
-                      return DropdownMenuItem<EchoLanguage>(
-                        value: language,
-                        child: Text(
-                          language.isDraft
-                              ? '${language.label} (draft)'
-                              : language.label,
-                        ),
-                      );
-                    }).toList(),
-                    onChanged: _onLanguageChanged,
+                      : const Icon(Icons.search),
+                  onPressed: isSearching ? null : _searchAndAddWord,
+                ),
+              if (!_isPractice)
+                SizedBox(
+                  width: 112,
+                  child: DropdownButtonHideUnderline(
+                    child: DropdownButton<EchoLanguage>(
+                      isDense: true,
+                      isExpanded: true,
+                      value: selectedLanguage,
+                      // The closed box shows just the name; "draft" appears in
+                      // the open list, where there is room.
+                      selectedItemBuilder: (_) => EchoLanguage.all
+                          .map(
+                            (l) => Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                l.label,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                            ),
+                          )
+                          .toList(),
+                      items: EchoLanguage.all.map((language) {
+                        return DropdownMenuItem<EchoLanguage>(
+                          value: language,
+                          child: Text(
+                            language.isDraft
+                                ? '${language.label} (draft)'
+                                : language.label,
+                          ),
+                        );
+                      }).toList(),
+                      onChanged: _onLanguageChanged,
+                    ),
                   ),
                 ),
-              ),
             ],
           ),
           Padding(
@@ -1417,6 +1485,8 @@ class _CommunicationBoardState extends State<CommunicationBoard> {
                 Expanded(
                   child: TextField(
                     controller: _textController,
+                    readOnly: _isPractice,
+                    enableInteractiveSelection: !_isPractice,
                     textInputAction: TextInputAction.done,
                     decoration: InputDecoration(
                       hintText: context.tr('type_message'),

@@ -5,6 +5,7 @@
 class UiStrings {
   static const Map<String, Map<String, String>> _s = {
     'en': {
+      'practice_title': 'Practice',
       'tense_label': 'Tense',
       'tense_past': 'Past',
       'tense_present': 'Present',
@@ -163,6 +164,7 @@ class UiStrings {
           'Real photos are used for a few Ghanaian items no pictogram library covers well:',
     },
     'fr': {
+      'practice_title': 'Entraînement',
       'tense_label': 'Temps',
       'tense_past': 'Passé',
       'tense_present': 'Présent',

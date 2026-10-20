@@ -137,6 +137,54 @@ on a separate branch:
 git switch -c recovery/before-tense checkpoint/before-tense-20261020
 ```
 
+## Timed practice and progress
+
+Open **Menu → Practice**, select or add a learner, choose 1, 2 or 5 minutes,
+then **Start practice**. Build the displayed sentence by navigating the real
+communication board, its contexts, collections and word library. Tap **Check**
+to score a match and move on. A wrong check leaves the message available for
+correction; **Skip** moves on without scoring. Delete and Clear work normally.
+
+The first prompt set is `english-basic-v1`: 52 simple English sentences using
+I/You, want/need and everyday objects available as bundled pictograms. Prompts
+are shuffled without repeats until the set is exhausted. Practice uses English
+without changing the app's selected language. Typing messages, sentence
+suggestions, tense conversion and custom phrase shortcuts are unavailable in
+practice so matching measures pictogram navigation. Normal communication is
+unchanged. Emergency speech remains available and does not build an answer.
+
+The timer starts after the board is ready. Time spent in menus, the word
+library or a background tab still counts. Every check verifies the deadline;
+late submissions cannot score. Timeout closes any open library/menu and shows
+the result. Ending or going back asks to finish early and save the result.
+
+- **Sentences per minute (SPM)** = matched sentences / elapsed minutes. Full
+  timed sessions use the selected duration; early-ended sessions use actual
+  elapsed time and are excluded from personal bests.
+- **Accuracy** = matching checks / all nonempty checks. Skips are recorded
+  separately. Empty checks do not count as attempts.
+- Each learner has separate local history, total practice time, matched
+  sentences, personal bests, latest scores and change against the previous
+  full session of the same duration and prompt version. Response details
+  retain target, submitted words, outcome and elapsed time for review.
+
+Learners and history live under the separate SharedPreferences key
+`practice_v1`. Save retries reuse the session ID, preventing duplicate results;
+unreadable or future-version data is never silently overwritten. If saving
+fails, the result remains open with Retry. Clear history affects only the
+selected learner and preserves other app data. Profiles are local learner
+labels, not online accounts. Data is not synced or backed up to a server;
+browser/site data deletion removes it. Finish or end a session to save it;
+closing the app mid-session can lose that active session.
+
+The version before Practice is commit `081815f`, tagged
+`checkpoint/before-practice-20261020`. With later changes saved, recover it on
+a separate branch:
+
+```powershell
+git switch -c recovery/before-practice checkpoint/before-practice-20261020
+```
+
 ## Rebuilding the word library
 
 Words live in `tools/vocab/words_*.txt` (English and French per line).
