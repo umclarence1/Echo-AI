@@ -1,0 +1,1 @@
+[artifact-tool] embedded_font_subset_missing_glyph: Embedded font is subsetted; glyph coverage checks are not available yet.

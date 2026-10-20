@@ -1,0 +1,956 @@
+{
+  "schema": "openai.presentation.layout/v5",
+  "unit": "px",
+  "slide": {
+    "id": "sl/i107q5of",
+    "index": 4,
+    "layout": {
+      "id": "ly/14ra9krq",
+      "name": "ICAST Title Only"
+    },
+    "masterLayoutId": "ly/atofqts7",
+    "backgroundColor": "rgba(250,250,250,1)",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ly/14ra9krq",
+      "name": "ICAST Title Only",
+      "parentLayoutId": "ly/atofqts7",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/wz2l43yd",
+          "editable": false,
+          "name": "Header bar",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "fillColor": "#0B2545",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 2,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/byt4vihs",
+          "editable": false,
+          "name": "Title",
+          "position": {
+            "left": 120,
+            "top": 0,
+            "width": 1040,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Slide title",
+          "style": {
+            "anchor": 2,
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Slide title",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Slide title",
+                  "anchor": 2,
+                  "fontSize": 48,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/axk32dg7",
+          "editable": false,
+          "name": "Slide Number",
+          "position": {
+            "left": 1173.52,
+            "top": 23.04,
+            "width": 58.48,
+            "height": 58.48
+          },
+          "geometry": "ellipse",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "text": "5",
+          "style": {
+            "anchor": 2,
+            "fontSize": 24,
+            "color": "#0B2545",
+            "bold": true,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "none",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5",
+                  "anchor": 2,
+                  "fontSize": 24,
+                  "color": "#0B2545",
+                  "bold": true,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "none",
+                  "autoFit": "none",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "ly/atofqts7",
+      "type": "master",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/behwzyhg",
+          "editable": false,
+          "name": "Slide Number Placeholder 0",
+          "position": {
+            "left": 1180.8,
+            "top": 658.56,
+            "width": 43.2,
+            "height": 40.32
+          },
+          "geometry": "rect",
+          "text": "5",
+          "style": {
+            "anchor": 2,
+            "bold": false,
+            "alignment": "right",
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5",
+              "style": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5",
+                  "anchor": 2,
+                  "bold": false,
+                  "alignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/dgbulwnm",
+      "editable": true,
+      "name": "Text 1",
+      "position": {
+        "left": 120,
+        "top": 0,
+        "width": 1040,
+        "height": 104.57
+      },
+      "geometry": "rect",
+      "text": "Objectives and Contributions",
+      "style": {
+        "anchor": 2,
+        "fontSize": 48,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Objectives and Contributions",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Objectives and Contributions",
+              "anchor": 2,
+              "fontSize": 48,
+              "typeface": "Roboto",
+              "color": "#FFFFFF",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/cf2tcr61",
+      "editable": true,
+      "name": "Card 1",
+      "position": {
+        "left": 57.6,
+        "top": 168,
+        "width": 367.68,
+        "height": 345.6
+      },
+      "geometry": "roundRect",
+      "fillColor": "#E8EEF6",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/z2tcnm5s",
+      "editable": true,
+      "name": "Card icon circle 1",
+      "position": {
+        "left": 91.2,
+        "top": 201.6,
+        "width": 91.2,
+        "height": 91.2
+      },
+      "geometry": "ellipse",
+      "fillColor": "#0B2545",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "id": "im/vm1cv6p0",
+      "editable": true,
+      "name": "Card icon 1",
+      "position": {
+        "left": 110.4,
+        "top": 220.8,
+        "width": 52.8,
+        "height": 52.8
+      },
+      "contentType": "image/png",
+      "asset": {
+        "contentType": "image/png",
+        "byteLength": 6779
+      },
+      "fillImage": {
+        "contentType": "image/png",
+        "byteLength": 6779
+      }
+    },
+    {
+      "order": 5,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/l4bupwny",
+      "editable": true,
+      "name": "Card heading 1",
+      "position": {
+        "left": 91.2,
+        "top": 316.8,
+        "width": 302.4,
+        "height": 52.8
+      },
+      "geometry": "rect",
+      "text": "Objective",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Objective",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Objective",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/032tgr6d",
+      "editable": true,
+      "name": "Card text 1",
+      "position": {
+        "left": 91.2,
+        "top": 374.4,
+        "width": 302.4,
+        "height": 120
+      },
+      "geometry": "rect",
+      "text": "What the study sets out to achieve, in one sentence.",
+      "style": {
+        "anchor": 1,
+        "fontSize": 21.33,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What the study sets out to achieve, in one sentence.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "What the study sets out to achieve, in one sentence.",
+              "anchor": 1,
+              "fontSize": 21.33,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/n6dcr65o",
+      "editable": true,
+      "name": "Card 2",
+      "position": {
+        "left": 454.08,
+        "top": 168,
+        "width": 367.68,
+        "height": 345.6
+      },
+      "geometry": "roundRect",
+      "fillColor": "#E8EEF6",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/m5kbi1oj",
+      "editable": true,
+      "name": "Card icon circle 2",
+      "position": {
+        "left": 487.68,
+        "top": 201.6,
+        "width": 91.2,
+        "height": 91.2
+      },
+      "geometry": "ellipse",
+      "fillColor": "#1D4E89",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "id": "im/rqdw7qls",
+      "editable": true,
+      "name": "Card icon 2",
+      "position": {
+        "left": 506.88,
+        "top": 220.8,
+        "width": 52.8,
+        "height": 52.8
+      },
+      "contentType": "image/png",
+      "asset": {
+        "contentType": "image/png",
+        "byteLength": 3669
+      },
+      "fillImage": {
+        "contentType": "image/png",
+        "byteLength": 3669
+      }
+    },
+    {
+      "order": 10,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/x4vedgvm",
+      "editable": true,
+      "name": "Card heading 2",
+      "position": {
+        "left": 487.68,
+        "top": 316.8,
+        "width": 302.4,
+        "height": 52.8
+      },
+      "geometry": "rect",
+      "text": "Contribution",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Contribution",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Contribution",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/ahkvi1cb",
+      "editable": true,
+      "name": "Card text 2",
+      "position": {
+        "left": 487.68,
+        "top": 374.4,
+        "width": 302.4,
+        "height": 120
+      },
+      "geometry": "rect",
+      "text": "What is new: a method, dataset, system or finding.",
+      "style": {
+        "anchor": 1,
+        "fontSize": 21.33,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What is new: a method, dataset, system or finding.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "What is new: a method, dataset, system or finding.",
+              "anchor": 1,
+              "fontSize": 21.33,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/v2twb6dw",
+      "editable": true,
+      "name": "Card 3",
+      "position": {
+        "left": 850.56,
+        "top": 168,
+        "width": 367.68,
+        "height": 345.6
+      },
+      "geometry": "roundRect",
+      "fillColor": "#E8EEF6",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/k7mxovud",
+      "editable": true,
+      "name": "Card icon circle 3",
+      "position": {
+        "left": 884.16,
+        "top": 201.6,
+        "width": 91.2,
+        "height": 91.2
+      },
+      "geometry": "ellipse",
+      "fillColor": "#0B2545",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "id": "im/ilkvul4v",
+      "editable": true,
+      "name": "Card icon 3",
+      "position": {
+        "left": 903.36,
+        "top": 220.8,
+        "width": 52.8,
+        "height": 52.8
+      },
+      "contentType": "image/png",
+      "asset": {
+        "contentType": "image/png",
+        "byteLength": 3722
+      },
+      "fillImage": {
+        "contentType": "image/png",
+        "byteLength": 3722
+      }
+    },
+    {
+      "order": 15,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/i54fmlc7",
+      "editable": true,
+      "name": "Card heading 3",
+      "position": {
+        "left": 884.16,
+        "top": 316.8,
+        "width": 302.4,
+        "height": 52.8
+      },
+      "geometry": "rect",
+      "text": "Impact",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Impact",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Impact",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/j6dwfqds",
+      "editable": true,
+      "name": "Card text 3",
+      "position": {
+        "left": 884.16,
+        "top": 374.4,
+        "width": 302.4,
+        "height": 120
+      },
+      "geometry": "rect",
+      "text": "Why it matters for science, industry or society in Africa.",
+      "style": {
+        "anchor": 1,
+        "fontSize": 21.33,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why it matters for science, industry or society in Africa.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why it matters for science, industry or society in Africa.",
+              "anchor": 1,
+              "fontSize": 21.33,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/6t43yh8z",
+      "editable": true,
+      "name": "Slide Number",
+      "position": {
+        "left": 1173.52,
+        "top": 23.04,
+        "width": 58.48,
+        "height": 58.48
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0,
+      "text": "5",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    }
+  ]
+}

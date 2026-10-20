@@ -1,0 +1,1043 @@
+{
+  "schema": "openai.presentation.layout/v5",
+  "unit": "px",
+  "slide": {
+    "id": "sl/udsvah03",
+    "index": 8,
+    "layout": {
+      "id": "ly/14ra9krq",
+      "name": "ICAST Title Only"
+    },
+    "masterLayoutId": "ly/atofqts7",
+    "backgroundColor": "rgba(250,250,250,1)",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ly/14ra9krq",
+      "name": "ICAST Title Only",
+      "parentLayoutId": "ly/atofqts7",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/wz2l43yd",
+          "editable": false,
+          "name": "Header bar",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "fillColor": "#0B2545",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 2,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/byt4vihs",
+          "editable": false,
+          "name": "Title",
+          "position": {
+            "left": 120,
+            "top": 0,
+            "width": 1040,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Slide title",
+          "style": {
+            "anchor": 2,
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Slide title",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Slide title",
+                  "anchor": 2,
+                  "fontSize": 48,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/axk32dg7",
+          "editable": false,
+          "name": "Slide Number",
+          "position": {
+            "left": 1173.52,
+            "top": 23.04,
+            "width": 58.48,
+            "height": 58.48
+          },
+          "geometry": "ellipse",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "text": "9",
+          "style": {
+            "anchor": 2,
+            "fontSize": 24,
+            "color": "#0B2545",
+            "bold": true,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "none",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9",
+                  "anchor": 2,
+                  "fontSize": 24,
+                  "color": "#0B2545",
+                  "bold": true,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "none",
+                  "autoFit": "none",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "ly/atofqts7",
+      "type": "master",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/behwzyhg",
+          "editable": false,
+          "name": "Slide Number Placeholder 0",
+          "position": {
+            "left": 1180.8,
+            "top": 658.56,
+            "width": 43.2,
+            "height": 40.32
+          },
+          "geometry": "rect",
+          "text": "9",
+          "style": {
+            "anchor": 2,
+            "bold": false,
+            "alignment": "right",
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9",
+              "style": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9",
+                  "anchor": 2,
+                  "bold": false,
+                  "alignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/1cfmhgne",
+      "editable": true,
+      "name": "Text 1",
+      "position": {
+        "left": 120,
+        "top": 0,
+        "width": 1040,
+        "height": 104.57
+      },
+      "geometry": "rect",
+      "text": "Key Findings",
+      "style": {
+        "anchor": 2,
+        "fontSize": 48,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Key Findings",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Key Findings",
+              "anchor": 2,
+              "fontSize": 48,
+              "typeface": "Roboto",
+              "color": "#FFFFFF",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/0b65obm9",
+      "editable": true,
+      "name": "Stat icon circle 1",
+      "position": {
+        "left": 57.6,
+        "top": 177.6,
+        "width": 76.8,
+        "height": 76.8
+      },
+      "geometry": "ellipse",
+      "fillColor": "#0B2545",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "id": "im/2poj6xw3",
+      "editable": true,
+      "name": "Stat icon 1",
+      "position": {
+        "left": 74.88,
+        "top": 194.88,
+        "width": 42.24,
+        "height": 42.24
+      },
+      "contentType": "image/png",
+      "asset": {
+        "contentType": "image/png",
+        "byteLength": 4262
+      },
+      "fillImage": {
+        "contentType": "image/png",
+        "byteLength": 4262
+      }
+    },
+    {
+      "order": 4,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/mdonql4z",
+      "editable": true,
+      "name": "Stat value 1",
+      "position": {
+        "left": 57.6,
+        "top": 278.4,
+        "width": 367.68,
+        "height": 124.8
+      },
+      "geometry": "rect",
+      "text": "83–92%",
+      "style": {
+        "anchor": 2,
+        "fontSize": 80,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "83–92%",
+          "runs": [
+            {
+              "index": 1,
+              "text": "83–92%",
+              "anchor": 2,
+              "fontSize": 80,
+              "typeface": "Roboto",
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/9gzml0nq",
+      "editable": true,
+      "name": "Stat label 1",
+      "position": {
+        "left": 57.6,
+        "top": 412.8,
+        "width": 367.68,
+        "height": 48
+      },
+      "geometry": "rect",
+      "text": "Relative precision loss",
+      "style": {
+        "anchor": 2,
+        "fontSize": 26.67,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Relative precision loss",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Relative precision loss",
+              "anchor": 2,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/ofq5svm5",
+      "editable": true,
+      "name": "Stat note 1",
+      "position": {
+        "left": 57.6,
+        "top": 465.6,
+        "width": 345.6,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "From 5% to 0.5% prevalence",
+      "style": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Roboto",
+        "color": "#6B7280",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "From 5% to 0.5% prevalence",
+          "runs": [
+            {
+              "index": 1,
+              "text": "From 5% to 0.5% prevalence",
+              "anchor": 1,
+              "fontSize": 20,
+              "color": "#6B7280",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/bih4na5w",
+      "editable": true,
+      "name": "Stat icon circle 2",
+      "position": {
+        "left": 454.08,
+        "top": 177.6,
+        "width": 76.8,
+        "height": 76.8
+      },
+      "geometry": "ellipse",
+      "fillColor": "#0B2545",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "id": "im/jutknyd4",
+      "editable": true,
+      "name": "Stat icon 2",
+      "position": {
+        "left": 471.36,
+        "top": 194.88,
+        "width": 42.24,
+        "height": 42.24
+      },
+      "contentType": "image/png",
+      "asset": {
+        "contentType": "image/png",
+        "byteLength": 1001
+      },
+      "fillImage": {
+        "contentType": "image/png",
+        "byteLength": 1001
+      }
+    },
+    {
+      "order": 9,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/oza1gfyh",
+      "editable": true,
+      "name": "Stat value 2",
+      "position": {
+        "left": 454.08,
+        "top": 278.4,
+        "width": 367.68,
+        "height": 124.8
+      },
+      "geometry": "rect",
+      "text": "12/12",
+      "style": {
+        "anchor": 2,
+        "fontSize": 80,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12/12",
+          "runs": [
+            {
+              "index": 1,
+              "text": "12/12",
+              "anchor": 2,
+              "fontSize": 80,
+              "typeface": "Roboto",
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/p0ji9kf2",
+      "editable": true,
+      "name": "Stat label 2",
+      "position": {
+        "left": 454.08,
+        "top": 412.8,
+        "width": 367.68,
+        "height": 48
+      },
+      "geometry": "rect",
+      "text": "Highest mean P@10",
+      "style": {
+        "anchor": 2,
+        "fontSize": 26.67,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Highest mean P@10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Highest mean P@10",
+              "anchor": 2,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/2xsjepgb",
+      "editable": true,
+      "name": "Stat note 2",
+      "position": {
+        "left": 454.08,
+        "top": 465.6,
+        "width": 345.6,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "SwAV-SupCon leads every condition",
+      "style": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Roboto",
+        "color": "#6B7280",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SwAV-SupCon leads every condition",
+          "runs": [
+            {
+              "index": 1,
+              "text": "SwAV-SupCon leads every condition",
+              "anchor": 1,
+              "fontSize": 20,
+              "color": "#6B7280",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/3y107axw",
+      "editable": true,
+      "name": "Stat icon circle 3",
+      "position": {
+        "left": 850.56,
+        "top": 177.6,
+        "width": 76.8,
+        "height": 76.8
+      },
+      "geometry": "ellipse",
+      "fillColor": "#0B2545",
+      "style": {
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      }
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "id": "im/7mxozqdo",
+      "editable": true,
+      "name": "Stat icon 3",
+      "position": {
+        "left": 867.84,
+        "top": 194.88,
+        "width": 42.24,
+        "height": 42.24
+      },
+      "contentType": "image/png",
+      "asset": {
+        "contentType": "image/png",
+        "byteLength": 2916
+      },
+      "fillImage": {
+        "contentType": "image/png",
+        "byteLength": 2916
+      }
+    },
+    {
+      "order": 14,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/do3id4fy",
+      "editable": true,
+      "name": "Stat value 3",
+      "position": {
+        "left": 850.56,
+        "top": 278.4,
+        "width": 367.68,
+        "height": 124.8
+      },
+      "geometry": "rect",
+      "text": "10/12",
+      "style": {
+        "anchor": 2,
+        "fontSize": 80,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10/12",
+          "runs": [
+            {
+              "index": 1,
+              "text": "10/12",
+              "anchor": 2,
+              "fontSize": 80,
+              "typeface": "Roboto",
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/qlcjipgn",
+      "editable": true,
+      "name": "Stat label 3",
+      "position": {
+        "left": 850.56,
+        "top": 412.8,
+        "width": 367.68,
+        "height": 48
+      },
+      "geometry": "rect",
+      "text": "Above SwAV-CLS",
+      "style": {
+        "anchor": 2,
+        "fontSize": 26.67,
+        "typeface": "Roboto",
+        "color": "#333333",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Above SwAV-CLS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Above SwAV-CLS",
+              "anchor": 2,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "bold": true,
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/bml0buxs",
+      "editable": true,
+      "name": "Stat note 3",
+      "position": {
+        "left": 850.56,
+        "top": 465.6,
+        "width": 345.6,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "Significant after global Holm correction",
+      "style": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Roboto",
+        "color": "#6B7280",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Significant after global Holm correction",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Significant after global Holm correction",
+              "anchor": 1,
+              "fontSize": 20,
+              "color": "#6B7280",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/2d4f2dg3",
+      "editable": true,
+      "name": "Slide Number",
+      "position": {
+        "left": 1173.52,
+        "top": 23.04,
+        "width": 58.48,
+        "height": 58.48
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0,
+      "text": "9",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "9",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "9",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    }
+  ]
+}

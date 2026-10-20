@@ -1,0 +1,1084 @@
+{
+  "schema": "openai.presentation.layout/v5",
+  "unit": "px",
+  "slide": {
+    "id": "sl/hwbqtkby",
+    "index": 1,
+    "layout": {
+      "id": "ly/14ra9krq",
+      "name": "ICAST Title Only"
+    },
+    "masterLayoutId": "ly/atofqts7",
+    "backgroundColor": "rgba(250,250,250,1)",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ly/14ra9krq",
+      "name": "ICAST Title Only",
+      "parentLayoutId": "ly/atofqts7",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/wz2l43yd",
+          "editable": false,
+          "name": "Header bar",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "fillColor": "#0B2545",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 2,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/byt4vihs",
+          "editable": false,
+          "name": "Title",
+          "position": {
+            "left": 120,
+            "top": 0,
+            "width": 1040,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Slide title",
+          "style": {
+            "anchor": 2,
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Slide title",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Slide title",
+                  "anchor": 2,
+                  "fontSize": 48,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/axk32dg7",
+          "editable": false,
+          "name": "Slide Number",
+          "position": {
+            "left": 1173.52,
+            "top": 23.04,
+            "width": 58.48,
+            "height": 58.48
+          },
+          "geometry": "ellipse",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "text": "2",
+          "style": {
+            "anchor": 2,
+            "fontSize": 24,
+            "color": "#0B2545",
+            "bold": true,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "none",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2",
+                  "anchor": 2,
+                  "fontSize": 24,
+                  "color": "#0B2545",
+                  "bold": true,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "none",
+                  "autoFit": "none",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "ly/atofqts7",
+      "type": "master",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/behwzyhg",
+          "editable": false,
+          "name": "Slide Number Placeholder 0",
+          "position": {
+            "left": 1180.8,
+            "top": 658.56,
+            "width": 43.2,
+            "height": 40.32
+          },
+          "geometry": "rect",
+          "text": "2",
+          "style": {
+            "anchor": 2,
+            "bold": false,
+            "alignment": "right",
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2",
+              "style": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2",
+                  "anchor": 2,
+                  "bold": false,
+                  "alignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/v2p0jqt4",
+      "editable": true,
+      "name": "Title",
+      "position": {
+        "left": 120,
+        "top": 0,
+        "width": 1040,
+        "height": 104.57
+      },
+      "text": "Outline",
+      "style": {
+        "anchor": 2,
+        "fontSize": 48,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Outline",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Outline"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/dwfmpobm",
+      "editable": true,
+      "name": "Outline line 1",
+      "position": {
+        "left": 486.4,
+        "top": 177.6,
+        "width": 120,
+        "height": 0
+      },
+      "geometry": "line",
+      "lineColor": "#0B2545",
+      "lineWidth": 6
+    },
+    {
+      "order": 3,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/cv6lwjuh",
+      "editable": true,
+      "name": "Outline number 1",
+      "position": {
+        "left": 432.64,
+        "top": 150.72,
+        "width": 53.76,
+        "height": 53.76
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#0B2545",
+      "lineWidth": 3,
+      "text": "1",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/budknetw",
+      "editable": true,
+      "name": "Outline item 1",
+      "position": {
+        "left": 39.04,
+        "top": 139.2,
+        "width": 374.4,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "Introduction and motivation",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Introduction and motivation",
+          "style": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Introduction and motivation",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "right",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/qt43u9cb",
+      "editable": true,
+      "name": "Outline line 2",
+      "position": {
+        "left": 486.4,
+        "top": 340.8,
+        "width": 120,
+        "height": 0
+      },
+      "geometry": "line",
+      "lineColor": "#0B2545",
+      "lineWidth": 6
+    },
+    {
+      "order": 6,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/psv2lovq",
+      "editable": true,
+      "name": "Outline number 2",
+      "position": {
+        "left": 432.64,
+        "top": 313.92,
+        "width": 53.76,
+        "height": 53.76
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#0B2545",
+      "lineWidth": 3,
+      "text": "2",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/ormlsju5",
+      "editable": true,
+      "name": "Outline item 2",
+      "position": {
+        "left": 39.04,
+        "top": 302.4,
+        "width": 374.4,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "Related work",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Related work",
+          "style": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Related work",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "right",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/3qdkjedk",
+      "editable": true,
+      "name": "Outline line 3",
+      "position": {
+        "left": 486.4,
+        "top": 504,
+        "width": 120,
+        "height": 0
+      },
+      "geometry": "line",
+      "lineColor": "#0B2545",
+      "lineWidth": 6
+    },
+    {
+      "order": 9,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/2p43q9cz",
+      "editable": true,
+      "name": "Outline number 3",
+      "position": {
+        "left": 432.64,
+        "top": 477.12,
+        "width": 53.76,
+        "height": 53.76
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#0B2545",
+      "lineWidth": 3,
+      "text": "3",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/1ov2h4ve",
+      "editable": true,
+      "name": "Outline item 3",
+      "position": {
+        "left": 39.04,
+        "top": 465.6,
+        "width": 374.4,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "Proposed methodology",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Proposed methodology",
+          "style": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Proposed methodology",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "right",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/gn2lozu9",
+      "editable": true,
+      "name": "Outline line 4",
+      "position": {
+        "left": 673.6,
+        "top": 259.2,
+        "width": 120,
+        "height": 0
+      },
+      "geometry": "line",
+      "lineColor": "#0B2545",
+      "lineWidth": 6
+    },
+    {
+      "order": 12,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/s76l4z25",
+      "editable": true,
+      "name": "Outline number 4",
+      "position": {
+        "left": 793.6,
+        "top": 232.32,
+        "width": 53.76,
+        "height": 53.76
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#0B2545",
+      "lineWidth": 3,
+      "text": "4",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/t8fmd43a",
+      "editable": true,
+      "name": "Outline item 4",
+      "position": {
+        "left": 866.56,
+        "top": 220.8,
+        "width": 374.4,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "Experiments and results",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Experiments and results",
+          "style": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Experiments and results",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "id": "sh/65o329kz",
+      "editable": true,
+      "name": "Outline line 5",
+      "position": {
+        "left": 673.6,
+        "top": 422.4,
+        "width": 120,
+        "height": 0
+      },
+      "geometry": "line",
+      "lineColor": "#0B2545",
+      "lineWidth": 6
+    },
+    {
+      "order": 15,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/76x4belk",
+      "editable": true,
+      "name": "Outline number 5",
+      "position": {
+        "left": 793.6,
+        "top": 395.52,
+        "width": 53.76,
+        "height": 53.76
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#0B2545",
+      "lineWidth": 3,
+      "text": "5",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/k36l0z2t",
+      "editable": true,
+      "name": "Outline item 5",
+      "position": {
+        "left": 866.56,
+        "top": 384,
+        "width": 374.4,
+        "height": 76.8
+      },
+      "geometry": "rect",
+      "text": "Conclusion and future work",
+      "style": {
+        "anchor": 2,
+        "fontSize": 29.33,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conclusion and future work",
+          "style": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conclusion and future work",
+              "anchor": 2,
+              "fontSize": 29.33,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "left",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "autoFit": "shrinkText",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/54f2943e",
+      "editable": true,
+      "name": "Slide Number",
+      "position": {
+        "left": 1173.52,
+        "top": 23.04,
+        "width": 58.48,
+        "height": 58.48
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0,
+      "text": "2",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    }
+  ]
+}

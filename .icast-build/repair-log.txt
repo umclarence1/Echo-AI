@@ -1,0 +1,39 @@
+[
+  {
+    id: 'sh/yhg7epsj',
+    kind: 'textbox',
+    name: 'Text 1',
+    scope: undefined,
+    editable: undefined
+  },
+  {
+    id: 'sh/zi98nu94',
+    kind: 'textbox',
+    name: 'Text 1',
+    scope: undefined,
+    editable: undefined
+  },
+  {
+    id: 'sh/87ipkzal',
+    kind: 'textbox',
+    name: 'Text 2',
+    scope: undefined,
+    editable: undefined
+  },
+  {
+    id: 'sh/2p0n2lg7',
+    kind: 'textbox',
+    name: 'Slide Number',
+    scope: undefined,
+    editable: undefined
+  },
+  {
+    id: 'im/ep4v69gn',
+    kind: 'image',
+    name: undefined,
+    scope: undefined,
+    editable: undefined
+  }
+]
+Inspect result written to file: .icast-build/candidate-repaired.pptx.inspect.ndjson
+REPAIRED

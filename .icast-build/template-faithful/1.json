@@ -1,0 +1,848 @@
+{
+  "schema": "openai.presentation.layout/v5",
+  "unit": "px",
+  "slide": {
+    "id": "sl/y90nupkv",
+    "index": 0,
+    "layout": {
+      "id": "ly/p83mt83u",
+      "name": "ICAST Title"
+    },
+    "masterLayoutId": "ly/atofqts7",
+    "backgroundColor": "rgba(11,37,69,1)",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ly/p83mt83u",
+      "name": "ICAST Title",
+      "parentLayoutId": "ly/atofqts7",
+      "backgroundColor": "accent1",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/1kn2p0nm",
+          "editable": false,
+          "name": "Band left curve",
+          "position": {
+            "left": 0,
+            "top": -86.23,
+            "width": 270.77,
+            "height": 189.6
+          },
+          "geometry": "ellipse",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/exc3ul4b",
+          "editable": false,
+          "name": "Band right curve",
+          "position": {
+            "left": 984.16,
+            "top": -86.41,
+            "width": 299.13,
+            "height": 189.6
+          },
+          "geometry": "ellipse",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/fylknq5g",
+          "editable": false,
+          "name": "Band",
+          "position": {
+            "left": 128.89,
+            "top": 0,
+            "width": 1016.55,
+            "height": 103.37
+          },
+          "geometry": "rect",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 4,
+          "kind": "image",
+          "scope": "layout",
+          "id": "im/761gfu9c",
+          "editable": false,
+          "name": "IEEE Ghana Section logo",
+          "position": {
+            "left": 74.88,
+            "top": 10.56,
+            "width": 147.13,
+            "height": 76.8
+          },
+          "contentType": "image/png",
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 68921
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 68921
+          }
+        },
+        {
+          "order": 5,
+          "kind": "image",
+          "scope": "layout",
+          "id": "im/65sfmpsr",
+          "editable": false,
+          "name": "IEEE logo",
+          "position": {
+            "left": 233.53,
+            "top": 26.88,
+            "width": 141.71,
+            "height": 44.16
+          },
+          "contentType": "image/png",
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 45409
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 45409
+          }
+        },
+        {
+          "order": 6,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/qtc3ql4z",
+          "editable": false,
+          "name": "Conference name",
+          "position": {
+            "left": 398.4,
+            "top": 5.76,
+            "width": 532.8,
+            "height": 94.08
+          },
+          "geometry": "rect",
+          "text": "10TH IEEE INTERNATIONAL CONFERENCE ON ADAPTIVE SCIENCE AND TECHNOLOGY (ICAST 2026)",
+          "style": {
+            "anchor": 2,
+            "fontSize": 20,
+            "typeface": "Times New Roman",
+            "color": "#0B2545",
+            "bold": true,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "10TH IEEE INTERNATIONAL CONFERENCE ON ADAPTIVE SCIENCE AND TECHNOLOGY (ICAST 2026)",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "10TH IEEE INTERNATIONAL CONFERENCE ON ADAPTIVE SCIENCE AND TECHNOLOGY (ICAST 2026)",
+                  "anchor": 2,
+                  "fontSize": 20,
+                  "typeface": "Times New Roman",
+                  "color": "#0B2545",
+                  "bold": true,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "layout",
+          "id": "im/s7axozqx",
+          "editable": false,
+          "name": "ICAST 2026 logo",
+          "position": {
+            "left": 986.41,
+            "top": 15.36,
+            "width": 245.59,
+            "height": 67.2
+          },
+          "rotation": 353,
+          "geometry": "roundRect",
+          "contentType": "image/png",
+          "mask": {
+            "geometry": "roundRect"
+          },
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 69540
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 69540
+          }
+        },
+        {
+          "order": 8,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/4rulobmt",
+          "editable": false,
+          "name": "Page curl base",
+          "position": {
+            "left": 1154.35,
+            "top": 594.35,
+            "width": 125.65,
+            "height": 125.65
+          },
+          "horizontalFlip": true,
+          "geometry": "rtTriangle",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 9,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/5s32hgne",
+          "editable": false,
+          "name": "Page curl fold",
+          "position": {
+            "left": 1154.35,
+            "top": 594.35,
+            "width": 125.65,
+            "height": 125.65
+          },
+          "horizontalFlip": true,
+          "geometry": "round1Rect",
+          "fillColor": "rgba(255,255,255,0.6808)",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 10,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/7m1476pg",
+          "editable": false,
+          "name": "Title",
+          "position": {
+            "left": 86.4,
+            "top": 168,
+            "width": 1107.2,
+            "height": 168
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Paper title",
+          "style": {
+            "anchor": 3,
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "bottom",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Paper title",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Paper title",
+                  "anchor": 3,
+                  "fontSize": 48,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "bottom",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 11,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/m1s3y1ov",
+          "editable": false,
+          "name": "Authors",
+          "position": {
+            "left": 86.4,
+            "top": 360,
+            "width": 1107.2,
+            "height": 48
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Author names",
+          "style": {
+            "anchor": 2,
+            "fontSize": 26.67,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Author names",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Author names",
+                  "anchor": 2,
+                  "fontSize": 26.67,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 12,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/9ojm9g7m",
+          "editable": false,
+          "name": "Affiliation",
+          "position": {
+            "left": 86.4,
+            "top": 412.8,
+            "width": 1107.2,
+            "height": 48
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Affiliation",
+          "style": {
+            "anchor": 2,
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Affiliation",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Affiliation",
+                  "anchor": 2,
+                  "fontSize": 24,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 13,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/8nal0b61",
+          "editable": false,
+          "name": "Paper details",
+          "position": {
+            "left": 86.4,
+            "top": 465.6,
+            "width": 1107.2,
+            "height": 43.2
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Paper ID · Track · Session",
+          "style": {
+            "anchor": 2,
+            "fontSize": 21.33,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Paper ID · Track · Session",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Paper ID · Track · Session",
+                  "anchor": 2,
+                  "fontSize": 21.33,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 14,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/vq14bqpc",
+          "editable": false,
+          "name": "Conference date and venue",
+          "position": {
+            "left": 192,
+            "top": 532.8,
+            "width": 896,
+            "height": 43.2
+          },
+          "geometry": "rect",
+          "text": "22–24 October 2026  ·  Accra, Ghana",
+          "style": {
+            "anchor": 2,
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "22–24 October 2026  ·  Accra, Ghana",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "22–24 October 2026  ·  Accra, Ghana",
+                  "anchor": 2,
+                  "fontSize": 24,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "ly/atofqts7",
+      "type": "master",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/behwzyhg",
+          "editable": false,
+          "name": "Slide Number Placeholder 0",
+          "position": {
+            "left": 1180.8,
+            "top": 658.56,
+            "width": 43.2,
+            "height": 40.32
+          },
+          "geometry": "rect",
+          "text": "1",
+          "style": {
+            "anchor": 2,
+            "bold": false,
+            "alignment": "right",
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1",
+              "style": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1",
+                  "anchor": 2,
+                  "bold": false,
+                  "alignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/n65gvmp0",
+      "editable": true,
+      "name": "Title",
+      "position": {
+        "left": 86.4,
+        "top": 168,
+        "width": 1107.2,
+        "height": 168
+      },
+      "text": "Chest X-Ray Image Retrieval Under Declining Target-Pathology Prevalence",
+      "style": {
+        "anchor": 3,
+        "fontSize": 48,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "bottom",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Chest X-Ray Image Retrieval Under Declining Target-Pathology Prevalence",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Chest X-Ray Image Retrieval Under Declining Target-Pathology Prevalence"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/8reh4rql",
+      "editable": true,
+      "name": "Authors",
+      "position": {
+        "left": 86.4,
+        "top": 360,
+        "width": 1107.2,
+        "height": 48
+      },
+      "text": "Ofei Obuobisah Bekoe, Ezekiel Mensah Martey and co-authors",
+      "style": {
+        "anchor": 2,
+        "fontSize": 26.67,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ofei Obuobisah Bekoe, Ezekiel Mensah Martey and co-authors",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ofei Obuobisah Bekoe, Ezekiel Mensah Martey and co-authors"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/9s7yxw76",
+      "editable": true,
+      "name": "Affiliation",
+      "position": {
+        "left": 86.4,
+        "top": 412.8,
+        "width": 1107.2,
+        "height": 48
+      },
+      "text": "Dept. of Computer Science & Engineering, University of Mines and Technology, Tarkwa, Ghana  ·  \n ce-pobekoe1423@st.umat.edu.gh",
+      "style": {
+        "anchor": 2,
+        "fontSize": 20.4,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.85,
+        "autoFitLineSpaceReduction": 10000,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dept. of Computer Science & Engineering, University of Mines and Technology, Tarkwa, Ghana  ·  ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dept. of Computer Science & Engineering, University of Mines and Technology, Tarkwa, Ghana  ·  ",
+              "autoFit": "shrinkText",
+              "autoFitScale": 0.85,
+              "autoFitLineSpaceReduction": 10000
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        },
+        {
+          "index": 2,
+          "text": " ce-pobekoe1423@st.umat.edu.gh",
+          "runs": [
+            {
+              "index": 1,
+              "text": " ce-pobekoe1423@st.umat.edu.gh",
+              "autoFit": "shrinkText",
+              "autoFitScale": 0.85,
+              "autoFitLineSpaceReduction": 10000
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/610ze18z",
+      "editable": true,
+      "name": "Paper details",
+      "position": {
+        "left": 86.4,
+        "top": 465.6,
+        "width": 1107.2,
+        "height": 43.2
+      },
+      "text": "Cardiomegaly, emphysema and pneumothorax",
+      "style": {
+        "anchor": 2,
+        "fontSize": 21.33,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cardiomegaly, emphysema and pneumothorax",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cardiomegaly, emphysema and pneumothorax"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    }
+  ]
+}

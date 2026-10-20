@@ -1,0 +1,19 @@
+Inspect result written to file: .icast-build\rebuilt\candidate.pptx.inspect.ndjson
+EXPORTED 16
+RENDER 1
+RENDER 2
+RENDER 3
+RENDER 4
+RENDER 5
+RENDER 6
+RENDER 7
+RENDER 8
+RENDER 9
+RENDER 10
+RENDER 11
+RENDER 12
+RENDER 13
+RENDER 14
+RENDER 15
+RENDER 16
+READY

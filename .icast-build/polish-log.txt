@@ -1,0 +1,2 @@
+Inspect result written to file: .icast-build/rebuilt/candidate-polished.pptx.inspect.ndjson
+POLISHED

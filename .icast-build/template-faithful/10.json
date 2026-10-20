@@ -1,0 +1,601 @@
+{
+  "schema": "openai.presentation.layout/v5",
+  "unit": "px",
+  "slide": {
+    "id": "sl/m90b6t0r",
+    "index": 9,
+    "layout": {
+      "id": "ly/3yt8jipk",
+      "name": "ICAST Content"
+    },
+    "masterLayoutId": "ly/atofqts7",
+    "backgroundColor": "rgba(250,250,250,1)",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ly/3yt8jipk",
+      "name": "ICAST Content",
+      "parentLayoutId": "ly/atofqts7",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/wfmtcfud",
+          "editable": false,
+          "name": "Header bar",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "fillColor": "#0B2545",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 2,
+            "verticalAlignment": "middle"
+          }
+        },
+        {
+          "order": 2,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/xgfa50by",
+          "editable": false,
+          "name": "Title",
+          "position": {
+            "left": 120,
+            "top": 0,
+            "width": 1040,
+            "height": 104.57
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Slide title",
+          "style": {
+            "anchor": 2,
+            "fontSize": 48,
+            "color": "#FFFFFF",
+            "bold": false,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Slide title",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Slide title",
+                  "anchor": 2,
+                  "fontSize": 48,
+                  "color": "#FFFFFF",
+                  "bold": false,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/ad4ba5c7",
+          "editable": false,
+          "name": "Body",
+          "position": {
+            "left": 57.6,
+            "top": 148.8,
+            "width": 1164.48,
+            "height": 504
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "Body text",
+          "style": {
+            "anchor": 1,
+            "fontSize": 26.67,
+            "color": "#333333",
+            "bold": false,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Body text",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Body text",
+                  "anchor": 1,
+                  "fontSize": 26.67,
+                  "color": "#333333",
+                  "bold": false,
+                  "verticalAlignment": "top",
+                  "wrap": "square",
+                  "autoFit": "shrinkText",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/veds3ats",
+          "editable": false,
+          "name": "Slide Number",
+          "position": {
+            "left": 1173.52,
+            "top": 23.04,
+            "width": 58.48,
+            "height": 58.48
+          },
+          "geometry": "ellipse",
+          "fillColor": "#FFFFFF",
+          "lineWidth": 0,
+          "text": "10",
+          "style": {
+            "anchor": 2,
+            "fontSize": 24,
+            "color": "#0B2545",
+            "bold": true,
+            "alignment": "center",
+            "verticalAlignment": "middle",
+            "wrap": "none",
+            "autoFit": "none",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "10",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "10",
+                  "anchor": 2,
+                  "fontSize": 24,
+                  "color": "#0B2545",
+                  "bold": true,
+                  "alignment": "center",
+                  "verticalAlignment": "middle",
+                  "wrap": "none",
+                  "autoFit": "none",
+                  "insets": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "ly/atofqts7",
+      "type": "master",
+      "backgroundColor": "#FAFAFA",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/behwzyhg",
+          "editable": false,
+          "name": "Slide Number Placeholder 0",
+          "position": {
+            "left": 1180.8,
+            "top": 658.56,
+            "width": 43.2,
+            "height": 40.32
+          },
+          "geometry": "rect",
+          "text": "10",
+          "style": {
+            "anchor": 2,
+            "bold": false,
+            "alignment": "right",
+            "verticalAlignment": "middle"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "10",
+              "style": {
+                "alignment": "right"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "10",
+                  "anchor": 2,
+                  "bold": false,
+                  "alignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/xc3mho32",
+      "editable": true,
+      "name": "Text 1",
+      "position": {
+        "left": 120,
+        "top": 0,
+        "width": 1040,
+        "height": 104.57
+      },
+      "geometry": "rect",
+      "text": "Conclusion and Future Work",
+      "style": {
+        "anchor": 2,
+        "fontSize": 48,
+        "typeface": "Roboto",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conclusion and Future Work",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conclusion and Future Work",
+              "anchor": 2,
+              "fontSize": 48,
+              "typeface": "Roboto",
+              "color": "#FFFFFF",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/cbu58j2h",
+      "editable": true,
+      "name": "Text 1",
+      "position": {
+        "left": 57.6,
+        "top": 148.8,
+        "width": 1164.48,
+        "height": 480
+      },
+      "geometry": "rect",
+      "text": "Conclusion\nLower prevalence reduces retrieval quality across every evaluated model.\nOne training run and source confounding limit the SupCon finding.\nFuture work\nRepeat training and strengthen controls across dataset sources.\nTest lower target counts and obtain clinician-assessed relevance.",
+      "style": {
+        "anchor": 1,
+        "fontSize": 26.67,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conclusion",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conclusion",
+              "anchor": 1,
+              "fontSize": 26.67,
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 2,
+          "text": "Lower prevalence reduces retrieval quality across every evaluated model.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lower prevalence reduces retrieval quality across every evaluated model.",
+              "anchor": 1,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 3,
+          "text": "One training run and source confounding limit the SupCon finding.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "One training run and source confounding limit the SupCon finding.",
+              "anchor": 1,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 4,
+          "text": "Future work",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Future work",
+              "anchor": 1,
+              "fontSize": 26.67,
+              "color": "#0B2545",
+              "bold": true,
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 5,
+          "text": "Repeat training and strengthen controls across dataset sources.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Repeat training and strengthen controls across dataset sources.",
+              "anchor": 1,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 342900,
+          "indent": -342900
+        },
+        {
+          "index": 6,
+          "text": "Test lower target counts and obtain clinician-assessed relevance.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Test lower target counts and obtain clinician-assessed relevance.",
+              "anchor": 1,
+              "fontSize": 26.67,
+              "color": "#333333",
+              "verticalAlignment": "top",
+              "wrap": "square",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 342900,
+          "indent": -342900
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/25kv2h0f",
+      "editable": true,
+      "name": "Slide Number",
+      "position": {
+        "left": 1173.52,
+        "top": 23.04,
+        "width": 58.48,
+        "height": 58.48
+      },
+      "geometry": "ellipse",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0,
+      "text": "10",
+      "style": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Roboto",
+        "color": "#0B2545",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "anchor": 2,
+              "fontSize": 24,
+              "color": "#0B2545",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "middle",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    }
+  ]
+}

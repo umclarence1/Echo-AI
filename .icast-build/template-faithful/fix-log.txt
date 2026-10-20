@@ -1,0 +1,2 @@
+Inspect result written to file: .icast-build/template-faithful/candidate-fixed.pptx.inspect.ndjson
+FIXED

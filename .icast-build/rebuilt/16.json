@@ -1,0 +1,7 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/8f2psfyx","index":15,"layout":{"id":"ly/07y1cjyt","name":"ICAST Closing"},"backgroundColor":"rgba(250,250,250,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/j2l0jmhk","kind":"textbox","name":"Title","position":{"left":525.87,"top":163.2,"width":686.93,"height":163.2},"text":"Thank You","style":{"fontSize":106.67,"typeface":"Roboto","color":"#333333","alignment":"left"}},
+{"id":"sh/y1czqhgz","kind":"textbox","name":"Questions","position":{"left":525.87,"top":336,"width":686.93,"height":57.6},"text":"Questions and discussion","style":{"fontSize":34.67,"typeface":"Roboto","color":"#0B2545","alignment":"left"}},
+{"id":"sh/l43ilwzq","kind":"textbox","name":"Contact","position":{"left":526,"top":405,"width":680,"height":120},"text":"Ofei Obuobisah Bekoe\nce-pobekoe1423@st.umat.edu.gh\nUniversity of Mines and Technology, Ghana","style":{"fontSize":23,"typeface":"Roboto","color":"#566377","alignment":"left"}},
+{"id":"sh/k3uhsry5","kind":"textbox","name":"Slide Number","position":{"left":1178.01,"top":622.81,"width":58.79,"height":58.79},"text":"16","style":{"fontSize":24,"typeface":"Roboto","color":"#FFFFFF","bold":true,"alignment":"center"},"geometry":"ellipse","fillColor":"#0B2545","lineWidth":0}
+]}
